@@ -641,7 +641,7 @@ Index
   opacity: 1;
 }
 .cd-testimonials p {
-  font-family: 'Adobe Garamond W01', serif;
+  font-family: 'Raleway', serif;
   font-style: italic;
   line-height: 1.4;
   margin-bottom: 1em;
@@ -684,6 +684,7 @@ Index
   font-size: 12px;
   font-size: 0.75rem;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 @media only screen and (min-width: 768px) {
   .cd-author img {
@@ -791,6 +792,7 @@ Index
 .cd-see-all {
   position: absolute;
   z-index: 1;
+  font-family: 'Raleway', sans-serif;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -996,7 +998,6 @@ Index
   height: 100px;
   width: 250px;
 }
-
 
 @media (max-width: 640px) {
   nav ul li a {
