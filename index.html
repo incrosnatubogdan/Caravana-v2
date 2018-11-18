@@ -1,16 +1,22 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="jquery-2.1.3.min.js"></script>
-    <script src="main.js"></script>
-    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/masonry.pkgd.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/jquery.flexslider-min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/main.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body>
     <div class="overlay-navigation">
         <nav role="navigation">
             <ul>
-                <li><a href="#" data-content="The beginning">Home</a></li>
-                <li><a href="#" data-content="Curious?">About</a></li>
+                <li><a href="index.html" data-content="The beginning">Acasa</a>
+                    <img src="assets/img/logo.png"></li>
+                <li><a href="media.html" data-content="Curious?">Media</a></li>
                 <li><a href="#" data-content="I got game">Skills</a></li>
                 <li><a href="#" data-content="I got game">Skills</a></li>
                 <li><a href="#" data-content="I got game">Skills</a></li>
@@ -18,7 +24,8 @@
                     <a href="#" data-content="Only the finest">Works</a>
                     <a href="#" data-content="Only the finest">Works</a>
                 </li>
-                <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+                <li><a href="#" data-content="Don't hesitate">Contact</a>
+                    <img src="assets/img/en.png" class="en-change"></li>
             </ul>
         </nav>
     </div>
@@ -29,59 +36,151 @@
         <span class="bar-bottom"></span>
     </div>
     <div class="container">
-        <div class="box">
-            <div class="image">
-                <img src="img/gallery.jpg" alt="">
-            </div>
-            <div class="content">
-                <h2>Caravana 50</h2>
-                <p>It was a weekend with most heart touching sceneries of gratefulness on the one hand side and with
-                    emotional displeasure on the other side </p>
-            </div>
-            <div class="text">
-                <div class="blogCategory">
-                    <a>Caravana</a>
-                    <p>10 Noiembrie 2018</p>
+        <div class="cd-testimonials-wrapper cd-container">
+            <ul class="cd-testimonials">
+                <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <div class="cd-author">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-1.jpg" alt="Author image">
+                        <ul class="cd-author-info">
+                            <li>MyName</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error
+                        repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
+                    <div class="cd-author">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-2.jpg" alt="Author image">
+                        <ul class="cd-author-info">
+                            <li>MyName</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam totam nulla est, illo molestiae
+                        maxime officiis, quae ad, ipsum vitae deserunt molestias eius alias.</p>
+                    <div class="cd-author">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-3.jpg" alt="Author image">
+                        <ul class="cd-author-info">
+                            <li>MyName</li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul> <!-- cd-testimonials -->
+
+            <a href="#0" class="cd-see-all">See all</a>
+        </div> <!-- cd-testimonials-wrapper -->
+
+        <div class="cd-testimonials-all">
+            <div class="cd-testimonials-all-wrapper">
+                <ul>
+                    <li class="cd-testimonials-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores
+                            neque animi molestias nihil illum nisi temporibus.</p>
+
+                        <div class="cd-author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-1.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                                <li>MyName</li>
+                            </ul>
+                        </div> <!-- cd-author -->
+                    </li>
+
+                    <li class="cd-testimonials-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nostrum nisi, doloremque
+                            error hic nam nemo doloribus porro impedit perferendis. Tempora, distinctio hic suscipit.
+                            At ullam eaque atque recusandae modi fugiat voluptatem laborum laboriosam rerum,
+                            consequatur reprehenderit omnis, enim pariatur nam, quidem, quas vel reiciendis aspernatur
+                            consequuntur. Commodi quasi enim, nisi alias fugit architecto, doloremque, eligendi quam
+                            autem exercitationem consectetur.</p>
+
+                        <div class="cd-author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-2.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                                <li>MyName</li>
+                            </ul>
+                        </div> <!-- cd-author -->
+                    </li>
+
+                    <li class="cd-testimonials-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quibusdam eveniet,
+                            molestiae laborum voluptatibus minima hic quasi accusamus ut facere, eius expedita,
+                            voluptatem? Repellat incidunt veniam quaerat, qui laboriosam dicta. Quidem ducimus
+                            laudantium dolorum enim qui at ipsum, a error.</p>
+
+                        <div class="cd-author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-3.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                                <li>MyName</li>
+                            </ul>
+                        </div> <!-- cd-author -->
+                    </li>
+
+                    <li class="cd-testimonials-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates officiis tempore
+                            quae officia! Beatae quia deleniti cum corporis eos perferendis libero reiciendis nemo
+                            iusto accusamus, debitis tempora voluptas praesentium repudiandae laboriosam excepturi
+                            laborum, nisi optio repellat explicabo, incidunt ex numquam. Ullam perferendis officiis
+                            harum doloribus quae corrupti minima quia, aliquam nostrum expedita pariatur maxime
+                            repellat, voluptas sunt unde, inventore.</p>
+
+                        <div class="cd-author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-4.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                                <li>MyName</li>
+                            </ul>
+                        </div> <!-- cd-author -->
+                    </li>
+
+                    <li class="cd-testimonials-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores
+                            neque animi molestias nihil illum nisi temporibus.</p>
+
+                        <div class="cd-author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-5.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                                <li>MyName</li>
+                            </ul>
+                        </div> <!-- cd-author -->
+                    </li>
+
+                    <li class="cd-testimonials-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia quas, quis illo
+                            adipisci voluptate ex harum iste commodi nulla dolor. Eius ratione quod ab!</p>
+
+                        <div class="cd-author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-6.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                                <li>MyName</li>
+                            </ul>
+                        </div> <!-- cd-author -->
+                    </li>
+
+                </ul>
+            </div> <!-- cd-testimonials-all-wrapper -->
+
+            <a href="#0" class="close-btn">Close</a>
+        </div> <!-- cd-testimonials-all -->
+        <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="assets/img/home/partners/avon.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/home/partners/bayer.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/home/partners/synevo.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/home/partners/vodafone.png" height="100" width="250" alt="" />
+                    </div>
                 </div>
-                <h2>Caravana 50</h2>
-                <h3>Localitate, judetul {Name}</h3>
             </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="img/gallery.jpg" alt="">
-            </div>
-            <div class="content">
-                <h2>Caravana 50</h2>
-                <p>It was a weekend with most heart touching sceneries of gratefulness on the one hand side and with
-                    emotional displeasure on the other side </p>
-            </div>
-            <div class="text">
-                <div class="blogCategory">
-                    <a>Caravana</a>
-                    <p>10 Noiembrie 2018</p>
-                </div>
-                <h2>Caravana 50</h2>
-                <h3>Localitate, judetul {Name}</h3>
-            </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="img/gallery.jpg" alt="">
-            </div>
-            <div class="content">
-                <h2>Caravana 50</h2>
-                <p>It was a weekend with most heart touching sceneries of gratefulness on the one hand side and with
-                    emotional displeasure on the other side </p>
-            </div>
-            <div class="text">
-                <div class="blogCategory">
-                    <a>Caravana</a>
-                    <p>10 Noiembrie 2018</p>
-                </div>
-                <h2>Caravana 50</h2>
-                <h3>Localitate, judetul {Name}</h3>
-            </div>
-        </div>
     </div>
 </body>
