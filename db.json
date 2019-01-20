@@ -1,0 +1,20 @@
+[
+  {
+    "temperatura": "100",
+    "umiditate": "100",
+    "luminozitate": "100",
+    "presiune": "100"
+  },
+  {
+    "temperatura": "100",
+    "umiditate": "100",
+    "luminozitate": "100",
+    "presiune": "100"
+  },
+  {
+    "temperatura": "140",
+    "umiditate": "1402",
+    "luminozitate": "140",
+    "presiune": "156"
+  }
+]
