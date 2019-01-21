@@ -1,14 +1,14 @@
 [
   {
-    "temperatura": ["35", "28", "32"],
+    "temperatura": [35, 28, 32],
     "label": "temperatura"
   },
   {
-    "umiditate": ["62","67","70"],
+    "umiditate": [62, 67, 70],
     "label": "umiditate"
   },
   {
-    "luminozitate": ["100","140","120"],
+    "luminozitate": [100, 140, 120],
     "label": "luminozitate"
   }
 ]
