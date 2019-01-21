@@ -1,20 +1,14 @@
 [
   {
-    "temperatura": "35",
-    "umiditate": "60",
-    "luminozitate": "100",
-    "presiune": "600"
+    "temperatura": ["35", "28", "32"]
+    "label": "temperatura"
   },
   {
-    "temperatura": "28",
-    "umiditate": "62",
-    "luminozitate": "100",
-    "presiune": "650"
+    "umiditate": ["62","67","70"],
+    "label": "umiditate"
   },
   {
-    "temperatura": "32",
-    "umiditate": "67",
-    "luminozitate": "120",
-    "presiune": "680"
+    "luminozitate": ["100","140","120"],
+    "label": "luminozitate"
   }
 ]
