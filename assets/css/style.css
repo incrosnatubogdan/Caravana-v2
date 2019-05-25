@@ -106,6 +106,10 @@ html,
     display: none;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .popup {
     width: 90%;
     position: absolute;
@@ -426,14 +430,14 @@ body input~nav>ul>li.social.facebook {
     background-image: url("../img/social/facebook.svg");
     background-repeat: no-repeat;
     background-position: 50%;
-    left: 10px;
+    left: 20px;
 }
 
 body input~nav>ul>li.social.instagram {
     background-image: url("../img/social/instagram.svg");
     background-repeat: no-repeat;
     background-position: 0%;
-    left: 50px;
+    left: 60px;
 }
 
 body input~nav>ul>li>a.social {
@@ -446,7 +450,7 @@ body input~nav>ul>li>a.social {
     color: white;
     position: absolute;
     left: 0;
-    top: 20px;
+    top: 0px;
 }
 
 .dropdown-content a {
@@ -682,6 +686,12 @@ div.grid {
     padding: 2%;
 }
 
+.overflow-row .element.partners p {
+    max-width: 100%;
+    min-width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
 
 .overflow-row .element:nth-child(even) {
     box-shadow: 0px 5px 17px rgba(39, 114, 208, 0.23);
@@ -704,6 +714,29 @@ div.grid {
     flex-wrap: wrap;
     overflow-x: visible;
 }
+
+.no-scroll-wrap .element.partners {
+    box-shadow: none !important;
+}
+
+.no-scroll-wrap .element.partners {
+    box-shadow: none !important;
+}
+
+.no-scroll-wrap .element.partners .cover {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    min-height: 200px;
+}
+
+.no-scroll-wrap .element.partners img.icon {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
 
 .no-scroll-wrap .element {
     width: 18vw;
@@ -934,6 +967,10 @@ footer {
     background: white;
 }
 
+footer>nav.menu {
+    height: 5vh;
+}
+
 footer .quote {
     text-align: center;
     font-size: 15px;
@@ -957,13 +994,15 @@ footer>img {
     left: -1;
     background-image: url(../img/home/footer.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
+    background-position-y: -25vw;
 }
 
 footer .copyright {
     text-align: center;
     font-size: 13px;
     margin: 40px 0;
+    padding: 10px 0;
     color: white;
 }
 
@@ -1520,7 +1559,7 @@ img.header {
     }
 
     footer>img {
-        height: calc(100% + 50px);
+        height: calc(100% + 100px);
     }
 
     a.logo {
@@ -1768,7 +1807,7 @@ img.header {
     footer .navigation-ul li.social {
         max-width: 30px;
         position: absolute;
-        top: 52px;
+        top: 32px;
     }
 
     footer .navigation-ul li {
@@ -2182,7 +2221,9 @@ img.header {
     }
 
     .overflow-row .element.partners p {
-        max-width: 80%;
+        max-width: 100%;
+        min-width: 100%;
+        text-align: center;
     }
 
     .overflow-row .element span {
@@ -2288,8 +2329,20 @@ img.header {
         float: none !important;
     }
 
-    .shadow-block.fita_laurentiu button{
+    .shadow-block.fita_laurentiu button {
         width: auto;
+    }
+
+    .donate_form .body .info {
+        height: 60px;
+    }
+
+    .donate_form .body .info {
+        height: 60px;
+    }
+
+    .donate_form .body .info img {
+        bottom: 0;
     }
 }
 
