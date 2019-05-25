@@ -53,6 +53,11 @@ a,
     color: #13678B;
 }
 
+b {
+    font-weight: 900;
+    font-size: 110%;
+}
+
 h3.team-title.blue-c,
 h3.us-title-l.blue-c {
     color: #25A8E0 !important;
@@ -93,7 +98,7 @@ html,
     font-family: 'Montserrat', sans-serif;
     color: #25A8E0;
     position: relative;
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 .popup-overlay {
@@ -2319,6 +2324,20 @@ img.header {
 }
 
 @media screen and (max-width: 500px) {
+
+    .donation-holder .shadow-block>.shadow-block a {
+        font-size: 10px;
+    }
+
+    .donation-holder .shadow-block {
+        box-shadow: none;
+    }
+
+    footer>img {
+        background-size: 220vw;
+        background-position-y: -45vw;
+    }
+
     .hill {
         height: 250px;
     }
