@@ -636,7 +636,7 @@ div.grid {
     min-width: 27vw;
     max-width: 27vw;
     border-radius: 5px;
-    height: fit-content;
+    height: auto;
     position: relative;
 }
 
@@ -651,8 +651,8 @@ div.grid {
 }
 
 .overflow-row .element .cover {
-    min-height: 180px;
-    max-height: 180px;
+    min-height: 230px;
+    max-height: 230px;
     object-fit: cover;
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -2588,6 +2588,15 @@ div.search-holder {
 .donate_form .body .info {
     margin: 15px 15px 15px 0px;
     color: #25A8E0;
+    font-size: 22px;
+    text-align: right;
+    position: relative;
+}
+
+.donate_form .body .info img {
+    max-height: 25px;
+    position: absolute;
+    left: 0;
 }
 
 .donate_form .body .donate_buttons .btn_styles {
