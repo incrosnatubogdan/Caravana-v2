@@ -1,0 +1,10 @@
+client 243018700882-lael3g8qoml31erhkolekb1haj69tt0c.apps.googleusercontent.com
+EDCFG69xAN7Eyp8Q9YE9IQkY
+
+4/7wAXcJOsX5D7vp9olPVRbNn7blmCKiKAa1uVxDkNXGhzGFgm8BH-QEjlZMSrPDQtME29uORWfB6gd3lfT9RHdJo
+
+https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/analytics.readonly&response_type=code&client_id=243018700882-lael3g8qoml31erhkolekb1haj69tt0c.apps.googleusercontent.com&redirect_uri=http://caravanacumedici.ro&approval_prompt=force&access_type=offline
+?code=4/7wAXcJOsX5D7vp9olPVRbNn7blmCKiKAa1uVxDkNXGhzGFgm8BH-QEjlZMSrPDQtME29uORWfB6gd3lfT9RHdJo&scope=https://www.googleapis.com/auth/analytics.readonly
+
+
+https://www.googleapis.com/oauth2/v3/token?code=4/7wAXcJOsX5D7vp9olPVRbNn7blmCKiKAa1uVxDkNXGhzGFgm8BH-QEjlZMSrPDQtME29uORWfB6gd3lfT9RHdJo=243018700882-lael3g8qoml31erhkolekb1haj69tt0c.apps.googleusercontent.com&client_secret=EDCFG69xAN7Eyp8Q9YE9IQkY&redirect_uri=http://caravanacumedici.ro&grant_type=authorization_code

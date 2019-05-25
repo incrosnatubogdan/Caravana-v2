@@ -1,0 +1,51 @@
+[{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 58",
+    "image": "assets/img/caravane/58/gallery-thumb.jpg",
+    "link": "caravane/58.html",
+    "tag": "Caravane",
+    "date": "11 mai 2019",
+    "location": "Crucea, IS",
+    "testimonial": "Ziua de sâmbătă a fost un mic carusel sentimental. La fiecare Caravană, mă întristez când văd deficitul de educație sanitară din unele comunități, însă mă bucură că încă există oameni preocupați să schimbe asta.Sper să existe entuziasm și energie pentru alte sute de ediții ale Caravanei.Oana Butnaru - președinte Societatea Studenților Stomatologi Iași",
+    "icon": "assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 57",
+    "image": "assets/img/caravane/57/gallery-thumb.jpg",
+    "link": "caravane/57.html",
+    "tag": "Caravane",
+    "date": "6 Aprilie 2019",
+    "location": "Oșești, VS",
+    "testimonial": "Chiar dacă la sfârșitul zilei energia fizică poate scădea dramatic, perioada ce urmează caravanei este incredibilă, întrucât capeți încredere în tine și în abilitățile medicale personale. Starea de spirit pe care o ai după ce ai făcut un bine cuiva nu se compară cu absolut nimic. Corina Varlam, voluntar Caravana cu Medici Iași",
+    "icon": "assets/img/icon/caravane.svg"
+}, {
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 54",
+    "image": "assets/img/caravane/54/gallery-thumb.jpg",
+    "link": "caravane/54.html",
+    "tag": "Caravane",
+    "date": "16 Martie 2019",
+    "location": "Stâna, SM",
+    "testimonial": "",
+    "icon": "assets/img/icon/caravane.svg"
+}, {
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Mihai Ranete, fondatorul Caravanei cu medici: „Am primit foarte multe oferte să lucrez în străinătate...",
+    "image": "assets/img/caravane/articole/republica/gallery-thumb.jpg",
+    "link": "https://republica.ro/mihai-ranete-fondatorul-caravanei-cu-medici-zam-primit-foarte-multe-oferte-sa-lucrez-in-strainatate-dar",
+    "tag": "Apariții media",
+    "date": "21 Ianuarie 2019",
+    "location": "",
+    "testimonial": "",
+    "icon": "assets/img/icon/rapoarte.svg"
+}, {
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 53",
+    "image": "assets/img/caravane/53/gallery-thumb.jpg",
+    "link": "caravane/53.html",
+    "tag": "Caravane",
+    "date": "2 Martie 2018",
+    "location": "Plugari, IS",
+    "testimonial": "Am contactat Caravana cu Medici din dorința de a ajuta persoanele vulnerabile din comunitate, dar nu m-am gândit la început că această echipă miunată de medici poate fi atât de promptă la solicitarea mea. Pentru mine și persoanele consultate sunteți o echipă minunată. Vă rog să o țineți tot așa pentru că se vede pe chipul personalului dorința de a ajuta.Mirela Sandu, asistent comunitar în comuna Plugari, jud. Iași",
+    "icon": "assets/img/icon/caravane.svg"
+}]

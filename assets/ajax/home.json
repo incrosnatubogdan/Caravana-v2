@@ -1,0 +1,62 @@
+[{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 58",
+        "image": "../assets/img/caravane/58/gallery-thumb.jpg",
+        "link": "caravane/58.html",
+        "tag": "Caravan",
+        "date": "11th of May 2019",
+        "location": " Crucea, Iași",
+        "testimonial": "Saturday's Caravan was a true sentimental mountain rousse. With every Caravan, I find myself sad when I awknowledge the lack of health education in some communities, but at the same time I am happy that there are still people who are concerned about changing this.I hope there will be enough enthusiasm and energy for at least a hundred more editions.Oana Burnaru - president of Societatea Studențească de Stomatologie Iași (Dentistry Students' Society Iași)",
+        "icon": "../assets/img/icon/caravane.svg"
+    }, {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 57",
+        "image": "../assets/img/caravane/57/gallery-thumb.jpg",
+        "link": "caravane/57.html",
+        "tag": "Caravan",
+        "date": "6th of April 2019",
+        "location": "Oșești, Vaslui",
+        "testimonial": "Even if the physical energy can decrease dramatically at the end of the day, the period following the caravan is incredible, as you learn to trust yourself and your medical skills. The state of mind that you have after helping so many people doesn't compare to anything.Corina Varlam, Caravana cu Medici Iași volunteer",
+        "icon": "../assets/img/icon/caravane.svg"
+    }, {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 54",
+        "image": "../assets/img/caravane/54/gallery-thumb.jpg",
+        "link": "caravane/54.html",
+        "tag": "Caravan",
+        "date": "16th of March 2019",
+        "location": "Stâna, Satu Mare",
+        "testimonial": "",
+        "icon": "../assets/img/icon/caravane.svg"
+    }, {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 53",
+        "image": "../assets/img/caravane/53/gallery-thumb.jpg",
+        "link": "caravane/53.html",
+        "tag": "Caravan",
+        "date": "2nd of March 2019",
+        "location": "Plugari, Iași",
+        "testimonial": "",
+        "icon": "../assets/img/icon/caravane.svg"
+    }, {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 52",
+        "image": "../assets/img/caravane/52/gallery-thumb.jpg",
+        "link": "caravane/52.html",
+        "tag": "Caravan",
+        "date": "23rd of February 2019",
+        "location": "Găiceana, Bacău",
+        "testimonial": "The satisfaction I felt when helping the patients is enormous. We do not feel it very often during our daily jobs because of all the rushing and the struggling with the bureaucracy and we forget that there is this beautiful part to the medical profession.Andreea Teodorescu MD, gastroenterology resident",
+        "icon": "../assets/img/icon/caravane.svg"
+    }, {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 51",
+        "image": "../assets/img/caravane/51/gallery-thumb.jpg",
+        "link": "caravane/51.html",
+        "tag": "Caravan",
+        "date": "8th of December 2018",
+        "location": "Valcău de Jos, Sălaj",
+        "testimonial": "",
+        "icon": "../assets/img/icon/caravane.svg"
+    }
+]
