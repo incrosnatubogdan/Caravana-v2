@@ -1,0 +1,94 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <script src="../assets/js/jquery-2.1.3.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/media.js"></script>
+
+  <script>
+    $(document).ready(function () {
+          var noOfImg = 9;
+          var caravanNo = 46;
+          for (var i=1; i<noOfImg+1; i++){
+              $('div.row').append('<div class="image"><div class="img-wrapper"><a href="../assets/img/caravane/'+caravanNo+'/'+i+'.jpg"><img src="../assets/img/caravane/'+caravanNo+'/'+i+'.jpg" class="img-responsive"></a><div class="img-overlay"></div></div></div>');
+          }
+    });
+  
+  </script>
+
+  <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/gallery.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-holder">
+    <nav class="menu">
+      <a href="../en/index.html" class="lang">EN</a>
+      <a class="logo" href="../index.html">
+        <img src="../assets/img/logo.png">
+      </a>
+      <input id="burger" type="checkbox" />
+      <label id="burger-menu" for="burger">
+        <span class="horizontal"></span>
+        <img class="burger-img" src="../assets/img/burger.png">
+        <span class="vertical"></span>
+      </label>
+      <nav id="navigation">
+        <ul class="navigation-ul">
+        </ul>
+      </nav>
+    </nav>
+    <div class="main container caravan">
+      <h3 class="team-title blue-c uppercase show-title">Caravana 46 - Corbasca, județul Bacău</h3>
+      <a class="facebook gallery" href="https://www.facebook.com/media/set/?set=ms.c.eJxFUtmNRVEI6mjivvTf2OTqk~%3BNLEAHlTok2CslqifzjAbQ5WCTYf4BJD8PsANaP4a0HmA9D6oCkYWj8ABf7GGwNQNrcixMjsiPYEjWiBB~_Ww~%3BCG0wGCGhrjg~%3Bt8aPC3pRPGbNPKrXWi8aHQcN8tfBo~_8ZUNoroAYSRHo~_QA6i0InS6jwfD1wfChSSNK16lrfRoWyJLTWL9DbVp5aTOWgbtsyY2StXJG6u5itT7q9bHxiV~_4AXA5qzHmjE5lRQ2i4rsWp9yXcryUy6Rlh9PYMyS2GI~_oojFdp~%3Br~_1PdPGdZnhBMjtE8XeDrN1XhvOcas~%3BB~_QP6C4.bps.a.1972693499455990&type=1&__xts__[0]=68.ARC_c7-0hhi_SgCVHb5lzsh2w22PBVKr1iRPEHnSokCK9pIMXt-v5eBqwyfI8lej9brOaWFBZUuGnSGmMX02jY9bMaLSq3nA4lJCkpL82GFc2CPfBcvz3jm7725aNayRaPaFZ0L69ygKt8wJC71YdGacQTU0JwKv64AZj5W97v2ZLHP2Fr_-fg&__tn__=HH-R">
+        <img src="../assets/img/social/facebook-blue.svg">
+      </a>
+      <p class="blue-c">It was a weekend with most heart touching sceneries of gratefulness on the one hand side and with emotional displeasure on the other side from those who didn’t have the chance to be examined. At the same time, it was a thoughtful experience by feeling the adverse consequences for those, to which the national health care system is out of reach. The diagnosed findings clearly confirmed the need and importance for a better primary health and medical care in the deprived rural areas.I was most impressed by the respect, compassion and personal devotion offered by the entire team of young committed doctors and by the most valuable health care services which they offered to the rural community of Corbasca – it deserves my utmost respect! <br><br>Ronnie Bühr, President of Mana in Mana Foundation, Switzerland"</p>
+      <section id="gallery">
+        <div class="container">
+          <div id="image-gallery">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img>
+        <p class="quote">
+          „Doar o viață trăită pentru alții este o viață care merită trăită" <br>
+          - Albert Einstein
+        </p>
+        <p class="copyright">Crafted with ❤️ by Tac-Tic Studio &copy; 2019</p>
+        <nav class="menu">
+          <input id="burger" type="checkbox" />
+          <label id="burger-menu" for="burger">
+            <span class="horizontal"></span>
+            <img class="burger-img" src="../assets/img/burger.png">
+            <span class="vertical"></span>
+          </label>
+          <nav id="navigation">
+            <ul class="navigation-ul">
+                <a class="logo" href="../index.html">
+                  <img src="../assets/img/logo.png">
+                </a>
+              <p class="follow-us uppercase">Urmărește-ne</p>
+            </ul>
+          </nav>
+        </nav>
+      </footer>
+    </div>
+  </div>
+  <div id="popup" class="popup-overlay">
+    <div class="popup">
+      <div class="close">
+        <span class="horizontal"></span>
+        <span class="vertical"></span>
+      </div>
+      <p id="full-testimonial"></p>
+    </div>
+  </div>
+
+</body>

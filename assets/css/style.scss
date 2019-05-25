@@ -1,0 +1,2076 @@
+//colors
+$white: white;
+$color_curious_blue_approx: #25a8e0;
+$color_alabaster_approx: #fbfbfb;
+$color_mariner_23_approx: rgba(39, 114, 208, 0.23);
+$color_flamingo_approx: #f05a29;
+$color_ghost_23_approx: rgba(198, 208, 220, 0.23);
+$white_20: rgba(255, 255, 255, .2);
+$color_thunderbird_23_approx: rgba(190, 44, 18, 0.23);
+$color_fuscous_gray_approx: #555;
+$color_wild_sand_approx: #f5f5f5;
+$color_matisse_approx: #13678b;
+$color_cadet_blue_23_approx: rgba(164, 176, 191, 0.23);
+$black_80: rgba(0, 0, 0, 0.8);
+$black_70: rgba(0, 0, 0, 0.7);
+
+//fonts
+$font_0: Montserrat;
+$font_1: sans-serif;
+
+//urls
+$url_0: url(https://fonts.googleapis.com/css?family=Montserrat);
+$url_1: url(https://fonts.googleapis.com/css?family=Raleway);
+$url_2: url(../img/social/facebook.svg);
+$url_3: url(../img/social/instagram.svg);
+$url_4: url(../img/home/header.svg);
+$url_5: url(../img/home/footer.svg);
+$url_6: url(../img/header/first-aid.jpeg);
+$url_7: url(../img/header/mobile-unit.jpg);
+$url_8: url(../img/header/rural.jpg);
+
+//@extend-elements
+//original selectors
+//.absolute-title, .mobile-show
+%extend_1 {
+	display: block !important;
+	text-align: center;
+	margin: 20px 0;
+	position: relative;
+}
+
+//original selectors
+//.absolute-title::before, .mobile-show::before
+%extend_2 {
+	position: absolute;
+	top: 1.3em;
+	height: 0;
+	left: 50%;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, -50%);
+	width: 80px;
+	content: '';
+	border-top: 2px solid $color_curious_blue_approx;
+}
+
+
+@import $url_0;
+@import $url_1;
+* {
+	//Instead of the line below you could use @include box-sizing($bs)
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+*::before {
+	//Instead of the line below you could use @include box-sizing($bs)
+	box-sizing: border-box;
+}
+*::after {
+	//Instead of the line below you could use @include box-sizing($bs)
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	background-color: $color_fuscous_gray_approx;
+	width: 8px;
+	height: 6px;
+}
+::-webkit-scrollbar-track {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	background-color: $color_wild_sand_approx;
+}
+::-webkit-scrollbar-thumb {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	background-color: $color_fuscous_gray_approx;
+}
+a {
+	cursor: pointer;
+}
+.us-sorter {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+	align-items: center;
+	img {
+		cursor: pointer;
+	}
+	p {
+		display: none;
+	}
+	.holder-sorter {
+		text-align: center;
+		img {
+			width: 33%;
+		}
+	}
+}
+.orange-bg {
+	background: $color_flamingo_approx;
+}
+.blue-bg {
+	background: $color_curious_blue_approx;
+}
+.orange-c {
+	color: $color_flamingo_approx;
+}
+.blue-c {
+	color: $color_matisse_approx;
+}
+h3 {
+	&.team-title.blue-c {
+		color: $color_curious_blue_approx !important;
+	}
+	&.us-title-l.blue-c {
+		color: $color_curious_blue_approx !important;
+	}
+}
+.white-c {
+	color: $white;
+}
+.blur {
+	filter: blur(8px);
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.padding-m {
+	padding: 5% 9%;
+}
+.italic {
+	font-style: italic;
+}
+body {
+	font-family: $font_0, $font_1;
+	color: $color_curious_blue_approx;
+	overflow-x: hidden;
+	input {
+		&:checked {
+			~ nav {
+				height: 100%;
+				opacity: 1;
+				//Instead of the line below you could use @include transition-delay($delay-1, $delay-2, $delay-3, $delay-4, $delay-5, $delay-6, $delay-7, $delay-8, $delay-9, $delay-10)
+				transition-delay: 0s;
+				overflow-y: scroll;
+				> ul > li {
+					opacity: 1;
+					//Instead of the line below you could use @include transition-delay($delay-1, $delay-2, $delay-3, $delay-4, $delay-5, $delay-6, $delay-7, $delay-8, $delay-9, $delay-10)
+					transition-delay: 0.5s;
+				}
+			}
+			+ label span {
+				opacity: 0;
+				top: 0;
+				opacity: 1;
+				display: inline-block;
+			}
+		}
+		~ nav {
+			background: $color_curious_blue_approx;
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			z-index: 11;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s;
+			//Instead of the line below you could use @include transition-delay($delay-1, $delay-2, $delay-3, $delay-4, $delay-5, $delay-6, $delay-7, $delay-8, $delay-9, $delay-10)
+			transition-delay: 0.5s;
+			overflow: hidden;
+			> ul {
+				text-align: center;
+				position: absolute;
+				top: 10%;
+				left: 20%;
+				right: 20%;
+				height: 75%;
+				list-style-type: none;
+				> li {
+					opacity: 0;
+					//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+					transition: 0.5s;
+					//Instead of the line below you could use @include transition-delay($delay-1, $delay-2, $delay-3, $delay-4, $delay-5, $delay-6, $delay-7, $delay-8, $delay-9, $delay-10)
+					transition-delay: 0s;
+					> a {
+						text-transform: uppercase;
+						color: $white;
+						font-weight: 700;
+						font-size: 140%;
+						display: block;
+						margin: 3vh 0;
+						&:hover {
+							text-decoration: underline;
+						}
+						&.special {
+							background: $color_flamingo_approx;
+							//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+							border-radius: 5px;
+							padding: 5px 4px;
+							margin: 3vh -20px;
+						}
+						&.social {
+							width: 20px;
+							margin: 0;
+							height: 20px;
+						}
+					}
+					&:last-child {
+						display: flex;
+						align-items: center;
+						justify-content: space-evenly;
+					}
+					> img {
+						width: 40px;
+						height: 20px;
+					}
+					&.social {
+						width: 20px;
+						height: 20px;
+						background-size: 20px 20px;
+						margin: 10 auto;
+						cursor: pointer;
+						&.facebook {
+							background-image: $url_2;
+							background-repeat: no-repeat;
+							background-position: 50%;
+							left: -50px;
+						}
+						&.instagram {
+							background-image: $url_3;
+							background-repeat: no-repeat;
+							background-position: 0;
+							left: -10px;
+						}
+					}
+				}
+			}
+		}
+		+ label span {
+			position: absolute;
+			width: 50%;
+			height: 60%;
+			top: 0;
+			right: 0;
+			display: block;
+			background: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s;
+		}
+	}
+	label:hover {
+		cursor: pointer;
+	}
+}
+.popup-overlay {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #7375764a;
+	z-index: 1000;
+	display: none;
+}
+.popup {
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	background: $white;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, -50%);
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	span {
+		position: absolute;
+		width: 12px;
+		left: 50%;
+		top: 50%;
+		height: 30px;
+		background: $color_flamingo_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.5s;
+		&.vertical {
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translate(-50%, -50%) rotate(135deg);
+		}
+		&.horizontal {
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+	}
+	.quote {
+		position: absolute;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%);
+		left: 50%;
+	}
+	p {
+		padding: 15vh 30px;
+		height: 70%;
+		text-align: center;
+		margin-bottom: 10%;
+		overflow-y: scroll;
+	}
+	b {
+		padding: 0 10%;
+	}
+	.caravan {
+		width: 100%;
+	}
+	.team-member {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		display: block !important;
+		.social {
+			top: -5px;
+			right: -5vw;
+		}
+		p {
+			height: auto;
+			padding: 5px;
+			overflow: scroll;
+			font-size: 12px;
+		}
+	}
+	.full-text {
+		height: 40% !important;
+	}
+	.profession {
+		overflow: scroll;
+	}
+}
+.close {
+	position: absolute;
+	top: 42px;
+	z-index: 10;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, -50%);
+	left: 15%;
+	width: 60px;
+	height: 60px;
+	background: $white;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 50%;
+	cursor: pointer;
+	&.home {
+		top: 100%;
+		left: 54%;
+	}
+}
+.container {
+	position: relative;
+	&.main {
+		padding-top: 12vh;
+	}
+}
+.uppercase {
+	text-transform: uppercase;
+}
+section {
+	width: 100%;
+	position: relative;
+	&.team-section {
+		margin-top: 10vh;
+	}
+}
+.menu {
+	height: 12vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background: $color_curious_blue_approx;
+	position: fixed;
+	left: 0;
+	width: 100vw;
+	z-index: 100;
+}
+.lang {
+	position: absolute;
+	left: 3vh;
+	top: 3vh;
+	color: $white;
+	font-size: 14px;
+	font-family: $font_0, $font_1;
+}
+.underline {
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	font-weight: 900;
+	&:after {
+		content: '';
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: -1px;
+		border-width: 0 0 1px;
+		border-style: solid;
+	}
+}
+.plus {
+	height: 100%;
+	position: relative;
+	div {
+		width: 2vh;
+		background: $white;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 2%;
+	}
+}
+.horizontal {
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(90deg);
+}
+footer::before {
+	content: "";
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	top: -51px;
+	background: $white;
+}
+#burger-menu {
+	position: fixed;
+	top: 3vh;
+	right: 4vh;
+	height: 10vh;
+	width: 5vh;
+	z-index: 12;
+}
+#burger {
+	display: none;
+	&:checked + label {
+		span {
+			&:first-child {
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: rotate(405deg);
+			}
+			&:last-child {
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: rotate(135deg);
+			}
+		}
+		img {
+			opacity: 0;
+		}
+	}
+}
+.us-title-l {
+	text-align: center;
+	margin: 30px 0;
+	font-size: 35px;
+	display: block;
+	position: relative;
+	letter-spacing: 4px;
+}
+.us-title-l::before {
+	position: absolute;
+	top: 1.3em;
+	height: 0;
+	left: 50%;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, -50%);
+	width: 150px;
+	content: '';
+	border-top: 2px solid $color_flamingo_approx;
+}
+.burger-img {
+	width: 2.2vh;
+	height: 1.5vh;
+	z-index: 100;
+	position: relative;
+	top: 2.1vh;
+	left: 2.7vh;
+}
+.hill {
+	width: 100%;
+	height: 398px;
+	display: flex;
+	background-image: $url_4;
+	background-repeat: no-repeat;
+	margin-top: -2px;
+}
+.obj-sort-parent {
+	display: flex;
+	align-items: center;
+	margin-left: 3%;
+	margin-bottom: 20px;
+	justify-content: space-evenly;
+}
+.obj-sort {
+	margin: 0;
+	width: 30%;
+	padding: 10px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 5px 17px $color_mariner_23_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	cursor: pointer;
+	img {
+		margin: 0;
+		padding: 0;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		width: 100%;
+	}
+	p {
+		padding: 0 !important;
+		height: 60px;
+		display: block;
+		font-size: 80%;
+		text-align: center;
+	}
+}
+.hill-bot {
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+.hill-bot::before {
+	content: "";
+	flex: 1;
+	height: 50%;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 110%/67px 174px 0 0;
+	background: $color_curious_blue_approx;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: inset 0 5px 17px $color_cadet_blue_23_approx;
+}
+.video {
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 5px 17px $color_cadet_blue_23_approx;
+	width: 80vw;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 10vw;
+	.video-holder {
+		width: 100%;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	.play {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%);
+		cursor: pointer;
+	}
+}
+.video-section {
+	h2 {
+		text-align: center;
+		padding: 10px 16%;
+	}
+	p {
+		text-align: center;
+		padding: 10px 16%;
+	}
+}
+.donate {
+	position: fixed;
+	right: 5%;
+	bottom: 2%;
+	cursor: pointer;
+	z-index: 1000;
+	span {
+		background: $color_curious_blue_approx;
+		width: 70%;
+		height: 60%;
+		display: block;
+		position: absolute;
+		right: 2%;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+		max-width: 110px;
+	}
+	p {
+		position: absolute;
+		right: 2%;
+		z-index: 20;
+		color: $white;
+		top: 9%;
+		padding: 0;
+		font-size: 2vh;
+	}
+}
+div {
+	&.heading {
+		text-align: center;
+		color: $white;
+		padding: 10px 0;
+	}
+	&.grid {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+.no-shadow {
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none !important;
+}
+.mobile-unit {
+	p {
+		width: 100%;
+		margin: 40px auto;
+		background: $white;
+		text-align: center;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_mariner_23_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 10px;
+		padding: 15px;
+	}
+	.holder-unit {
+		width: 49%;
+		display: inline-block;
+		text-align: center;
+		margin: 20px 0;
+		img {
+			width: 90%;
+		}
+	}
+	&.caravan-page h4 {
+		text-align: center;
+	}
+}
+.overflow-row {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+	height: fit-content;
+	overflow-x: scroll;
+	.element {
+		height: 100%;
+		background: $white;
+		margin: 3%;
+		width: 40vw;
+		min-width: 360px;
+		max-width: 370px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		height: fit-content;
+		position: relative;
+		span {
+			line-height: 23px;
+			padding: 2%;
+			display: inline-block;
+			width: 49%;
+			font-size: 80%;
+			float: right;
+			text-align: right;
+		}
+		.cover {
+			min-height: 180px;
+			object-fit: cover;
+			width: 100%;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px 5px 0 0;
+		}
+		a {
+			width: 40vw;
+			max-width: 330px;
+		}
+		.icon {
+			max-width: 20%;
+			line-height: 23px;
+			float: right;
+			height: 23px;
+			margin-top: 2%;
+			margin-right: 4px;
+			display: none;
+		}
+		p {
+			font-size: 50%;
+			width: 50%;
+			float: left;
+			font-weight: bold;
+			line-height: 23px;
+			padding: 2%;
+		}
+		&:nth-child(even) {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 5px 17px $color_mariner_23_approx;
+		}
+		&:nth-child(odd) {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+		}
+	}
+	.media-testimonial {
+		display: none;
+	}
+	&.gallery {
+		flex-direction: column;
+		.element {
+			margin: 3% auto;
+			width: 90vw;
+			display: block;
+			.icon {
+				width: 40px;
+				height: 40px;
+			}
+		}
+	}
+	&.involve .element {
+		min-width: 17% !important;
+	}
+}
+.no-scroll-wrap {
+	flex-wrap: wrap;
+	overflow-x: visible;
+	.element {
+		width: 18vw;
+		.cover {
+			width: 100%;
+			object-fit: contain;
+		}
+	}
+}
+.block-with-text {
+	overflow: hidden;
+	position: relative;
+	line-height: 1.2em;
+	max-height: 4.8em;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+	margin-bottom: 20px;
+	&:before {
+		content: '...';
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		width: 1em;
+		height: 1em;
+		margin-top: 0.2em;
+		background: $white;
+	}
+}
+.testimonials {
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	height: fit-content;
+	margin: 50px 0;
+	padding: 0 10px;
+	button {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		color: $white;
+		border: 0;
+		bottom: 0;
+		min-height: 40px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 5px 5px;
+		font-style: italic;
+		font-size: 17px;
+		cursor: pointer;
+	}
+}
+.testimonial {
+	width: 60%;
+	display: block;
+	margin: 3%;
+	min-width: 70vw;
+	text-align: center;
+	position: relative;
+	padding: 5%;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+	font-size: 11px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	img {
+		position: absolute;
+		left: -15px;
+		top: 0;
+		padding: 5px;
+		width: 35px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		background: $white;
+		border: 2px solid $color_curious_blue_approx;
+	}
+}
+button {
+	&.paypal {
+		width: 60%;
+		margin: 15px auto;
+		color: $white;
+		border: 0;
+		min-height: 30px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		font-size: 20px;
+		padding: 7px;
+		cursor: pointer;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: center;
+		height: 40px;
+		background: $color_flamingo_approx;
+		img {
+			height: 100%;
+			width: 26px;
+			margin: 0 9px;
+		}
+	}
+	&.orange-bg {
+		width: 60%;
+		display: block;
+		margin: 15px auto;
+		color: $white;
+		border: 0;
+		min-height: 30px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		font-size: 20px;
+		padding: 7px;
+		cursor: pointer;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+	}
+}
+footer {
+	margin-top: 55px;
+	position: relative;
+	z-index: 5;
+	background: $white;
+	.quote {
+		text-align: center;
+		font-size: 13px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+		padding: 5% 2%;
+		z-index: 3;
+		background: $white;
+	}
+	> img {
+		position: absolute;
+		width: 102%;
+		top: -50px;
+		z-index: -1;
+		height: 170%;
+		left: -1;
+		background-image: $url_5;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.copyright {
+		text-align: center;
+		font-size: 13px;
+		margin: 40px 0;
+		color: $white;
+	}
+}
+.team-sort {
+	display: flex;
+	justify-content: space-between;
+	margin: 5%;
+	p {
+		font-size: 20px;
+	}
+}
+.reports {
+	.element {
+		background: $white;
+		margin: 6% auto;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		width: 90vw;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+		img {
+			width: 100%;
+		}
+		p {
+			text-align: center;
+			padding: 15px;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+}
+.team-member {
+	width: 80vw;
+	height: 80vw;
+	margin: 40px auto;
+	display: block;
+	background: $white;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	&:nth-child(even) {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_mariner_23_approx;
+	}
+	&:nth-child(odd) {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+	}
+	.social {
+		position: absolute;
+		width: 40px;
+		right: 10px;
+		top: 10px;
+		cursor: pointer;
+		img {
+			width: 100%;
+		}
+	}
+	.profile {
+		max-width: 200px;
+		width: 60%;
+		margin: 20px auto 15px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+	}
+	p {
+		padding: 6px;
+	}
+}
+.hidden {
+	display: none;
+}
+.team-title {
+	display: none;
+	&.unit {
+		display: block;
+		text-align: center;
+		margin: 25px 0;
+		position: relative;
+	}
+	&.unit::before {
+		position: absolute;
+		top: 1.3em;
+		height: 0;
+		left: 50%;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%);
+		width: 80px;
+		content: '';
+		border-top: 2px solid $color_curious_blue_approx;
+	}
+}
+.reverse {
+	flex-direction: row-reverse;
+	animation: scroll-reverse 12s linear infinite !important;
+}
+.shadow-block {
+	width: 90%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 5px 17px $color_mariner_23_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 7px;
+	padding: 12px;
+	z-index: 2;
+	position: relative;
+	background: $white;
+	vertical-align: top;
+	ul {
+		text-align: left;
+		margin: 5%;
+		> li {
+			margin: 5% 0;
+		}
+	}
+	&.about-us {
+		p {
+			margin: 15px auto;
+		}
+		h3 {
+			position: relative;
+			line-height: 1.2em;
+		}
+		h3::before {
+			position: absolute;
+			top: 1.3em;
+			height: 0;
+			left: 50%;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translate(-50%, -50%);
+			width: 50px;
+			content: '';
+			border-top: 2px solid $color_curious_blue_approx;
+		}
+	}
+}
+.road {
+	width: 52%;
+	height: 80%;
+	position: absolute;
+	left: 0;
+	background-image: linear-gradient($color_curious_blue_approx 74%, rgba(255, 255, 255, 0) 0);
+	background-position: right;
+	background-size: 7px 45px;
+	background-repeat: repeat-y;
+	z-index: 1;
+}
+.road-margin {
+	margin: 60px auto;
+}
+.contact-box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 7%;
+	p {
+		padding: 2% 0;
+	}
+}
+.news-section {
+	width: 100%;
+	overflow: hidden;
+	&:hover {
+		animation-play-state: paused;
+	}
+}
+.infinite {
+	position: relative;
+	animation: scroll 12s linear infinite;
+	overflow: visible;
+	margin: 10px 0;
+	.element {
+		float: left;
+	}
+}
+#full-statement {
+	width: 60%;
+	height: 70%;
+	overflow-y: scroll;
+	text-align: center;
+	margin: 10% auto;
+	h3 {
+		margin-bottom: 20px;
+	}
+	p {
+		height: auto;
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		overflow: hidden;
+		text-align: justify;
+	}
+}
+.absolute-title {
+	@extend %extend_1;
+}
+.mobile-show {
+	@extend %extend_1;
+}
+.absolute-title::before {
+	@extend %extend_2;
+}
+.mobile-show::before {
+	@extend %extend_2;
+}
+.request-ed {
+	background: $color_curious_blue_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	padding: 7px 4px;
+	color: $white;
+	text-decoration: none;
+	margin: 0 auto;
+	display: block;
+	min-width: 140px;
+	max-width: 20%;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.show-title {
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+}
+.close-media {
+	bottom: -25px;
+	left: 50%;
+	top: auto;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+	span {
+		position: absolute;
+		width: 12px;
+		left: 50%;
+		top: 50%;
+		height: 30px;
+		background: $color_flamingo_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.5s;
+	}
+	.horizontal {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%) rotate(45deg);
+	}
+	.vertical {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%) rotate(135deg);
+	}
+}
+@keyframes scroll {
+	0% {
+		left: 500px;
+	}
+	100% {
+		left: -1000px;
+	}
+}
+@keyframes scroll-reverse {
+	0% {
+		left: -500px;
+	}
+	100% {
+		left: 1000px;
+	}
+}
+@media screen and(min-width: 726px) {
+	#burger-menu {
+		display: none !important;
+	}
+	.about-us {
+		display: none !important;
+	}
+	.us-title {
+		display: none !important;
+	}
+	.us-sorter {
+		justify-content: flex-end;
+		padding: 5vw;
+		background: $color_alabaster_approx;
+		width: 100vw;
+		margin: 0 auto 140px;
+		position: relative;
+		.donate {
+			display: none !important;
+		}
+		p {
+			display: block;
+			line-height: 30px;
+			padding: 60px;
+		}
+		img.box {
+			margin: 20px;
+			padding: 20px;
+			max-width: 150px;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 5px 17px $color_mariner_23_approx;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 10px;
+		}
+		.holder-sorter img {
+			width: 100%;
+		}
+	}
+	#dropdown {
+		position: relative;
+		display: inline-block;
+		> a {
+			display: block;
+		}
+		&:hover .dropdown-content {
+			display: block;
+		}
+	}
+	#dropdown-2 {
+		position: relative;
+		display: inline-block;
+		> a {
+			display: block;
+		}
+		&:hover .dropdown-content {
+			display: block;
+		}
+	}
+	.menu {
+		width: 100vw;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+	}
+	.video-section {
+		height: 60vh;
+		margin-top: -8vh;
+		h2 {
+			margin-left: 53%;
+			padding: 10px 10%;
+			position: absolute;
+			top: 50%;
+			padding-right: 0;
+			color: $white;
+		}
+		p {
+			margin-left: 53%;
+			padding: 10px 10%;
+			position: absolute;
+			top: 50%;
+			padding-right: 0;
+			color: $white;
+			top: 53%;
+			right: 5%;
+			margin-left: 53%;
+		}
+	}
+	footer {
+		> img {
+			height: calc(100% +50px);
+		}
+		.menu {
+			position: relative;
+			background: none;
+		}
+		.navigation-ul {
+			display: flex;
+			flex-wrap: wrap;
+			width: 70%;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translate(-50%, -50%);
+			left: 50%;
+			justify-content: center;
+			li {
+				flex-basis: 20%;
+				display: none;
+				&.social {
+					max-width: 30px;
+					position: absolute;
+					top: 25px;
+				}
+				&.special {
+					display: inline-block !important;
+					padding: 5px;
+					width: 100%;
+					position: initial;
+					min-width: 160px;
+					> a {
+						display: inline-block !important;
+						padding: 5px;
+						width: 100%;
+					}
+					&.donate-btn {
+						left: 70%;
+					}
+				}
+			}
+			> {
+				#dropdown {
+					display: none;
+				}
+				#dropdown-2 {
+					display: none;
+				}
+			}
+		}
+		li.special {
+			width: max-content;
+		}
+		a.logo {
+			width: 100px;
+			height: 50px;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translate(0%, -50%);
+			left: -58px;
+			bottom: 65px;
+		}
+	}
+	.video {
+		width: 50vw;
+		top: 14%;
+		max-width: 650px;
+	}
+	.donate-btn-fix {
+		width: 140%;
+	}
+	.hill {
+		height: 350px;
+		width: 100vw;
+	}
+	.donate {
+		p {
+			right: 8px;
+			padding: 2%;
+			top: 3px;
+		}
+		span {
+			height: 7.3vw;
+		}
+	}
+	.lang {
+		right: 29px;
+		top: 2.9vh;
+		z-index: 200;
+		cursor: pointer;
+		left: auto;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	div {
+		&.grid {
+			align-items: center;
+			justify-content: center;
+			margin-top: 10px;
+			margin: 30px 0;
+		}
+		&.heading {
+			color: $color_curious_blue_approx;
+			background: none;
+			font-weight: bolder;
+		}
+		&.numbers .element {
+			width: 43vw;
+			padding: 0 11vw;
+			height: 20vw;
+			margin: 0;
+		}
+	}
+	.testimonials {
+		height: 330px;
+	}
+	.testimonial {
+		min-width: 22vw;
+		width: 43vw;
+		margin: 3%;
+		flex: none;
+		padding: 2%;
+	}
+	.block-with-text {
+		font-size: 1.6em;
+		max-height: 9.6em;
+	}
+	.us-title-l {
+		text-align: center;
+		margin: 80px 0;
+		font-size: 35px;
+		display: block;
+		position: relative;
+		letter-spacing: 4px;
+	}
+	.us-title-l::before {
+		position: absolute;
+		top: 1.3em;
+		height: 0;
+		left: 50%;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%);
+		width: 150px;
+		content: '';
+		border-top: 2px solid $color_flamingo_approx;
+	}
+	.us-popup {
+		.close {
+			bottom: -60px;
+			top: unset;
+			left: 50%;
+			span {
+				background: $color_curious_blue_approx;
+			}
+		}
+		.popup {
+			width: 80%;
+			height: 80%;
+		}
+	}
+	#full-statement {
+		margin: 3% auto;
+	}
+	#us-img {
+		margin: 0 auto;
+		height: 20%;
+	}
+	.obj-sort {
+		max-width: 150px;
+		max-height: 300px;
+		padding: 20px 30px;
+		margin: 0 20px;
+		p {
+			padding: 0 !important;
+			height: 80px;
+			display: block;
+			line-height: 30px;
+		}
+	}
+	.popup {
+		.caravan {
+			width: initial;
+			margin: 0 auto;
+		}
+		.team-member {
+			height: 50%;
+		}
+	}
+	.team-title {
+		font-size: 35px;
+		display: block;
+		position: relative;
+		letter-spacing: 4px;
+		text-align: center;
+		margin: 80px 0;
+		&.unit {
+			margin: 200px 0 80px;
+		}
+	}
+	.team-title::before {
+		position: absolute;
+		top: 1.3em;
+		height: 0;
+		left: 50%;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, -50%);
+		width: 150px;
+		content: '';
+		border-top: 2px solid $color_curious_blue_approx;
+	}
+	.team-sort {
+		justify-content: center;
+		p {
+			margin: 0 15px;
+			cursor: pointer;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.team-member {
+		width: 28vw;
+		display: inline-block;
+		height: 30vw;
+		max-height: 30vw;
+		margin: 2vw;
+		vertical-align: top;
+	}
+	.infinite {
+		animation: none !important;
+		flex-direction: row;
+	}
+	.reverse {
+		animation: none !important;
+		flex-direction: row;
+	}
+	.overflow-row {
+		&.involve {
+			width: 90%;
+			margin-left: 5%;
+			.element {
+				margin: 2%;
+				width: 15vw;
+				&:first-child {
+					margin-left: 0;
+				}
+				p {
+					width: 100%;
+					text-align: center;
+				}
+			}
+		}
+		.element {
+			p {
+				font-size: 16px;
+				width: auto;
+			}
+			span {
+				width: 40%;
+			}
+			.icon {
+				display: initial;
+			}
+			&.partners p {
+				max-width: 80%;
+			}
+			a:hover > .media-testimonial {
+				display: block;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 87%;
+				max-height: 90%;
+				overflow: hidden;
+				color: $color_curious_blue_approx;
+				background: rgb(255, 255, 255, 0.86);
+			}
+		}
+	}
+	.shadow-block {
+		width: 40%;
+		text-align: center;
+		display: inline-block;
+		margin: 15px auto;
+		&:nth-child(odd) {
+			margin-left: 5%;
+		}
+		&:nth-child(even) {
+			margin-left: 10%;
+		}
+	}
+	.road {
+		height: 100vh;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		z-index: 1;
+		background: $color_curious_blue_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_ghost_23_approx;
+		left: 50%;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(-50%, 0);
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 10px 10px;
+		a {
+			color: $white;
+			text-transform: uppercase;
+			text-decoration: none;
+			padding: 10px 20px;
+			margin: 10px 0;
+			display: block;
+			width: 100%;
+			font-size: 12px;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	footer::before {
+		content: "";
+		width: 100%;
+		height: 1px;
+		position: absolute;
+		top: -50px;
+		background: $white;
+	}
+	.mobile-unit {
+		width: 90%;
+		margin-left: 5%;
+		background: $white;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 10px;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_mariner_23_approx;
+		margin-bottom: 10%;
+		padding: 0 5%;
+		flex-wrap: wrap;
+		display: flex;
+		p {
+			width: 100%;
+			display: inline-block;
+			padding: 5%;
+			text-align: center;
+			line-height: 20px;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+		}
+		.steps {
+			width: 31%;
+			margin: 0 1%;
+			text-align: center;
+			display: inline-block;
+			img {
+				width: 100%;
+			}
+		}
+		&.education {
+			margin: 5% auto;
+			p {
+				width: 100%;
+				padding: 2%;
+				margin-top: 0;
+			}
+		}
+	}
+	.caravan-page {
+		&.mobile-unit {
+			padding: 0;
+			p {
+				width: 100%;
+				display: flex;
+			}
+		}
+		> p {
+			width: 100%;
+		}
+		.steps p {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 5px 17px $color_mariner_23_approx;
+		}
+	}
+	.header-img {
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		top: 12vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		&.ed {
+			background-image: $url_6;
+			background-position: bottom;
+		}
+		&.m-unit {
+			background-image: $url_7;
+			background-position: center;
+		}
+		&.obj {
+			background-image: $url_8;
+			background-position: center -140px;
+		}
+		&.rural {
+			background-image: $url_8;
+			background-position: center -130px;
+		}
+	}
+	.header-img::before {
+		content: '';
+		background: $white_20;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	.absolute-title {
+		margin: 280px 0 40px;
+		color: $color_curious_blue_approx !important;
+	}
+	.absolute-title::before {
+		content: '';
+		border-top: 2px solid $color_curious_blue_approx;
+	}
+	.image {
+		width: 27vw !important;
+		margin: 2% !important;
+		display: inline-block !important;
+	}
+	.holder-sorter {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_mariner_23_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 10px;
+		max-width: 170px;
+		min-width: 170px;
+		max-height: 190px;
+		padding: 20px 5px;
+		margin: 0 40px;
+		p {
+			padding: 15px 0 !important;
+			height: 70px;
+		}
+		&:hover {
+			background: $color_curious_blue_approx;
+			p {
+				color: $white;
+			}
+		}
+		img.box {
+			margin: 0;
+			width: 100%;
+			padding: 0 15%;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+		}
+	}
+	.caravan-request {
+		width: 44%;
+		margin: 2.5% !important;
+	}
+	.testimonial-popup {
+		padding: 23vh 30px;
+		font-size: 19px;
+		text-align: center;
+		margin-bottom: 10%;
+		overflow-y: scroll;
+	}
+	.close.home {
+		left: 50%;
+	}
+	body input ~ nav {
+		position: initial;
+		> ul {
+			display: flex;
+			align-items: center;
+			top: 25px;
+			right: 25px;
+			left: auto;
+			> li {
+				opacity: 1;
+				padding: 0 10px;
+				display: flex;
+				align-items: center;
+				&.special {
+					position: absolute;
+					top: 1.3vh;
+					right: 50px;
+					display: block;
+					height: 2px;
+				}
+				> a {
+					font-size: 12px;
+					text-decoration: none;
+					&.special {
+						background: $color_flamingo_approx;
+						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						border-radius: 5px;
+						padding: 5px 4px;
+						margin: -2vh -20px;
+					}
+				}
+				&.social {
+					margin: 0 5px;
+					display: block;
+				}
+			}
+		}
+	}
+	li.special.donate-btn {
+		right: 200px;
+	}
+	a.logo {
+		position: absolute;
+		left: 10px;
+		cursor: pointer;
+	}
+	.home-container section .us-title-l {
+		margin: 0;
+	}
+	.grid .element {
+		width: 16vw;
+		height: 16vw;
+		text-align: center;
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin: 4%;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.gallery.facebook {
+		width: 35px;
+		position: absolute;
+		top: calc(12vh +80px);
+		right: 40px;
+	}
+	.no-scroll-wrap .element {
+		width: 18vw;
+		min-width: 18vw;
+	}
+	.team-popup .popup {
+		display: flex;
+		align-items: center;
+		width: 40%;
+		.team-member {
+			p {
+				overflow: hidden;
+				&.title {
+					margin-bottom: 5%;
+				}
+			}
+			h3 {
+				overflow: hidden;
+			}
+			.full-text {
+				overflow-y: scroll;
+			}
+		}
+	}
+	#dropdown-content a {
+		display: block;
+	}
+	.caravan h3.team-title {
+		padding: 0 50px;
+	}
+	img.header {
+		width: 90%;
+		margin-left: 5%;
+		position: absolute;
+		top: -30px;
+		clip-path: inset(30px 0 490px 0);
+	}
+	.donation-holder .shadow-block {
+		width: 27%;
+		margin: 3%;
+		padding: 1%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	button.orange-bg {
+		min-width: 140px;
+		max-width: 20%;
+	}
+	.contact-box img {
+		width: 50%;
+		max-width: 100px;
+	}
+	.reports .element {
+		background: $white;
+		margin: 3% auto;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		width: 90vw;
+		align-items: center;
+		display: flex;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+		flex-direction: row;
+		img {
+			width: 60%;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px 5px 0 0;
+		}
+		p {
+			padding: 10% 5%;
+			width: 40%;
+			display: inline-block;
+			text-align: center;
+		}
+	}
+}
+@media screen and(min-width: 1000px) {
+	.hill {
+		height: 80vh;
+		width: 100vw;
+	}
+	.donate {
+		p {
+			right: 10px;
+			padding: 2%;
+			top: 3px;
+			font-size: 16px;
+			margin: 0;
+		}
+		span {
+			height: 46%;
+		}
+	}
+	section.home-section .heading {
+		margin: 20px 0;
+	}
+	.video-section p {
+		top: 59%;
+		right: 7%;
+		margin-left: 52%;
+	}
+	footer .navigation-ul li.special {
+		left: 70%;
+		&.donate-btn {
+			left: 110%;
+		}
+	}
+	.header-img.obj {
+		background-position: center -160px;
+	}
+}
+@media screen and(max-width: 400px) {
+	.overflow-row .element {
+		min-width: 94%;
+	}
+}
+@media screen and(max-width: 500px) {
+	.hill {
+		height: 250px;
+	}
+}
+@media screen and(min-width: 1300px) {
+	.video-section p {
+		right: 11%;
+	}
+}
+.lightbox {
+	background-color: $black_80;
+	overflow: scroll;
+	position: fixed;
+	display: none;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+.lightbox-container {
+	position: relative;
+	max-width: 960px;
+	margin: 7% auto;
+	display: block;
+	padding: 0 3%;
+	height: auto;
+	z-index: 10;
+}
+@media screen and(max-width: 768px) {
+	.lightbox-container {
+		margin-top: 10%;
+	}
+}
+@media screen and(max-width: 414px) {
+	.lightbox-container {
+		margin-top: 13%;
+	}
+}
+.lightbox-content {
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 1px 6px $black_70;
+}
+.lightbox-close {
+	text-transform: uppercase;
+	background: transparent;
+	position: absolute;
+	font-weight: 300;
+	font-size: 12px;
+	display: block;
+	border: none;
+	color: $white;
+	top: -22px;
+	right: 3%;
+}
+.video-container {
+	padding-bottom: 56.25%;
+	position: relative;
+	padding-top: 30px;
+	overflow: hidden;
+	height: 0;
+	iframe {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	object {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	embed {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+}
+.navigation-ul > .follow-us {
+	color: $white;
+	position: absolute;
+	left: -56px;
+	top: 0;
+}
+.dropdown-content a {
+	text-transform: uppercase;
+	color: $white;
+	font-weight: 700;
+	font-size: 140%;
+	display: block;
+	margin: 3vh 0;
+}
+#dropdown > a {
+	display: none;
+}
+#dropdown-2 > a {
+	display: none;
+}
+.grid .element {
+	width: 46%;
+	margin: 2%;
+	text-align: center;
+	padding: 10px;
+	img {
+		padding: 10px;
+		width: 50%;
+	}
+	&:nth-child(even) {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_mariner_23_approx;
+	}
+	&:nth-child(odd) {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 5px 17px $color_thunderbird_23_approx;
+	}
+}
+.partner-section .row {
+	display: flex;
+	flex-direction: row;
+	.partner {
+		margin: 5% 0;
+		display: flex;
+		align-items: center;
+		img {
+			width: 80%;
+			margin: 0 auto;
+			display: block;
+		}
+	}
+}
+.home-section .element a {
+	text-decoration: none;
+}
+#main-media > .element:nth-child(5) ~ .element {
+	display: none;
+}
+.steps img {
+	width: 90vw;
+	margin: 10px auto;
+	display: block;
+}
+img.header {
+	width: 90%;
+	margin: 30px auto;
+	display: block;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 5px 17px $color_mariner_23_approx;
+}
+.gallery.facebook {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: calc(12vh +15px);
+	right: 2.7vh;
+	img {
+		width: 100%;
+	}
+}

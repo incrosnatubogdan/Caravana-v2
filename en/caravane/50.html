@@ -1,0 +1,93 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+    <script src="../../assets/js/jquery-2.1.3.min.js"></script>
+    <script src="../../assets/js/main-en.js"></script>
+    <script src="../../assets/js/media.js"></script>
+  
+    <script>
+      $(document).ready(function () {
+            var noOfImg = 8;
+            var caravanNo = 50;
+            for (var i=1; i<noOfImg+1; i++){
+                $('div.row').append('<div class="image"><div class="img-wrapper"><a href="../../assets/img/caravane/'+caravanNo+'/'+i+'.jpg"><img src="../../assets/img/caravane/'+caravanNo+'/'+i+'.jpg" class="img-responsive"></a><div class="img-overlay"></div></div></div>');
+            }
+      });
+    
+    </script>
+  
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/gallery.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="page-holder">
+      <nav class="menu">
+        <a href="../../media.html" class="lang">RO</a>
+        <a class="logo" href="../index.html">
+          <img src="../../assets/img/logo.png">
+        </a>
+        <input id="burger" type="checkbox" />
+        <label id="burger-menu" for="burger">
+          <span class="horizontal"></span>
+          <img class="burger-img" src="../../assets/img/burger.png">
+          <span class="vertical"></span>
+        </label>
+        <nav id="navigation">
+          <ul class="navigation-ul">
+          </ul>
+        </nav>
+      </nav>
+      <div class="main container caravan">
+        <h3 class="team-title blue-c uppercase show-title">Caravana 50 - Cristinești, Botoșani</h3>
+        <a class="facebook gallery" href="https://www.facebook.com/media/set/?set=ms.c.eJxFkMENwDAIAzeqAjEx7L9YVWjgezJnJ7psBRkuR2mQRxO4uWtAwAvEEsS6AESc5Wo~%3BYOSJrj6hfVIcXLA1HdztQCbCOoFK9A6pHc4ZlrWCafkAoxN7l0O7xWrpvKUchpmegJhE~%3BofKLC2HF3CKuMbWwAuAxkHJ.bps.a.2050977938294212&type=1&__xts__[0]=68.ARBCysTAaELkqJYeOksXJ24LuxGcmDbrQi4rXVM4lA3jhimS2S6vtIRjpGcVKu-1K0yGnZn16YwlI2ESTB0a81LvJncuQgnE0SH70B9vlid-pHTINTsBDaARRp-0kF8EoENyV8uBxUNLd1vWALhm1MtUXGXhvJsDEF2xXScVIAALbPanl6LKT1aK68J1r03omytRTDge2Mm-Y6ev9zm8tzKkNnA5SI1f-OEEiJ4tLabHEpO7csaLhSXbT_3waYuX2OXbKNpTkJykIQzSTJGV6Fs3s1ilhv2QBS7cZZv1qY6J7uB_J-82Zmv7StY6ZNB4Ev3SEynPjPJwXd8Fe9mPOcZpoDJaagi0EqNb_evAdSBPLE9YZd06I059hyeuxLgNW6t7cuqNHsGWQMjV9M6OJPW4WELQWlx3yJ649WKNMGzr9vWqIhQ5DZjXRnMEBsJquzg-5Bq5OpD01BTgsuTS3IoiU0scAM_tx0yGyrZDcXHjAObTxhvFTOKYKi-BOFk7bt-o6XugFy24l6pTZCRF8zZaOyxrkxeaURE9LrYRJA&__tn__=HH-R">
+          <img src="../../assets/img/social/facebook-blue.svg">
+        </a>
+        <section id="gallery">
+          <div class="container">
+            <div id="image-gallery">
+              <div class="row">
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <img>
+          <p class="quote">
+            "Only a life lived for others is a life worth living." <br>
+            - Albert Einstein
+          </p>
+          <p class="copyright">Crafted with ❤️ by Tac-Tic Studio &copy; 2019</p>
+          <nav class="menu">
+            <input id="burger" type="checkbox" />
+            <label id="burger-menu" for="burger">
+              <span class="horizontal"></span>
+              <img class="burger-img" src="../../assets/img/burger.png">
+              <span class="vertical"></span>
+            </label>
+            <nav id="navigation">
+              <ul class="navigation-ul">
+                <a class="logo" href="../index.html">
+                  <img src="../../assets/img/logo.png">
+                </a>
+                <p class="follow-us uppercase">Follow us</p>
+              </ul>
+            </nav>
+          </nav>
+        </footer>
+      </div>
+    </div>
+    <div id="popup" class="popup-overlay">
+      <div class="popup">
+        <div class="close">
+          <span class="horizontal"></span>
+          <span class="vertical"></span>
+        </div>
+        <p id="full-testimonial"></p>
+      </div>
+    </div>
+  
+  </body>

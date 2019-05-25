@@ -1,0 +1,13 @@
+menu: [
+    {name: 'Acasa', link: 'index.html', sub: null, class: ""},
+    {name: 'Despre Noi', link: 'despre-noi.html', sub: null, class: ""},
+    {name: 'Ce facem', link: 'ce-facem.html', sub: null, class: ""},
+    {name: 'Implica-te', link: 'implica.html', sub: null, class: ""},
+    {name: 'Echipa', link: 'echipa.html', sub: null, class: ""},
+    {name: 'Media', link: 'media.html', sub: null, class: ""},
+    {name: 'Solicita Caravana', link: 'solicita-caravana.html', sub: null, class: "special"},
+    {name: 'Contact', link: 'contact.html', sub: null, class: ""},
+    {name: 'Doneaza', link: 'doneaza.html', sub: null, class: ""},
+    {name: '', link: 'facebook.com', class: "social facebook", sub: null},
+    {name: '', link: 'instagram.com', class: "social instagram", sub: null}
+]
