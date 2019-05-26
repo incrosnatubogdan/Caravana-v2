@@ -457,7 +457,7 @@ body input~nav>ul>li>a.social {
     color: white;
     position: absolute;
     left: 0;
-    top: 0px;
+    top: -30px;
     padding: 0;
 }
 
@@ -971,6 +971,7 @@ footer {
     z-index: 5;
     background: white;
     padding-top: 130px;
+    overflow: hidden;
 }
 
 footer>nav.menu {
@@ -1010,8 +1011,8 @@ footer .copyright {
     margin: 40px 0;
     padding: 40px 0 0;
     color: white;
+    position: relative;
 }
-
 
 /* Team Page */
 
@@ -1817,7 +1818,7 @@ img.header {
     footer .navigation-ul li.social {
         max-width: 30px;
         position: absolute;
-        top: 32px;
+        top: 0;
         margin: 0 !important;
     }
 
@@ -2340,8 +2341,8 @@ img.header {
     }
 
     footer>img {
-        background-size: 220vw;
-        background-position-y: -45vw;
+        background-size: 370vw;
+        background-position-y: -80vw;
     }
 
     .hill {
