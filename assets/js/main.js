@@ -186,8 +186,45 @@ var sourceSwap = function () {
     $this.attr('src', newSource);
 }
 
+function getCookie(c_name) {
+    var c_value = " " + document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    }
+    else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start,c_end));
+    }
+    return c_value;
+}
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
 $(document).ready(function () {
     var fullWidth = $("body").width();
+    
+    // var hasCookie = getCookie("hascookie");
+    // if (hasCookie != "true") {
+    //     $("body").append('<div class="cookieBubble"><div class="cb-wrapper"><div class="cb-row"><div class="cb-message"><img src="assets/img/cookie.svg"><span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="privacy.html">Learn More</a></span><a href="javascript:void(0)" class="gotit-btn">GOT IT!</a></div></div></div></div>');
+    // }
+
+    jQuery(document).on("click",".gotit-btn", function (e) {
+        jQuery(".cookieBubble").remove();
+        setCookie("hascookie",true,"30")
+    });
 
     jQuery(document).on("click", '.show-testimonial', function (e) {
         var fullTestimonial = jQuery(this).parent().find(".block-with-text").text();
