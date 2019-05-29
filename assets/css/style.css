@@ -1000,7 +1000,7 @@ footer>img {
     left: -1;
     background-image: url(../img/home/footer.svg);
     background-repeat: no-repeat;
-    background-size: 150vw;
+    background-size: 160vw;
     background-position-y: -37vw;
 }
 
@@ -2337,6 +2337,10 @@ img.header {
 
     .donation-holder .shadow-block {
         box-shadow: none;
+    }
+
+    footer {
+        overflow: hidden;
     }
 
     footer>img {
