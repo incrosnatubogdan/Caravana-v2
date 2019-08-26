@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 66",
+    "image": "assets/img/caravane/66/gallery-thumb.jpg",
+    "link": "caravane/66.html",
+    "tag": "Caravane",
+    "date": "10 august 2019",
+    "location": "Letea, TL",
+    "testimonial": "",
+    "icon": "assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravana nr. 64",
     "image": "assets/img/caravane/64/gallery-thumb.jpg",
     "link": "caravane/64.html",

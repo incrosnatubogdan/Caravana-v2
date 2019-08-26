@@ -1,0 +1,55 @@
+[{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Raport anual 2018",
+        "image": "assets/images/rapoarte/2018/thumb-acasa.jpg",
+        "link": "caravane/raport2018.pdf",
+        "tag": "Rapoarte",
+        "date": "31 Decembrie 2018",
+        "location": "În 2018 am reușit să ajungem în 21 de sate din 12 județe, stabilind un record al edițiilor."
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 51",
+        "image": "assets/images/caravane/51/thumb.jpg",
+        "link": "caravane/51.html",
+        "tag": "Caravane",
+        "date": "8 Decembrie 2018",
+        "location": "Valcău de Jos, județul Sălaj"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 50",
+        "image": "assets/images/caravane/50/thumb.jpg",
+        "link": "caravane/50.html",
+        "tag": "Caravane",
+        "date": "24 Noiembrie 2018",
+        "location": "Cristinești, județul Botoșani"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 49",
+        "image": "assets/images/caravane/49/thumb.jpg",
+        "link": "caravane/49.html",
+        "tag": "Caravane",
+        "date": "10 Noiembrie 2018",
+        "location": "Ieud, județul Maramureș"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 48",
+        "image": "assets/images/caravane/48/thumb.jpg",
+        "link": "caravane/48.html",
+        "tag": "Caravane",
+        "date": "10 Noiembrie 2018",
+        "location": "Cireșoaia, județul Bacău"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 47",
+        "image": "assets/images/caravane/47/thumb.jpg",
+        "link": "caravane/47.html",
+        "tag": "Caravane",
+        "date": "13 Octombrie 2018",
+        "location": "Comuna Rus, județul Sălaj"
+    }
+]

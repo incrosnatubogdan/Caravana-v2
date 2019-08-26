@@ -1,0 +1,317 @@
+[{
+        "parentClass": "col-xs-12 col-sm-6 col-md-12 blogBox moreBox",
+        "title": "1.000 de pacienți din comunități rurale defavorizate au beneficiat în 2017 de consultații gratuite oferite de „Caravana cu Medici”",
+        "date": "7 februarie 2018",
+        "location": "",
+        "link": "http://fundatia-vodafone.ro/1-000-de-pacienti-din-comunitati-rurale-defavorizate-au-beneficiat-2017-de-consultatii-gratuite-oferite-de-caravana-cu-medici/",
+        "image": "assets/images/articole/thumb-4.jpg",
+        "tag": "Apariții media",
+        "class": "featured"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Raport anual 2018",
+        "image": "assets/images/rapoarte/2018/thumb-acasa.jpg",
+        "link": "caravane/raport2018.pdf",
+        "tag": "Rapoarte",
+        "date": "31 Decembrie 2018",
+        "location": "În 2018 am reușit să ajungem în 21 de sate din 12 județe, stabilind un record al edițiilor."
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 51",
+        "image": "assets/images/caravane/51/gallery-thumb.jpg",
+        "link": "caravane/51.html",
+        "tag": "Caravane",
+        "date": "8 Decembrie 2018",
+        "location": "Valcău de Jos, județul Sălaj"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 50",
+        "image": "assets/images/caravane/50/gallery-thumb.jpg",
+        "link": "caravane/50.html",
+        "tag": "Caravane",
+        "date": "24 Noiembrie 2018",
+        "location": "Cristinești, județul Botoșani"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 49",
+        "image": "assets/images/caravane/49/gallery-thumb.jpg",
+        "link": "caravane/49.html",
+        "tag": "Caravane",
+        "date": "10 Noiembrie 2018",
+        "location": "Ieud, județul Maramureș"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 48",
+        "image": "assets/images/caravane/48/gallery-thumb.jpg",
+        "link": "caravane/48.html",
+        "tag": "Caravane",
+        "date": "10 Noiembrie 2018",
+        "location": "Cireșoaia, județul Bacău"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 47",
+        "image": "assets/images/caravane/47/gallery-thumb.jpg",
+        "link": "caravane/47.html",
+        "tag": "Caravane",
+        "date": "13 Octombrie 2018",
+        "location": "Comuna Rus, județul Sălaj"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Redirecționare impozit pe profit către ONG-uri",
+        "image": "assets/images/caravane/doneaza-20/thumb.jpg",
+        "link": "caravane/doneaza-20.html",
+        "tag": "Noutăți",
+        "date": "07 Octombrie 2018",
+        "location": ""
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 46",
+        "image": "assets/images/caravane/46/gallery-thumb.jpg",
+        "link": "caravane/46.html",
+        "tag": "Caravane",
+        "date": "30 Septembrie 2018",
+        "location": "Corbasca, județul Bacău"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 44",
+        "image": "assets/images/caravane/44/gallery-thumb.jpg",
+        "link": "caravane/44.html",
+        "tag": "Caravane",
+        "date": "25 August 2018",
+        "location": "Cristești, județul Botoșani"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 43",
+        "image": "assets/images/caravane/43/gallery-thumb.jpg",
+        "link": "caravane/43.html",
+        "tag": "Caravane",
+        "date": "25 August 2018",
+        "location": "Valea Cucului, județul Prahova"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 42",
+        "image": "assets/images/caravane/42/gallery-thumb.jpg",
+        "link": "caravane/42.html",
+        "tag": "Caravane",
+        "date": "14 Iulie 2018",
+        "location": "Fundu Tutovei, județul Bacău"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 41",
+        "image": "assets/images/caravane/41/gallery-thumb.jpg",
+        "link": "caravane/41.html",
+        "tag": "Caravane",
+        "date": "16 Iunie 2018",
+        "location": "Chilia Veche, județul Tulcea"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 40",
+        "image": "assets/images/caravane/40/gallery-thumb.jpg",
+        "link": "caravane/40.html",
+        "tag": "Caravane",
+        "date": "12 Mai 2018",
+        "location": "Brusturi, județul Bihor"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 39",
+        "image": "assets/images/caravane/39/gallery-thumb.jpg",
+        "link": "caravane/39.html",
+        "tag": "Caravane",
+        "date": "12 Mai 2018",
+        "location": "Spanțov, județul Călărași"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 37",
+        "image": "assets/images/caravane/37/gallery-thumb.jpg",
+        "link": "caravane/37.html",
+        "tag": "Caravane",
+        "date": "5 Mai 2018",
+        "location": "Răchitoasa, județul Bacău"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 36",
+        "image": "assets/images/caravane/36/gallery-thumb.jpg",
+        "link": "caravane/36.html",
+        "tag": "Caravane",
+        "date": "28 Aprilie 2018",
+        "location": "Trușești, județul Botoșani"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 35",
+        "image": "assets/images/caravane/35/gallery-thumb.jpg",
+        "link": "caravane/35.html",
+        "tag": "Caravane",
+        "date": "31 Martie 2018",
+        "location": "Răchițele, județul Vaslui"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana Semnelor",
+        "image": "assets/images/caravane/34/gallery-thumb.jpg",
+        "link": "caravane/34.html",
+        "tag": "Caravane",
+        "date": "17 Martie 2018",
+        "location": "București"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 33",
+        "image": "assets/images/caravane/33/gallery-thumb.jpg",
+        "link": "caravane/33.html",
+        "tag": "Caravane",
+        "date": "27 Februarie 2018",
+        "location": "Coroiești, județul Vaslui"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana cu Medici este nominalizată la Gala RRC 2018",
+        "image": "assets/images/articole/thumb-5.jpg",
+        "link": "https://radioromaniacultural.ro/caravana-cu-medici-este-nominalizata-la-gala-rrc-2018/",
+        "tag": "Apariții media",
+        "date": "5 Martie 2018",
+        "location": ""
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana cu medici Cluj te vrea alături",
+        "image": "assets/images/caravane/recrutare-cluj/gallery-thumb.jpg",
+        "link": "caravane/recrutare-cluj.html",
+        "tag": "Noutăți",
+        "date": "26 Februarie 2018",
+        "location": "Caravana cu medici Cluj te vrea alături"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 32",
+        "image": "assets/images/caravane/32/gallery-thumb.jpg",
+        "link": "caravane/32.html",
+        "tag": "Caravane",
+        "date": "21 Februarie 2018",
+        "location": "Gornet-Cuib, județul Prahova"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 31",
+        "image": "assets/images/caravane/31/gallery-thumb.jpg",
+        "link": "caravane/31.html",
+        "tag": "Caravane",
+        "date": "24 Ianuarie 2018",
+        "location": "Asociația Valentina, București"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana cu Medici – speranţa pacienţilor din mediul rural",
+        "image": "assets/images/articole/thumb-1.jpg",
+        "link": "https://www.medichub.ro/stiri/caravana-cu-medici-speranta-pacientilor-din-mediul-rural-id-1391-cmsid-2",
+        "tag": "Apariții media",
+        "date": "9 Ianuarie 2018",
+        "location": " Despre începuturi, prezent și caravana ca soluție pe termen lung pentru sănătatea rurală"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana Off-Road",
+        "image": "assets/images/caravane/off-road/gallery-thumb.jpg",
+        "link": "caravane/off-road.html",
+        "tag": "Caravane",
+        "date": "19 Decembrie 2017",
+        "location": "Ceru-Băcăinți, județul Alba"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Primul ajutor în Educație - Lecția ce va salva o viață",
+        "image": "assets/images/caravane/bursa-binelui/gallery-thumb.jpg",
+        "link": "caravane/prim-ajutor.html",
+        "tag": "Caravane",
+        "date": "4 Decembrie 2017",
+        "location": ""
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 29",
+        "image": "assets/images/caravane/29/gallery-thumb.jpg",
+        "link": "caravane/29.html",
+        "tag": "Caravane",
+        "date": "14 Noiembrie 2017",
+        "location": "Hudești, județul Botoșani"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Redirecționare impozit pe profit către ONG-uri",
+        "image": "assets/images/caravane/doneaza-20/gallery-thumb.jpg",
+        "link": "caravane/doneaza-20.html",
+        "tag": "Caravane",
+        "date": "10 Noiembrie 2017",
+        "location": ""
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "În Caravana cu medici, spre capătul lumii",
+        "image": "assets/images/articole/thumb-2.jpg",
+        "link": "https://www.europafm.ro/in-caravana-cu-medici-spre-capatul-lumii/",
+        "tag": "Apariții media",
+        "date": "19 Mai 2017",
+        "location": "La sfârsit de saptamana, își iau stetoscopul, tensiometrul, ecograful sau electrocardiograful, se urcă în maşini şi merg în satele uitate de lume, doctori şi Dumnezeu.”"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 28",
+        "image": "assets/images/caravane/28/gallery-thumb.jpg",
+        "link": "caravane/28.html",
+        "tag": "Caravane",
+        "date": "26 Octombrie 2017",
+        "location": "Sânmartin, județul Bihor"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Medici voluntari pentru săteni cu frică de doctor",
+        "image": "assets/images/articole/thumb-3.jpg",
+        "link": "http://www.viata-medicala.ro/*articleID_12217-dArt.html",
+        "tag": "Apariții media",
+        "date": "26 august 2017",
+        "location": "Chiar dacă sarcinile pot fi cele mai bune pretexte pentru realizarea unui control ginecologic, la Teișani lucrurile nu stau chiar așa"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 27",
+        "image": "assets/images/caravane/27/gallery-thumb.jpg",
+        "link": "caravane/27.html",
+        "tag": "Caravane",
+        "date": "3 Octombrie 2017",
+        "location": "Țaga, județul Cluj"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 26",
+        "image": "assets/images/caravane/26/gallery-thumb.jpg",
+        "link": "caravane/26.html",
+        "tag": "Caravane",
+        "date": "21 August 2017",
+        "location": "Ciofeni, județul Vaslui"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 25",
+        "image": "assets/images/caravane/25/gallery-thumb.jpg",
+        "link": "caravane/25.html",
+        "tag": "Caravane",
+        "date": "30 Iulie 2017",
+        "location": "Slobozia, județul Ialomita"
+    }
+]
