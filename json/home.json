@@ -1,0 +1,55 @@
+[{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "2018 Yearly Report",
+        "image": "../assets/images/rapoarte/2018/thumb-home.jpg",
+        "link": "caravane/report2018.pdf",
+        "tag": "Reports",
+        "date": "31 December 2018",
+        "location": "In 2018 we managed to reach 21 villages in 12 counties, setting a record number of editions."
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 51",
+        "image": "../assets/images/caravane/51/thumb.jpg",
+        "link": "caravane/51.html",
+        "tag": "Caravane",
+        "date": "8 December 2018",
+        "location": "Valcău de Jos, Sălaj county"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 50",
+        "image": "../assets/images/caravane/50/thumb.jpg",
+        "link": "caravane/50.html",
+        "tag": "Caravane",
+        "date": "24 November 2018",
+        "location": "Cristinești, Botoșani county"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 49",
+        "image": "../assets/images/caravane/49/thumb.jpg",
+        "link": "caravane/49.html",
+        "tag": "Caravane",
+        "date": "10 November 2018",
+        "location": "Ieud, Maramureș county"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 48",
+        "image": "../assets/images/caravane/48/thumb.jpg",
+        "link": "caravane/48.html",
+        "tag": "Caravane",
+        "date": "10 November 2018",
+        "location": "Cireșoaia, Bacău county"
+    },
+    {
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 47",
+        "image": "../assets/images/caravane/47/thumb.jpg",
+        "link": "caravane/47.html",
+        "tag": "Caravane",
+        "date": "13 Octombrie 2018",
+        "location": "Comuna Rus, Sălaj county"
+    }
+]

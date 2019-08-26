@@ -1,5 +1,35 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 66",
+        "image": "../assets/img/caravane/66/gallery-thumb.jpg",
+        "link": "caravane/66.html",
+        "tag": "Caravan",
+        "date": "10th of August 2019",
+        "location": "Letea, Tulcea",
+        "testimonial": "",
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 64",
+        "image": "../assets/img/caravane/64/gallery-thumb.jpg",
+        "link": "caravane/64.html",
+        "tag": "Caravan",
+        "date": "20th of July 2019",
+        "location": "Stănișești, Bacau",
+        "testimonial": "I encountered children with diseases that could have been diagnosed right after birth or at least during the first years of life - somewhere there must have been a rupture between them and the health system. Before judging any of the parties involved (doctors or patients), I believe that any help they can get is a step forward. And it would be a shame not to help when possible. Elena-Lia Spoială MD, pediatrics resident",
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 61",
+        "image": "../assets/img/caravane/61/gallery-thumb.jpg",
+        "link": "caravane/61.html",
+        "tag": "Caravan",
+        "date": "6th of July 2019",
+        "location": "Poieni Solca, Suceava",
+        "testimonial": "",
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravan no. 58",
         "image": "../assets/img/caravane/58/gallery-thumb.jpg",
         "link": "caravane/58.html",

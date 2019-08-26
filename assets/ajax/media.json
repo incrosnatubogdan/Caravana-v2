@@ -1,5 +1,35 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 66",
+        "image": "assets/img/caravane/66/gallery-thumb.jpg",
+        "link": "caravane/66.html",
+        "tag": "Caravane",
+        "date": "10 august 2019",
+        "location": "Letea, TL",
+        "testimonial": "",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 64",
+        "image": "assets/img/caravane/64/gallery-thumb.jpg",
+        "link": "caravane/64.html",
+        "tag": "Caravane",
+        "date": "20 iulie 2019",
+        "location": "Stănișești, BC",
+        "testimonial": "Am întâlnit copii cu diagnostice care ar fi putut fi observate încă de la naștere sau măcar din primii ani de viață și totuși undeva s-a produs o ruptură între ei și sistemul de sănătate. Înainte de a judeca oricare dintre părți (medici sau pacienți), orice ajutor oferit cred că este un pas înainte. Și ar fi păcat să nu ajutăm atunci când putem face asta. -Elena-Lia Spoială, medic rezident pediatrie",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 61",
+        "image": "assets/img/caravane/61/gallery-thumb.jpg",
+        "link": "caravane/61.html",
+        "tag": "Caravane",
+        "date": "6 iulie 2019",
+        "location": "Poieni Solca, SV",
+        "testimonial": "",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 58",
         "image": "assets/img/caravane/58/gallery-thumb.jpg",
         "link": "caravane/58.html",
