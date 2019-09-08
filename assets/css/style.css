@@ -436,7 +436,7 @@ body input~nav>ul>li.social.facebook {
     background-repeat: no-repeat;
     background-position: 50%;
     left: 20px;
-    margin: 4vh 0 10px;
+    margin: 4vh auto 10px;
 }
 
 body input~nav>ul>li.social.instagram {
@@ -444,7 +444,7 @@ body input~nav>ul>li.social.instagram {
     background-repeat: no-repeat;
     background-position: 0%;
     left: 60px;
-    margin: 4vh 5px 10px 10px;
+    margin: 4vh auto 10px;
 }
 
 body input~nav>ul>li>a.social {
