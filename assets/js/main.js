@@ -263,6 +263,13 @@ $(document).ready(function () {
         $('.page-holder').removeClass('blur');
     });
 
+    jQuery(document).on("click", '.popup-newsletter .close', function (e) {
+        $(".popup-newsletter").hide("slow");
+        $('.page-holder').removeClass('blur');
+    });
+
+    jQuery(".popup-newsletter").show('slow');
+
     var $btns = $('.sorter').click(function () {
         if (this.id == 'all') {
             $('.team-member').fadeIn(450);

@@ -153,6 +153,26 @@ html,
     left: 50%;
 }
 
+.popup.newsletter_popup {
+    height: auto;
+    text-align: center;
+    position: relative;
+    padding: 40px 20px;
+}
+
+.popup.newsletter_popup > p {
+    padding: 5vh;
+    height: auto;
+    overflow: initial;
+    margin: 0;
+}
+
+.popup.newsletter_popup .close {
+    bottom: -54px;
+    top: auto;
+    left: 50%;
+}
+
 .close {
     position: absolute;
     top: 42px;
@@ -1299,6 +1319,29 @@ button.orange-bg {
 .overflow-row.gallery .element .icon {
     width: 40px;
     height: 40px;
+}
+
+#newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+#newsletter .input-holder {
+    display: flex;
+    align-items: center;
+}
+
+#newsletter .input-holder input {
+    border: 1px solid #DFE4EA;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#newsletter .input-holder img {
+    height: 50px;
+    cursor: pointer;
 }
 
 #full-statement {
