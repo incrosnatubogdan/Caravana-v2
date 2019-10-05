@@ -1226,6 +1226,37 @@ button.orange-bg {
     margin: 15px auto;
 }
 
+.donation_block.pago {
+  display: flex !important;
+  position: relative;
+}
+
+.donation_block.pago .pago--left {
+  background: url(../img/paypal/pago/pago_bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.donation_block.pago .pago--left .text-block{
+  text-align: left;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.donation_block.pago .pago--left .text-block h4{
+  padding-bottom: 20px;
+}
+
+.donation_block.pago .pago--left .text-block button{
+  max-width: fit-content;
+  margin: 20px 0 0;
+}
+
+.donation_block.pago .pago--right {
+  position: relative;
+}
+
 .donation-holder .shadow-block h3 {
     font-size: 20px;
 }
@@ -2374,6 +2405,30 @@ img.header {
 }
 
 @media screen and (max-width: 500px) {
+
+    .donation_block.pago {
+      width: 100% !important;
+    }
+
+    .donation_block.pago .pago--left {
+      background: url(../img/paypal/pago/pago_bg_m.png);
+      flex-direction: column;
+      background-size: 100% 110%;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .donation_block.pago .pago--left .text-block button {
+      margin: 20px auto 0;
+    }
+
+    .donation_block.pago .pago--left .text-block {
+      text-align: center;
+    }
+
+    .donation_block.pago .pago--right {
+      display: none;
+    }
 
     .donation-holder .shadow-block>.shadow-block a {
         font-size: 10px;
