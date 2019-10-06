@@ -95,18 +95,6 @@
       "facebook": "https://m.facebook.com/profile.php?id=1231797520&ref=content_filter#!/profile.php?id=1231797520&ref=content_filter"
    },
    {
-      "name": "Larisa Alexandra Gugulici",
-      "department": "Departament științific - București",
-      "position": "Scientific Department - Bucharest",
-      "testimonial": "Am ales Caravana cu Medici pentru că vroiam să ajung în mijlocul oamenilor. Vroiam să îi ascult, să le vorbesc, să îi ajut, să îi fac să prețuiască viața. Pentru că asta facem noi, Caravana cu Medici.",
-      "testimonial_en": "I have chosen Caravana cu Medici (Medical Doctors' Caravan) because I wanted to be closeer to people. I wanted to listen to them, talk to them, help them, make them cherish their lives. Because this is what we do.",
-      "job": "medic rezident anestezie și terapie intensivă",
-      "job_en": "MD, Anesthesiology and Intensive Care resident",
-      "image": "larisa-alexandra-gugulici.jpg",
-      "team": "bucuresti",
-      "facebook": "https://www.facebook.com/alexandralarisa.gugulici?fref=ts"
-   },
-   {
       "name": "Andreea Munteanu",
       "department": "Departament științific - București",
       "position": "Scientific Department - Bucharest",
@@ -455,6 +443,30 @@
       "facebook": "#"
    },
    {
+      "name": "Morariu Andrei",
+      "department": "Departament logistică - Filiala Cluj-Napoca",
+      "position": "Logistics Department - Cluj-Napoca Branch",
+      "testimonial": "Caravana cu medici reprezintă pentru mine un proiect unic, prin care chiar am simțit că ajut și că munca noastră este importantă.",
+      "testimonial_en": "For me, Medical Doctors' Caravan is a unique project, through it I've really felt like I am helping people and that our work is important. ",
+      "job": "medic rezident",
+      "job_en": "MD",
+      "image": "morariu-andrei.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/andrei.morariu.5"
+   },
+   {
+      "name": "Suteu Alexandru Teodor",
+      "department": "Departament Fundraising - Filiala Cluj-Napoca",
+      "position": "Fundraising Department -  Cluj-Napoca Branch",
+      "testimonial": "Cele mai frumoase momente din viata de voluntar al Caravanei sunt acelea in care esti fata in fata cu pacientul, un om simplu de la tara,  frumos si bland, usor reticent si emotionat. In acele clipe intelegi de ce ai vrut sa devii medic, stii ca ai potentialul si responsabilitatea de face viata oamenilor mai buna. Caravana cu Medici este una dintre acele ocazii speciale care te invata cat de usor poate fi sa daruiesti un zambet. Sunt onorat ca am oportunitatea de a participa la aceasta misiune care infrunta realitatea medicala romaneasca si nu isi intoarce spatele celor in nevoie. ",
+      "testimonial_en": "The most beautiful moments in the life of a volunteer are those when you look a patient in the eyes, a humble, gentle man, slightly hesitant and shy. In those moments you remember the reason you wanted to become a doctor and the fact that you have the potential and the responsibility to make people’s lives better. Caravana cu Medici is one of those special circumstances that teach you how gratifying it can be to gift someone a smile. I am honored to have the opportunity to participate in this mission that faces the Romanian healthcare reality and does not turn its back on those in need.    ",
+      "job": "Student Medicina ",
+      "job_en": "Medical Student",
+      "image": "suteu-alexandru.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/alexandru.suteu.7"
+   },
+   {
       "name": "Alexandru Tirpe",
       "department": "Departament Științific - Filiala Cluj-Napoca",
       "position": "Scientific Department - Cluj-Napoca Branch",
@@ -489,6 +501,17 @@
       "image": "stefana-maria-ciortea.jpg",
       "team": "cluj",
       "facebook": "https://www.facebook.com/profile.php?id=100004750037779"
+   },{
+      "name": "Pop Tudor Andrei",
+      "department": "Educație medicală - Filiala Cluj-Napoca",
+      "position": "Medical Education - Cluj-Napoca Branch",
+      "testimonial": "Mă bucură mult zilele de recrutări ale noilor voluntari, pentru că studenții și medicii vor avea ocazia să facă bine într-un mediu în care 'e normal să facem bine'. Pentru mine caravana este ca și un petic necesar în sistemul medical care reușește să tragă mai multe semnale de alarmă despre ceea ce se întâmplă în zonele rurale.",
+      "testimonial_en": "I enjoy the days of recruiting new volunteers, because students and doctors will have the opportunity to do well in an environment where 'it is normal to do well.' For me, the caravan is like a necessary patch in the medical system that manages to trigger several alarm signals about what is happening in rural areas.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "pop-tudor-andrei.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/tudor.pop193949194"
    },
    {
       "name": "Delia Chindriș",
