@@ -1,13 +1,13 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Votează Carvana cu Medici la secțiunea Sănătate și Sport",
-    "image": "assets/img/doneaza_pago.png",
-    "link": "https://doneaza.pago.ro/sustinerea-caravanelor-mobile-din-zone-rurale-sarace/",
-    "tag": "Doneaza",
-    "date": "26 august 2019",
-    "location": "",
-    "testimonial": "",
-    "icon": "assets/img/icon/like.svg"
+    "title": "Caravana nr. 67",
+    "image": "assets/img/caravane/67/gallery-thumb.jpg",
+    "link": "caravane/67.html",
+    "tag": "Caravane",
+    "date": "21 septembrie 2019",
+    "location": "Hilișeu-Horia, BT",
+    "testimonial": "O zi cu caravan e o investiție în viitor. În oameni. Mă readuce cu gândul că de asta facem ce facem, că medicina e cu și despre oameni. Compasiunea nu e demodata. Și oamenii contează. De fapt sunt tot ce contează. - Costescu Amelia, medic rezident obstetrică-ginecologie",
+    "icon": "assets/img/icon/caravane.svg"
 },{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravana nr. 66",
@@ -67,25 +67,5 @@
     "date": "16 Martie 2019",
     "location": "Stâna, SM",
     "testimonial": "",
-    "icon": "assets/img/icon/caravane.svg"
-}, {
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Mihai Ranete, fondatorul Caravanei cu medici: „Am primit foarte multe oferte să lucrez în străinătate...",
-    "image": "assets/img/caravane/articole/republica/gallery-thumb.jpg",
-    "link": "https://republica.ro/mihai-ranete-fondatorul-caravanei-cu-medici-zam-primit-foarte-multe-oferte-sa-lucrez-in-strainatate-dar",
-    "tag": "Apariții media",
-    "date": "21 Ianuarie 2019",
-    "location": "",
-    "testimonial": "",
-    "icon": "assets/img/icon/rapoarte.svg"
-}, {
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravana nr. 53",
-    "image": "assets/img/caravane/53/gallery-thumb.jpg",
-    "link": "caravane/53.html",
-    "tag": "Caravane",
-    "date": "2 Martie 2018",
-    "location": "Plugari, IS",
-    "testimonial": "Am contactat Caravana cu Medici din dorința de a ajuta persoanele vulnerabile din comunitate, dar nu m-am gândit la început că această echipă miunată de medici poate fi atât de promptă la solicitarea mea. Pentru mine și persoanele consultate sunteți o echipă minunată. Vă rog să o țineți tot așa pentru că se vede pe chipul personalului dorința de a ajuta.Mirela Sandu, asistent comunitar în comuna Plugari, jud. Iași",
     "icon": "assets/img/icon/caravane.svg"
 }]
