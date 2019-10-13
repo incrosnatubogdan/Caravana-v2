@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 68",
+    "image": "assets/img/caravane/68/gallery-thumb.jpg",
+    "link": "caravane/68.html",
+    "tag": "Caravane",
+    "date": "5 octombrie 2019",
+    "location": "Banca, VS",
+    "testimonial": "",
+    "icon": "assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravana nr. 67",
     "image": "assets/img/caravane/67/gallery-thumb.jpg",
     "link": "caravane/67.html",
@@ -47,25 +57,5 @@
     "date": "11 mai 2019",
     "location": "Crucea, IS",
     "testimonial": "Ziua de sâmbătă a fost un mic carusel sentimental. La fiecare Caravană, mă întristez când văd deficitul de educație sanitară din unele comunități, însă mă bucură că încă există oameni preocupați să schimbe asta.Sper să existe entuziasm și energie pentru alte sute de ediții ale Caravanei.Oana Butnaru - președinte Societatea Studenților Stomatologi Iași",
-    "icon": "assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravana nr. 57",
-    "image": "assets/img/caravane/57/gallery-thumb.jpg",
-    "link": "caravane/57.html",
-    "tag": "Caravane",
-    "date": "6 Aprilie 2019",
-    "location": "Oșești, VS",
-    "testimonial": "Chiar dacă la sfârșitul zilei energia fizică poate scădea dramatic, perioada ce urmează caravanei este incredibilă, întrucât capeți încredere în tine și în abilitățile medicale personale. Starea de spirit pe care o ai după ce ai făcut un bine cuiva nu se compară cu absolut nimic. Corina Varlam, voluntar Caravana cu Medici Iași",
-    "icon": "assets/img/icon/caravane.svg"
-}, {
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravana nr. 54",
-    "image": "assets/img/caravane/54/gallery-thumb.jpg",
-    "link": "caravane/54.html",
-    "tag": "Caravane",
-    "date": "16 Martie 2019",
-    "location": "Stâna, SM",
-    "testimonial": "",
     "icon": "assets/img/icon/caravane.svg"
 }]

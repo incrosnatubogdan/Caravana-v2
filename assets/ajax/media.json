@@ -1,5 +1,15 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 68",
+        "image": "assets/img/caravane/68/gallery-thumb.jpg",
+        "link": "caravane/68.html",
+        "tag": "Caravane",
+        "date": "5 octombrie 2019",
+        "location": "Banca, VS",
+        "testimonial": "",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 67",
         "image": "assets/img/caravane/67/gallery-thumb.jpg",
         "link": "caravane/67.html",

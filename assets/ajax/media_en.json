@@ -1,5 +1,15 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 68",
+        "image": "../assets/img/caravane/68/gallery-thumb.jpg",
+        "link": "caravane/68.html",
+        "tag": "Caravan",
+        "date": "5th of October 2019",
+        "location": "Banca, Vaslui",
+        "testimonial": "",
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravan no. 67",
         "image": "../assets/img/caravane/67/gallery-thumb.jpg",
         "link": "caravane/67.html",
