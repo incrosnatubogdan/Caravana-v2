@@ -1,12 +1,32 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 68",
+        "image": "assets/img/caravane/68/gallery-thumb.jpg",
+        "link": "caravane/68.html",
+        "tag": "Caravane",
+        "date": "5 octombrie 2019",
+        "location": "Banca, VS",
+        "testimonial": "",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 67",
+        "image": "assets/img/caravane/67/gallery-thumb.jpg",
+        "link": "caravane/67.html",
+        "tag": "Caravane",
+        "date": "21 septembrie 2019",
+        "location": "Hilișeu-Horia, BT",
+        "testimonial": "O zi cu caravan e o investiție în viitor. În oameni. Mă readuce cu gândul că de asta facem ce facem, că medicina e cu și despre oameni. Compasiunea nu e demodata. Și oamenii contează. De fapt sunt tot ce contează. - Costescu Amelia, medic rezident obstetrică-ginecologie",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 66",
         "image": "assets/img/caravane/66/gallery-thumb.jpg",
         "link": "caravane/66.html",
         "tag": "Caravane",
         "date": "10 august 2019",
         "location": "Letea, TL",
-        "testimonial": "",
+        "testimonial": "„Ne dorim să contribuim la creșterea accesului la medicină de specialitate pentru femeile din cea mai izolată comună din Delta Dunării. Nu am fi reuși să organizăm atât de repede și eficient evenimentul fără ajutorul Caravanei cu Medici și le mulțumim pentru efortul depus. A fost ca un adevărat maraton! Astfel de proiecte ar trebui să fie constantate și chiar asigurate de stat.” - Loredana Pană - coordonator de proiect Asociația Letea în UNESCO",
         "icon": "assets/img/icon/caravane.svg"
     },{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",

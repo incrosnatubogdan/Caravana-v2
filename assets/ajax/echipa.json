@@ -95,18 +95,6 @@
       "facebook": "https://m.facebook.com/profile.php?id=1231797520&ref=content_filter#!/profile.php?id=1231797520&ref=content_filter"
    },
    {
-      "name": "Larisa Alexandra Gugulici",
-      "department": "Departament științific - București",
-      "position": "Scientific Department - Bucharest",
-      "testimonial": "Am ales Caravana cu Medici pentru că vroiam să ajung în mijlocul oamenilor. Vroiam să îi ascult, să le vorbesc, să îi ajut, să îi fac să prețuiască viața. Pentru că asta facem noi, Caravana cu Medici.",
-      "testimonial_en": "I have chosen Caravana cu Medici (Medical Doctors' Caravan) because I wanted to be closeer to people. I wanted to listen to them, talk to them, help them, make them cherish their lives. Because this is what we do.",
-      "job": "medic rezident anestezie și terapie intensivă",
-      "job_en": "MD, Anesthesiology and Intensive Care resident",
-      "image": "larisa-alexandra-gugulici.jpg",
-      "team": "bucuresti",
-      "facebook": "https://www.facebook.com/alexandralarisa.gugulici?fref=ts"
-   },
-   {
       "name": "Andreea Munteanu",
       "department": "Departament științific - București",
       "position": "Scientific Department - Bucharest",
@@ -119,6 +107,18 @@
       "facebook": "https://www.facebook.com/muntii.andreea?fref=ts"
    },
    {
+      "name": "Mocanu Valentin-Dumitrel",
+      "department": "Departament științific - București",
+      "position": "Scientific Department - Bucharest",
+      "testimonial": "Caravana deține o parte din principiile pe care le apreciez: faptul că nu e despre mine, e despre oamenii care într-adevar au nevoie de fiecare fărâmă de ajutor pe care o pot primi, faptul că poți contribui la bunăstarea omului și de multe ori să fii persoana care îi oferă sprijinul psihologic care poate îi lipsește. Pe de altă parte, acest proiect mă ajută să-mi dezvolt abilitățile de comunicare, să ajung să înțeleg și să ajut cât mai mult omul din fața mea. Pentru mine reprezintă o bucurie faptul că pot aduce un ajutor acestui proiect, deoarece consider că este una din modalitățile prin care societatea de mâine va arăta puțin mai bine față de cea de azi.",
+      "testimonial_en": "The caravan represents some of the principles I appreciate: it's not about me, it's about the people who really need every bit of help they can get, the fact that you can contribute to human well-being and often be the person who offers him the psychological support he may lack. On the other hand, this project helps me develop my communication skills and to get to understand and help the person that stands in front of me as much as possible. For me it is a joy that I can help this project, because I think it is one of the ways that tomorrow's society will look a little better than today’s.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "mocanu-valentin.jpg",
+      "team": "bucuresti",
+      "facebook": "https://www.facebook.com/vali.mocanu.372"
+   },
+   {
       "name": "Domuncu Tiberiu",
       "department": "Departament științific - București",
       "position": "Scientific Department - Bucharest",
@@ -129,6 +129,18 @@
       "image": "domuncu-tiberiu.jpg",
       "team": "bucuresti",
       "facebook": "https://www.facebook.com/photo.php?fbid=10211182224687061&set=a.1487548584290&type=3&theater"
+   },
+   {
+      "name": "Adămescu Diana-Mihaela ",
+      "department": "Departament științific - București",
+      "position": "Scientific Department - Bucharest",
+      "testimonial": "Caravana cu Medici este proiectul care a apărut în viața mea la momentul potrivit. Am reușit să îmi dezvolt  abilități pe care nu știam că le aveam. Ulterior, am realizat că există locuri în sufletul fiecărui om care pot fi descoperite tocmai prin astfel de experiențe. Faptul că reușim să facem un bine unor oameni care au nevoie de ajutor, reprezintă poate cel mai frumos sentiment care poate să apară în viața unui viitor medic.",
+      "testimonial_en": "Caravana cu Medici (Medical Doctors' Caravan) is a project that appeared in my life at the right time. I have managed to develop abilities that I did not know I possessed. There are many things to discover through this experience. The fact that we can do good for the people who are in need, gives a great feeling for us - future doctors.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "adamescu-diana.jpg",
+      "team": "bucuresti",
+      "facebook": "https://www.facebook.com/adamescu.diana.3"
    },
    {
       "name": "Alexandra Ivan ",
@@ -203,6 +215,30 @@
       "facebook": "https://www.facebook.com/dasha.skolozubova"
    },
    {
+      "name": "Ciocoiu Madalin-Georgian",
+      "department": "Departament Logistică - București",
+      "position": "Logistics Department - Bucharest",
+      "testimonial": "Caravana cu Medici reprezintă cel mai potrivit proiect pentru persoanele care doresc să ajute neconditionat oamenii aflați în suferință. Atmosfera de echipă și implicarea tuturor te face să evoluezi și să îți dezvolți noi abilități atât individuale cât și de echipă. Dorința de a ajuta oamenii aflați în suferință, reprezintă cea mai nobilă meserie. ",
+      "testimonial_en": "Caravana cu Medici (Medical Doctors' Caravan) is the most suitable project for people who want to help other people in distress, unconditionally. The team atmosphere and the involvement of everyone makes you evolve and develop new skills both individually and as a team. The desire to help people in need is the noblest job.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "ciocoiu-madalin.jpg",
+      "team": "bucuresti",
+      "facebook": "https://www.facebook.com/cronos.madalyn"
+   },
+   {
+      "name": "Gheorghe Catalin Daniel",
+      "department": "Departament Logistică - București",
+      "position": "Logistics Department - Bucharest",
+      "testimonial": "M-am înscris în caravană pentru a contribui cu ceva util îm societate, să îmi dezvolt simțul clinic și să lucrez în echipă.",
+      "testimonial_en": "I joined the Caravan to be able to contribute to society, to upgrade my clinical and team skills. ",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "gheorghe-catalin.jpg",
+      "team": "bucuresti",
+      "facebook": "https://www.facebook.com/catalin.gheorghe.5"
+   },
+   {
       "name": "Vlad Gheorghiu",
       "department": "Coordonator Adjunct - Iași",
       "position": "Vice-coordinator - Iași branch",
@@ -273,6 +309,18 @@
       "image": "laua-elena-mitrofan.jpg",
       "team": "iasi",
       "facebook": "#"
+   },
+   {
+      "name": "Varlam Corina - Ioana",
+      "department": "Fundraising - Iași",
+      "position": "Fundraising - Iași Branch",
+      "testimonial": "Şansa de a mă implica în Caravana cu Medici reprezintă pentru mine o modalitate de a mă descoperi şi de a mă forma atât ca om, cât şi ca medic. Fiind deschis să-ţi oferi sufletul şi experienţa pentru a face bine în jurul tău este, aşa cum menţiona şi Albert Einstein, singurul mod de a simţi că trăieşti în adevăratul sens al cuvântului, iar înţelegerea acestui simplu mecanism te va face să realizezi că viaţa este o călătorie plină de daruri prin care, dacă eşti dispus să le împarţi, poţi contribui la starea de bine a multora din jurul tău. Momentele petrecute în Caravană semnifică pentru mine o sursă incredibilă de energie, iar fiecare  „Mulţumesc!” a pacienţilor consultaţi, un imbold de a continua să dăruim. ",
+      "testimonial_en": "In my case, the chance of being part of the Caravan, is a way to discover myself and to shape myself as a human and as a medical doctor. As Albert Einstein also mentions, being able to offer your soul and experience in order to do good things for the people around you is the only way to feel alive,  in the true sense of the word. Understanding this simple mechanism will make you realize that life is a journey full of gifts through which, if you are able to share them, you can contribute to the well-being of many people around you. The moments spent in the Caravan are for me an incredible source of energy and every „Thank you!” from the examined patients is an impulse to continue to offer.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "corina-varlam.jpg",
+      "team": "iasi",
+      "facebook": "https://www.facebook.com/corina.varlam"
    },
    {
       "name": "Lorena Aneculei",
@@ -443,6 +491,30 @@
       "facebook": "#"
    },
    {
+      "name": "Morariu Andrei",
+      "department": "Departament logistică - Filiala Cluj-Napoca",
+      "position": "Logistics Department - Cluj-Napoca Branch",
+      "testimonial": "Caravana cu medici reprezintă pentru mine un proiect unic, prin care chiar am simțit că ajut și că munca noastră este importantă.",
+      "testimonial_en": "For me, Medical Doctors' Caravan is a unique project, through it I've really felt like I am helping people and that our work is important. ",
+      "job": "medic rezident",
+      "job_en": "MD",
+      "image": "morariu-andrei.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/andrei.morariu.5"
+   },
+   {
+      "name": "Suteu Alexandru Teodor",
+      "department": "Departament Fundraising - Filiala Cluj-Napoca",
+      "position": "Fundraising Department -  Cluj-Napoca Branch",
+      "testimonial": "Cele mai frumoase momente din viata de voluntar al Caravanei sunt acelea in care esti fata in fata cu pacientul, un om simplu de la tara,  frumos si bland, usor reticent si emotionat. In acele clipe intelegi de ce ai vrut sa devii medic, stii ca ai potentialul si responsabilitatea de face viata oamenilor mai buna. Caravana cu Medici este una dintre acele ocazii speciale care te invata cat de usor poate fi sa daruiesti un zambet. Sunt onorat ca am oportunitatea de a participa la aceasta misiune care infrunta realitatea medicala romaneasca si nu isi intoarce spatele celor in nevoie. ",
+      "testimonial_en": "The most beautiful moments in the life of a volunteer are those when you look a patient in the eyes, a humble, gentle man, slightly hesitant and shy. In those moments you remember the reason you wanted to become a doctor and the fact that you have the potential and the responsibility to make people’s lives better. Caravana cu Medici is one of those special circumstances that teach you how gratifying it can be to gift someone a smile. I am honored to have the opportunity to participate in this mission that faces the Romanian healthcare reality and does not turn its back on those in need.    ",
+      "job": "Student Medicina ",
+      "job_en": "Medical Student",
+      "image": "suteu-alexandru.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/alexandru.suteu.7"
+   },
+   {
       "name": "Alexandru Tirpe",
       "department": "Departament Științific - Filiala Cluj-Napoca",
       "position": "Scientific Department - Cluj-Napoca Branch",
@@ -453,6 +525,30 @@
       "image": "tirpe-alexandru.jpg",
       "team": "cluj",
       "facebook": "#"
+   },
+   {
+      "name": "Groza Andrei",
+      "department": "Departament Științific - Filiala Cluj-Napoca",
+      "position": "Scientific Department - Cluj-Napoca Branch",
+      "testimonial": "Îmi place proiectul Caravana cu Medici pentru că îmi amintește de ce am ales Medicina, de ce am ales să lucrez cu oamenii și de ce am ales să ajut.",
+      "testimonial_en": "I like the Caravana cu Medici (Medical Doctors' Caravan) project because it reminds me why I chose Medicine, why I chose to work with people and why I chose to help.",
+      "job": "medic specialist gastroenterologie și hepatologie",
+      "job_en": "MD, Gastroenterology specialist",
+      "image": "groza-andrei.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/andrei.groza.56"
+   },
+   {
+      "name": "Andreea-Alexandra Aldea",
+      "department": "Departament Științific - Filiala Cluj-Napoca",
+      "position": "Scientific Department - Cluj-Napoca Branch",
+      "testimonial": "Caravana cu Medici este cu și despre oameni. Este un sentiment minunat să lucrezi în echipă pentru a oferi ajutorul acolo unde serviciile medicale sunt greu accesibile, unde oamenii își duc cu greu, dar cu vitejie boala, acolo unde primim zâmbete atât de calde și recunoștință sincera. Împreuna alcătuim o familie, împreună pornim la drum în zone ale României rurale, încărcate de tradție și îimpreuna muncim entuziaști pentru a face un bine.",
+      "testimonial_en": "Caravana cu Medici (Medical Doctors' Caravan) is with and about people. It is a wonderful feeling to work as a team to provide help where medical services are hard to be reached, where people hardly cope with their disease, where we receive such warm smiles and sincere gratitude. Together we form a family, together we set out on the road in the rural, traditional, Romania and together we work enthusiastically to do good.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "andreea-aldea.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/alexandra.aldea.5815"
    },
    {
       "name": "Irina-Maria Stoleru ",
@@ -477,6 +573,29 @@
       "image": "stefana-maria-ciortea.jpg",
       "team": "cluj",
       "facebook": "https://www.facebook.com/profile.php?id=100004750037779"
+   },{
+      "name": "Pop Tudor Andrei",
+      "department": "Educație medicală - Filiala Cluj-Napoca",
+      "position": "Medical Education - Cluj-Napoca Branch",
+      "testimonial": "Mă bucură mult zilele de recrutări ale noilor voluntari, pentru că studenții și medicii vor avea ocazia să facă bine într-un mediu în care 'e normal să facem bine'. Pentru mine caravana este ca și un petic necesar în sistemul medical care reușește să tragă mai multe semnale de alarmă despre ceea ce se întâmplă în zonele rurale.",
+      "testimonial_en": "I enjoy the days of recruiting new volunteers, because students and doctors will have the opportunity to do well in an environment where 'it is normal to do well.' For me, the caravan is like a necessary patch in the medical system that manages to trigger several alarm signals about what is happening in rural areas.",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "pop-tudor-andrei.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/tudor.pop193949194"
+   },
+   {
+      "name": "Chereches Mircea Raul",
+      "department": "Educație medicală - Filiala Cluj-Napoca",
+      "position": "Medical Education - Cluj-Napoca Branch",
+      "testimonial": "Caravana cu Medici este proiectul meu de suflet. Nevoia de a ajuta oamenii care nu au acces la sistemul medical m-a îndemnat mereu să caut oportunități de voluntariat, iar Caravana cu Medici este proiectul care se muleaza cel mai bine pe aceasta nevoie. ",
+      "testimonial_en": "Caravana cu Medici (Medical Doctors' Caravan) is my soul project. The need to help people who do not have access to the medical system has always encouraged me to seek volunteering opportunities, and Caravana cu Medici is the project that best fits this need.",
+      "job": "medic rezident obstetrică ginecologie",
+      "job_en": "MD, OBGYN",
+      "image": "chereches-mircea.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/mircea.raul.50"
    },
    {
       "name": "Delia Chindriș",
@@ -489,6 +608,18 @@
       "image": "delia-chindris.jpg",
       "team": "cluj",
       "facebook": "https://www.facebook.com/delia.chindris"
+   },
+   {
+      "name": "Fara Miruna-Lavinia",
+      "department": "Resurse Umane - Filiala Cluj-Napoca",
+      "position": "Human Resources - Cluj-Napoca Branch",
+      "testimonial": "Profesiunea de medic presupune prin natura ei gesturi și acțiuni nobile. Din punctul meu de vedere Caravana cu Medici este o acțiune nobilă, de aceea doresc sa ma implic cât de activ se poate în acest proiect. Este pentru șansa tuturor oamenilor de a beneficia de gesturi medicale și de a investi în educația acestora.",
+      "testimonial_en": "Being a doctor doing means noble things. For me, Caravana cu Medici (Medical Doctors' Caravan) is a noble action. It's a chance fir everyone to be examined and treated by doctors. ",
+      "job": "student medicină",
+      "job_en": "medical student",
+      "image": "fara-miruna.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/miruna.fara"
    },
    {
       "name": "Claudia Negrea ",
