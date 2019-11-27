@@ -1,12 +1,32 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 75",
+        "image": "../assets/img/caravane/75/gallery-thumb.jpg",
+        "link": "caravane/75.html",
+        "tag": "Caravan",
+        "date": "16th of November 2019",
+        "location": "Valea Ursului, Neamț",
+        "testimonial": "For me, Saturday was an opportunity to really know why I opted for this university. I've discovered that besides studying there is also the pride you feel after you've helped someone in need. The patients left with a diagnosis, but I left with new personal values which I couldn't attain other than by participating in this volunteering experience. ",
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 74",
+        "image": "../assets/img/caravane/74/gallery-thumb.jpg",
+        "link": "caravane/74.html",
+        "tag": "Caravan",
+        "date": "15th of November 2019",
+        "location": "Valea Mare, Dâmbovița",
+        "testimonial": "Thank you! We, the PetroMed team, are proud to have partnered up with you last weekend in Valea Mare! Working together, we better understood the actual value of your project, which is a great example of volunteering and medical service for disadvataged communities!",
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravan no. 68",
         "image": "../assets/img/caravane/68/gallery-thumb.jpg",
         "link": "caravane/68.html",
         "tag": "Caravan",
         "date": "5th of October 2019",
         "location": "Banca, Vaslui",
-        "testimonial": "",
+        "testimonial": "It has been a very beutiful experience, different from the day to day hospital work. I believe these kind of activities encourage you to develop both as a person and as a doctor and to find quick solutions in the given situations. ",
         "icon": "../assets/img/icon/caravane.svg"
     },{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",

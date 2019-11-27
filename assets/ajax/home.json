@@ -1,5 +1,25 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravan no. 75",
+    "image": "../assets/img/caravane/75/gallery-thumb.jpg",
+    "link": "caravane/75.html",
+    "tag": "Caravan",
+    "date": "16th of November 2019",
+    "location": "Valea Ursului, Neamț",
+    "testimonial": "For me, Saturday was an opportunity to really know why I opted for this university. I've discovered that besides studying there is also the pride you feel after you've helped someone in need. The patients left with a diagnosis, but I left with new personal values which I couldn't attain other than by participating in this volunteering experience. ",
+    "icon": "../assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravan no. 74",
+    "image": "../assets/img/caravane/74/gallery-thumb.jpg",
+    "link": "caravane/74.html",
+    "tag": "Caravan",
+    "date": "15th of November 2019",
+    "location": "Valea Mare, Dâmbovița",
+    "testimonial": "Thank you! We, the PetroMed team, are proud to have partnered up with you last weekend in Valea Mare! Working together, we better understood the actual value of your project, which is a great example of volunteering and medical service for disadvataged communities!",
+    "icon": "../assets/img/icon/caravane.svg"
+}{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravan no. 68",
     "image": "../assets/img/caravane/68/gallery-thumb.jpg",
     "link": "caravane/68.html",
@@ -28,75 +48,4 @@
     "location": "Letea, Tulcea",
     "testimonial": "We want to increase access to specialized medicine for the women who live in the most isolated community of the Danube Delta. We would not have been able to organize the event so quickly and efficiently without the help of the Caravan cu Medici (Medical Doctors’ Caravan) and we are grateful for their effort. It was a true marathon! Such projects should happen constantly and even become guaranteed by the state. - Loredana Pană –  project manager for Letea in UNESCO Association",
     "icon": "../assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravan no. 64",
-    "image": "../assets/img/caravane/64/gallery-thumb.jpg",
-    "link": "caravane/64.html",
-    "tag": "Caravan",
-    "date": "20th of July 2019",
-    "location": "Stănișești, Bacau",
-    "testimonial": "I encountered children with diseases that could have been diagnosed right after birth or at least during the first years of life - somewhere there must have been a rupture between them and the health system. Before judging any of the parties involved (doctors or patients), I believe that any help they can get is a step forward. And it would be a shame not to help when possible. Elena-Lia Spoială MD, pediatrics resident",
-    "icon": "../assets/img/icon/caravane.svg"
-},{
-        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-        "title": "Caravan no. 58",
-        "image": "../assets/img/caravane/58/gallery-thumb.jpg",
-        "link": "caravane/58.html",
-        "tag": "Caravan",
-        "date": "11th of May 2019",
-        "location": " Crucea, Iași",
-        "testimonial": "Saturday's Caravan was a true sentimental mountain rousse. With every Caravan, I find myself sad when I awknowledge the lack of health education in some communities, but at the same time I am happy that there are still people who are concerned about changing this.I hope there will be enough enthusiasm and energy for at least a hundred more editions.Oana Burnaru - president of Societatea Studențească de Stomatologie Iași (Dentistry Students' Society Iași)",
-        "icon": "../assets/img/icon/caravane.svg"
-    }, {
-        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-        "title": "Caravan no. 57",
-        "image": "../assets/img/caravane/57/gallery-thumb.jpg",
-        "link": "caravane/57.html",
-        "tag": "Caravan",
-        "date": "6th of April 2019",
-        "location": "Oșești, Vaslui",
-        "testimonial": "Even if the physical energy can decrease dramatically at the end of the day, the period following the caravan is incredible, as you learn to trust yourself and your medical skills. The state of mind that you have after helping so many people doesn't compare to anything.Corina Varlam, Caravana cu Medici Iași volunteer",
-        "icon": "../assets/img/icon/caravane.svg"
-    }, {
-        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-        "title": "Caravan no. 54",
-        "image": "../assets/img/caravane/54/gallery-thumb.jpg",
-        "link": "caravane/54.html",
-        "tag": "Caravan",
-        "date": "16th of March 2019",
-        "location": "Stâna, Satu Mare",
-        "testimonial": "",
-        "icon": "../assets/img/icon/caravane.svg"
-    }, {
-        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-        "title": "Caravan no. 53",
-        "image": "../assets/img/caravane/53/gallery-thumb.jpg",
-        "link": "caravane/53.html",
-        "tag": "Caravan",
-        "date": "2nd of March 2019",
-        "location": "Plugari, Iași",
-        "testimonial": "",
-        "icon": "../assets/img/icon/caravane.svg"
-    }, {
-        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-        "title": "Caravan no. 52",
-        "image": "../assets/img/caravane/52/gallery-thumb.jpg",
-        "link": "caravane/52.html",
-        "tag": "Caravan",
-        "date": "23rd of February 2019",
-        "location": "Găiceana, Bacău",
-        "testimonial": "The satisfaction I felt when helping the patients is enormous. We do not feel it very often during our daily jobs because of all the rushing and the struggling with the bureaucracy and we forget that there is this beautiful part to the medical profession.Andreea Teodorescu MD, gastroenterology resident",
-        "icon": "../assets/img/icon/caravane.svg"
-    }, {
-        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-        "title": "Caravan no. 51",
-        "image": "../assets/img/caravane/51/gallery-thumb.jpg",
-        "link": "caravane/51.html",
-        "tag": "Caravan",
-        "date": "8th of December 2018",
-        "location": "Valcău de Jos, Sălaj",
-        "testimonial": "",
-        "icon": "../assets/img/icon/caravane.svg"
-    }
-]
+}]
