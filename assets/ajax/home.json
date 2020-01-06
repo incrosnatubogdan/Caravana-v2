@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Activity report 2019",
+    "image": "../assets/img/about-us/report2019.jpg",
+    "link": "../assets/img/about-us/report2019.pdf",
+    "tag": "Annual report",
+    "date": "6th of January 2020",
+    "location": "",
+    "testimonial": "In 2019 we managed to reach 25 villages in 12 counties, setting a record number of editions.",
+    "icon": "../assets/img/icon/rapoarte.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravan no. 75",
     "image": "../assets/img/caravane/75/gallery-thumb.jpg",
     "link": "caravane/75.html",
@@ -18,7 +28,7 @@
     "location": "Valea Mare, Dâmbovița",
     "testimonial": "Thank you! We, the PetroMed team, are proud to have partnered up with you last weekend in Valea Mare! Working together, we better understood the actual value of your project, which is a great example of volunteering and medical service for disadvataged communities!",
     "icon": "../assets/img/icon/caravane.svg"
-}{
+},{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravan no. 68",
     "image": "../assets/img/caravane/68/gallery-thumb.jpg",

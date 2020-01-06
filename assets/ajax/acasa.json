@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Raport de activitate 2019",
+    "image": "assets/img/about-us/raport2019.jpg",
+    "link": "assets/img/about-us/raport2019.pdf",
+    "tag": "Raport anual",
+    "date": "6 ianuarie 2020",
+    "location": "",
+    "testimonial": "În 2019  am reușit să ajungem în 25 de sate din 12 județe, stabilind un record al edițiilor.",
+    "icon": "assets/img/icon/rapoarte.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravana nr. 75",
     "image": "assets/img/caravane/75/gallery-thumb.jpg",
     "link": "caravane/75.html",
