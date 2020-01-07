@@ -672,6 +672,13 @@ div.grid {
     position: relative;
 }
 
+.overflow-row .element.report img.cover {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .overflow-row .element span {
     line-height: 23px;
     padding: 2%;
@@ -2432,7 +2439,7 @@ img.header {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .overflow-row .element {
         min-width: 94%;
     }
