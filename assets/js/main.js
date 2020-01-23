@@ -216,10 +216,10 @@ function setCookie(name,value,days) {
 $(document).ready(function () {
     var fullWidth = $("body").width();
     
-    // var hasCookie = getCookie("hascookie");
-    // if (hasCookie != "true") {
-    //     $("body").append('<div class="cookieBubble"><div class="cb-wrapper"><div class="cb-row"><div class="cb-message"><img src="assets/img/cookie.svg"><span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="privacy.html">Learn More</a></span><a href="javascript:void(0)" class="gotit-btn">GOT IT!</a></div></div></div></div>');
-    // }
+    var hasCookie = getCookie("hascookie");
+    if (hasCookie != "true") {
+        $("body").append('<div class="cookieBubble"><div class="cb-wrapper"><div class="cb-row"><div class="cb-message"><img src="assets/img/cookie.svg"><span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="privacy.html">Learn More</a></span><a href="javascript:void(0)" class="gotit-btn">GOT IT!</a></div></div></div></div>');
+    }
 
     jQuery(document).on("click",".gotit-btn", function (e) {
         jQuery(".cookieBubble").remove();
