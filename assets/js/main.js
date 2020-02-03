@@ -218,7 +218,7 @@ $(document).ready(function () {
     
     var hasCookie = getCookie("hascookie");
     if (hasCookie != "true") {
-        $("body").append('<div class="cookieBubble"><div class="cb-wrapper"><div class="cb-row"><div class="cb-message"><img src="assets/img/cookie.svg"><span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="privacy.html">Learn More</a></span><a href="javascript:void(0)" class="gotit-btn">GOT IT!</a></div></div></div></div>');
+        $("body").append('<div class="cookieBubble"><div class="cb-wrapper"><div class="cb-row"><div class="cb-message"><img src="assets/img/cookie.svg"><span>Folosim cookie-uri pentru a vă personaliza experiența. Continuând să vizitați acest site web, sunteți de acord cu utilizarea noastră de cookie-uri. <a href="privacy.html">Aflați mai multe</a></span><a href="javascript:void(0)" class="gotit-btn">GOT IT!</a></div></div></div></div>');
     }
 
     jQuery(document).on("click",".gotit-btn", function (e) {

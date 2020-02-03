@@ -2886,7 +2886,8 @@ div.search-holder {
 
 .cookieBubble {
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
+    left: 10px;
     width: 400px;
     min-height: 100px;
     border-radius: 10px;
@@ -2973,7 +2974,7 @@ div.search-holder {
 
 .cookieBubble .cb-wrapper .cb-row .cb-message span {
     position: relative;
-    width: 70%;
+    width: 80%;
     display: inline-block;
     color: #000;
     font-size: 18px;
