@@ -1,14 +1,13 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Activity report 2019",
-    "image": "../assets/img/about-us/report2019.jpg",
-    "link": "../assets/img/about-us/report2019.pdf",
-    "class": "report",
-    "tag": "Annual report",
-    "date": "6th of January 2020",
-    "location": "",
-    "testimonial": "In 2019 we managed to reach 25 villages in 12 counties, setting a record number of editions.",
-    "icon": "../assets/img/icon/rapoarte.svg"
+    "title": "Caravan no. 77",
+    "image": "../assets/img/caravane/77/gallery-thumb.jpg",
+    "link": "caravane/77.html",
+    "tag": "Caravan",
+    "date": "15th of February 2020",
+    "location": "Sucevița, Suceava",
+    "testimonial": "Everything happened so fast and it was only at the end of the day that I realized I was no longer feeling my feet. Some children had a visual acuity 0.3 or 0.4 and had never been to an ophthalmology consultation. In the Caravan they were able to receive a prescription and some guidance. <br>I would gladly return to the Caravan!" ,
+    "icon": "../assets/img/icon/caravane.svg"
 },{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravan no. 75",
@@ -51,15 +50,5 @@
     "date": "21st of September 2019",
     "location": "Hilișeu-Horia, Botoșani",
     "testimonial": "A day spent with the Caravana cu Medici (Medical Doctors' Caravan) is an investment for the future. It's an invesment in people. It reminds me why we do what we do, that medicine is with and about people. Compasion is not out of style. People matter. In fact they're all that matters. - Costescu Amelia MD, Obstetrics and Gynecology resident",
-    "icon": "../assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravan no. 66",
-    "image": "../assets/img/caravane/66/gallery-thumb.jpg",
-    "link": "caravane/66.html",
-    "tag": "Caravan",
-    "date": "10th of August 2019",
-    "location": "Letea, Tulcea",
-    "testimonial": "We want to increase access to specialized medicine for the women who live in the most isolated community of the Danube Delta. We would not have been able to organize the event so quickly and efficiently without the help of the Caravan cu Medici (Medical Doctors’ Caravan) and we are grateful for their effort. It was a true marathon! Such projects should happen constantly and even become guaranteed by the state. - Loredana Pană –  project manager for Letea in UNESCO Association",
     "icon": "../assets/img/icon/caravane.svg"
 }]

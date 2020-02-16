@@ -1,0 +1,99 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <script src="../assets/js/jquery-2.1.3.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/media.js"></script>
+
+  <script>
+    $(document).ready(function () {
+          var noOfImg = 7;
+          var caravanNo = 77;
+          for (var i=1; i<noOfImg+1; i++){
+              $('div.row').append('<div class="image"><div class="img-wrapper"><a href="../assets/img/caravane/'+caravanNo+'/'+i+'.jpg"><img src="../assets/img/caravane/'+caravanNo+'/'+i+'.jpg" class="img-responsive"></a><div class="img-overlay"></div></div></div>');
+          }
+    });
+  
+  </script>
+
+  <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/gallery.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-holder">
+    <nav class="menu">
+      <a href="../en/index.html" class="lang">EN</a>
+      <a class="logo" href="../index.html">
+        <img src="../assets/img/logo.png">
+      </a>
+      <input id="burger" type="checkbox" />
+      <label id="burger-menu" for="burger">
+        <span class="horizontal"></span>
+        <img class="burger-img" src="../assets/img/burger.png">
+        <span class="vertical"></span>
+      </label>
+      <nav id="navigation">
+        <ul class="navigation-ul">
+        </ul>
+      </nav>
+    </nav>
+    <div class="main container caravan">
+      <h3 class="team-title blue-c uppercase show-title">Caravana 77 - Sucevița, SV</h3>
+      <a class="facebook gallery" href="https://www.facebook.com/pg/CaravanaCuMedici/photos/?tab=album&album_id=2901145383277459&__xts__%5B0%5D=68.ARD9zXJyGm_vwgA2qBCgLlG-7JQlAdd312anzNLAEbZPxq9u0gKW1YPIwtRSdunsHCT3gTQm56JfPfhTI49JYW0giQj_bN01nCVfNt43eS4-onLXBYz_8BqmRNjaUV-ZsZotrIvQWCe0WukgA3p51flE1mOYXhhF1XbTj6IRzde8Oo2a05-f8pxeBbanM6wziA1Ngt54lL8ZIzhJtUyliNViVGGhpNcDqgLkC93B2dmm9k217CYxpCw3wBaHc8lJXgTvrgNBFVuAic2lppOauJoAyAF4l2PfPF-SKJ6rms0gtLDIR9PV8WYdfxG6VieNSWhFJzWfaTg3FFGvxR9J-tUYlXRzkqrY6n1RBkUyxBoXE7qqJzxKTsDIdTCzCuJFaXsPtxItTCk-Dy6Q7QmaY_pfS6zBSw65oa-gB-3Y83x6xv7O0x3Tr_cTB9EAflRS06fHHJjSQ_77bOo84zhc&__tn__=-UC-R">
+        <img src="../assets/img/social/facebook-blue.svg">
+      </a>
+      <p class="blue-c">"A fost obositor și totodată foarte rapid totul, abia la final de zi mi-am dat seama că nu îmi mai simt picioarele. Câțiva copilași aveau vedere de 0,3 sau 0,4, nu fuseseră niciodată la un consult oftalmologic și acum au putut primi o rețetă de ochelari, o îndrumare.
+        <br><br>
+        M-aș bucura să mai revin în Caravană!"
+          <br><br>
+            <b>Cristiana Tăpăloagă, medic rezident oftalmologie</b>
+      </p>
+      <section id="gallery">
+        <div class="container">
+          <div id="image-gallery">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img>
+        <p class="quote">
+          „Doar o viață trăită pentru alții este o viață care merită trăită" <br>
+          - Albert Einstein
+      </p>
+        <p class="copyright">Crafted with ❤️ by Tac-Tic Studio &copy; 2019</p>
+        <nav class="menu">
+          <input id="burger" type="checkbox" />
+          <label id="burger-menu" for="burger">
+            <span class="horizontal"></span>
+            <img class="burger-img" src="../assets/img/burger.png">
+            <span class="vertical"></span>
+          </label>
+          <nav id="navigation">
+            <ul class="navigation-ul">
+                <a class="logo" href="../index.html">
+                  <img src="../assets/img/logo.png">
+                </a>
+              <p class="follow-us uppercase">Urmărește-ne</p>
+            </ul>
+          </nav>
+        </nav>
+      </footer>
+    </div>
+  </div>
+  <div id="popup" class="popup-overlay">
+    <div class="popup">
+      <div class="close">
+        <span class="horizontal"></span>
+        <span class="vertical"></span>
+      </div>
+      <p id="full-testimonial"></p>
+    </div>
+  </div>
+
+</body>
