@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravan no. 78",
+    "image": "../assets/img/caravane/78/gallery-thumb.jpg",
+    "link": "caravane/78.html",
+    "tag": "Caravan",
+    "date": "22nd of February 2020",
+    "location": "Motoșeni, Bacău",
+    "testimonial": "In Motoșeni I had the feeling that all the sacrifices we make to become doctors have a purpose. I'm happy to have been able to help with a simple EKG or a piece of advice. The Caravan, seen through the eyes of a second year med student, is not only a volunteering opportunity but also a close group of doctors and students who do their best for a small community where access to medical services is poor.</br>Mălina Epure, Caravana cu Medici Iași volunteer" ,
+    "icon": "../assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravan no. 77",
     "image": "../assets/img/caravane/77/gallery-thumb.jpg",
     "link": "caravane/77.html",
@@ -29,26 +39,5 @@
     "date": "15th of November 2019",
     "location": "Valea Mare, Dâmbovița",
     "testimonial": "Thank you! We, the PetroMed team, are proud to have partnered up with you last weekend in Valea Mare! Working together, we better understood the actual value of your project, which is a great example of volunteering and medical service for disadvataged communities!",
-    "icon": "../assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravan no. 68",
-    "image": "../assets/img/caravane/68/gallery-thumb.jpg",
-    "link": "caravane/68.html",
-    "class": "",
-    "tag": "Caravan",
-    "date": "5th of October 2019",
-    "location": "Banca, Vaslui",
-    "testimonial": "",
-    "icon": "../assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravan no. 67",
-    "image": "../assets/img/caravane/67/gallery-thumb.jpg",
-    "link": "caravane/67.html",
-    "tag": "Caravan",
-    "date": "21st of September 2019",
-    "location": "Hilișeu-Horia, Botoșani",
-    "testimonial": "A day spent with the Caravana cu Medici (Medical Doctors' Caravan) is an investment for the future. It's an invesment in people. It reminds me why we do what we do, that medicine is with and about people. Compasion is not out of style. People matter. In fact they're all that matters. - Costescu Amelia MD, Obstetrics and Gynecology resident",
     "icon": "../assets/img/icon/caravane.svg"
 }]

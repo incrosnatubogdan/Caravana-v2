@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 78",
+    "image": "assets/img/caravane/78/gallery-thumb.jpg",
+    "link": "caravane/78.html",
+    "tag": "Caravane",
+    "date": "22 februarie 2020",
+    "location": "Motoșeni, BC",
+    "testimonial": "La Motoșeni am simțit ca toate sacrificiile pe care le facem pentru a termina aceasta facultate au un scop. Ma bucur ca am putut ajuta cu un simplu EKG sau o vorba buna. Caravana, văzută prin ochii unui student de anul 2, nu este doar un proiect de voluntariat, ci un grup sudat de medici și studenti care dau tot ce au mai bun pentru o comunitate atipica sec. XXI, unde accesul la sănătate este deficitar.</br> Mălina Epure, voluntar Caravana cu Medici Iași",
+    "icon": "assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravana nr. 77",
     "image": "assets/img/caravane/77/gallery-thumb.jpg",
     "link": "caravane/77.html",
@@ -40,27 +50,5 @@
     "date": "17 noiembrie 2019",
     "location": "Valea Mare, DB",
     "testimonial": "Vă mulțumim și suntem mândri că noi, echipa PetroMed, am fost partenerii voștri în weekendul trecut la Valea Mare! Muncind alături de voi am înțeles mai bine adevărata valoare a proiectului vostru, care e un excelent exemplu de voluntariat și medicină comunitară!",
-    "icon": "assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravana nr. 68",
-    "image": "assets/img/caravane/68/gallery-thumb.jpg",
-    "link": "caravane/68.html",
-    "class": "",
-    "tag": "Caravane",
-    "date": "5 octombrie 2019",
-    "location": "Banca, VS",
-    "testimonial": "A fost o experiență foarte frumoasă, diferită față de rutina zilnică de la spital. Cred că astfel de activități te încurajează să te dezvolți ca om și medic, să cauți soluții rapide în condițiile date.",
-    "icon": "assets/img/icon/caravane.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravana nr. 67",
-    "image": "assets/img/caravane/67/gallery-thumb.jpg",
-    "link": "caravane/67.html",
-    "class": "",
-    "tag": "Caravane",
-    "date": "21 septembrie 2019",
-    "location": "Hilișeu-Horia, BT",
-    "testimonial": "O zi cu caravan e o investiție în viitor. În oameni. Mă readuce cu gândul că de asta facem ce facem, că medicina e cu și despre oameni. Compasiunea nu e demodata. Și oamenii contează. De fapt sunt tot ce contează. - Costescu Amelia, medic rezident obstetrică-ginecologie",
     "icon": "assets/img/icon/caravane.svg"
 }]

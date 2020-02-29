@@ -1,5 +1,15 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 78",
+        "image": "assets/img/caravane/78/gallery-thumb.jpg",
+        "link": "caravane/78.html",
+        "tag": "Caravane",
+        "date": "22 februarie 2020",
+        "location": "Motoșeni, BC",
+        "testimonial": "La Motoșeni am simțit ca toate sacrificiile pe care le facem pentru a termina aceasta facultate au un scop. Ma bucur ca am putut ajuta cu un simplu EKG sau o vorba buna. Caravana, văzută prin ochii unui student de anul 2, nu este doar un proiect de voluntariat, ci un grup sudat de medici și studenti care dau tot ce au mai bun pentru o comunitate atipica sec. XXI, unde accesul la sănătate este deficitar.</br> Mălina Epure, voluntar Caravana cu Medici Iași",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 77",
         "image": "assets/img/caravane/77/gallery-thumb.jpg",
         "link": "caravane/77.html",
