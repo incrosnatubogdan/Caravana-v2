@@ -1,5 +1,15 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 77",
+        "image": "assets/img/caravane/77/gallery-thumb.jpg",
+        "link": "caravane/77.html",
+        "tag": "Caravane",
+        "date": "15 februarie 2020",
+        "location": "Sucevița, SV",
+        "testimonial": "A fost obositor și totodată foarte rapid totul, abia la final de zi mi-am dat seama că nu îmi mai simt picioarele. Câțiva copilași aveau vedere de 0,3 sau 0,4, nu fuseseră niciodată la un consult oftalmologic și acum au putut primi o rețetă de ochelari, o îndrumare.</br>M-aș bucura să mai revin în Caravană! </br>Cristiana Tăpăloagă, medic rezident oftalmologie",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 75",
         "image": "assets/img/caravane/75/gallery-thumb.jpg",
         "link": "caravane/75.html",
