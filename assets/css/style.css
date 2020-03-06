@@ -851,7 +851,8 @@ div.grid {
     display: flex;
 }
 
-button.paypal {
+button.paypal,
+input.paypal.mobilpay {
     width: 60%;
     margin: 15px;
     color: white;
@@ -876,11 +877,19 @@ button.paypal img {
     margin: 0 9px;
 }
 
-button.paypal.mobilpay {
+button.paypal.mobilpay,
+input.paypal.mobilpay {
     height: 50px;
     max-width: 120px;
     position: relative;
     margin: 15px;
+}
+
+input.mobilpay.paypal {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 0;
 }
 
 button.paypal.mobilpay .interior {

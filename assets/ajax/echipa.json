@@ -35,9 +35,21 @@
       "facebook": "https://www.facebook.com/adriana.adryana.14?fref=pb&hc_location=profile_browser"
    },
    {
+      "name": "Răzvan Tirpe",
+      "department": "Vicepreședinte Resurse umane </br> Coordonator - Cluj-Napoca",
+      "position": "Human resources vicepresident </br> Coordinator - Cluj-Napoca Branch",
+      "testimonial": "Sănătatea e unul din cele mai de preț lucruri pe care le putem avea. Toate eforturile ar trebui să fie îndreptate spre a-i ajuta pe cei care au atât de mare nevoie de ajutor: nu pentru recunoștință ci pentru sănătate și bunăstare sa dam tot ce avem mai bun!",
+      "testimonial_en": "Health is one of the most valuable things that one can have. All our efforts should be directed to the ones who need our help so much: not for gratefulness but for health and well being to give our best!",
+      "job": "medic rezident radiologie și imagistică medicală",
+      "job_en": "MD, Radiology and Medical Imaging resident",
+      "image": "razvan-tirpe.jpg",
+      "team": "cluj",
+      "facebook": "https://www.facebook.com/tirpe.georgerazvan?fref=ts"
+   },
+   {
       "name": "Andreea Abuziloae",
-      "department": "Secretar",
-      "position": "Secretary",
+      "department": "Secretar </br> Departament științific - Iași",
+      "position": "Secretary </br> Scientific department - Iași Branch",
       "testimonial": "Caravana este imaginea pe care o aveam despre medicină de când eram mică - posibilitatea de a ajuta oamenii care au nevoie, dar nu au acces la medicina modernă.\nAm rămas cu o lecție învățată după fiecare ediție, am conștientizat responsabilitatea pe care o am ca viitor medic și importanța lucrului în echipă. Există o armonie perfectă între studenți, rezidenți și medicii specialiști, iar la finalul caravanei pot spune că am plecat cu un plus de experiență practică, cunoștințe, încredere în mine și spirit civic.",
       "testimonial_en": "Caravana is the picture I had in mind about Med School when I was a child - the possibility to help people in need, but don't have acces to modern medicine.\nAfter every edition this meaningful lesson lasted: the awareness of the future doctor's responsability and the importance of teamwork. There is a perfect balance between the students, the residents and the specialists , and at the end of a caravan I can say that I gained a little bit more practical experience, knowledge, self confidence and civic spirit.",
       "job": "student medicină",
@@ -381,18 +393,6 @@
       "image": "mihaela-florea.jpg",
       "team": "iasi",
       "facebook": "https://www.facebook.com/profile.php?id=100009998827645"
-   },
-   {
-      "name": "Răzvan Tirpe",
-      "department": "Coordonator - Cluj-Napoca",
-      "position": "Coordinator - Cluj-Napoca Branch",
-      "testimonial": "Sănătatea e unul din cele mai de preț lucruri pe care le putem avea. Toate eforturile ar trebui să fie îndreptate spre a-i ajuta pe cei care au atât de mare nevoie de ajutor: nu pentru recunoștință ci pentru sănătate și bunăstare sa dam tot ce avem mai bun!",
-      "testimonial_en": "Health is one of the most valuable things that one can have. All our efforts should be directed to the ones who need our help so much: not for gratefulness but for health and well being to give our best!",
-      "job": "medic rezident radiologie și imagistică medicală",
-      "job_en": "MD, Radiology and Medical Imaging resident",
-      "image": "razvan-tirpe.jpg",
-      "team": "cluj",
-      "facebook": "https://www.facebook.com/tirpe.georgerazvan?fref=ts"
    },
    {
       "name": "Ana Bilegan ",
