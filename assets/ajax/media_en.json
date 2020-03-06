@@ -1,5 +1,15 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 78",
+        "image": "../assets/img/caravane/78/gallery-thumb.jpg",
+        "link": "caravane/78.html",
+        "tag": "Caravan",
+        "date": "22nd of February 2020",
+        "location": "Motoșeni, Bacău",
+        "testimonial": "In Motoșeni I had the feeling that all the sacrifices we make to become doctors have a purpose. I'm happy to have been able to help with a simple EKG or a piece of advice. The Caravan, seen through the eyes of a second year med student, is not only a volunteering opportunity but also a close group of doctors and students who do their best for a small community where access to medical services is poor.</br>Mălina Epure, Caravana cu Medici Iași volunteer" ,
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravan no. 77",
         "image": "../assets/img/caravane/77/gallery-thumb.jpg",
         "link": "caravane/77.html",

@@ -1,0 +1,103 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <script src="../../assets/js/jquery-2.1.3.min.js"></script>
+  <script src="../../assets/js/main-en.js"></script>
+  <script src="../../assets/js/media.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var noOfImg = 7;
+      var caravanNo = 78;
+      for (var i = 1; i < noOfImg + 1; i++) {
+        $('div.row').append('<div class="image"><div class="img-wrapper"><a href="../../assets/img/caravane/' +
+          caravanNo + '/' + i + '.jpg"><img src="../../assets/img/caravane/' + caravanNo + '/' + i +
+          '.jpg" class="img-responsive"></a><div class="img-overlay"></div></div></div>');
+      }
+    });
+  </script>
+
+  <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../assets/css/style.css" rel="stylesheet">
+  <link href="../../assets/css/gallery.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-holder">
+    <nav class="menu">
+      <a href="../../media.html" class="lang">RO</a>
+      <a class="logo" href="../index.html">
+        <img src="../../assets/img/logo.png">
+      </a>
+      <input id="burger" type="checkbox" />
+      <label id="burger-menu" for="burger">
+        <span class="horizontal"></span>
+        <img class="burger-img" src="../../assets/img/burger.png">
+        <span class="vertical"></span>
+      </label>
+      <nav id="navigation">
+        <ul class="navigation-ul">
+        </ul>
+      </nav>
+    </nav>
+    <div class="main container caravan">
+      <h3 class="team-title blue-c uppercase show-title">Caravan 78 - Motoșeni, Bacău</h3>
+      <a class="facebook gallery"
+        href="https://www.facebook.com/CaravanaCuMedici/posts/2916900001701997?__xts__[0]=68.ARCzYjinJ3R5sOsuXuRXPD3x2OAPgqJxNQPCKi2SeS_mOYdC2rxAQq8IQ-468SDdLH8mloCDx-XHv1ZkTC-1Gifmy0V5fGgMQ18uP9SZUwjnltmVU6mcsGLFF_CPnXgjTOVPcxO-QOMJilnWrjjG_MOiD6ELEzWzogEJf4DMU_a6pbCyX7tpEE2GAdvI3tMv1qNa9eCa4260-9okCh3vzCoWHNlLpvkH5PkkuO3YqH3lWwul6KwKEBl7opuHVmEG1aYbfk8D-0UFdH8ODXwBePNtLJxI9q1Vwprtzi0odiFPi94IfNXIEk5DDPuF8hn8C_Cd0iL5G4O4xRryk2WZFnJ9yzgnUUHmrDLPKlVrJ6Mmo4aXVlvIilIzbB21BWsUuLKSS79XrDLbR651u6RF5pq0crOFCbjnpC95LA9ecVEXJpDrmR6E_1rKdeE9t1S4qsrPCmgK3Lb2ECJUwvV_&__tn__=-R"
+        <img src="../../assets/img/social/facebook-blue.svg">
+      </a>
+      <p class="blue-c">"In Motoșeni I had the feeling that all the sacrifices we make to become doctors have a purpose.
+        I'm happy to have been able to help with a simple EKG or a piece of advice. The Caravan, seen through the eyes
+        of a second year med student, is not only a volunteering opportunity but also a close group of doctors and
+        students who do their best for a small community where access to medical services is poor."
+        <br><br>
+        <b>Mălina Epure, Caravana cu Medici Iași volunteer</b>
+      </p>
+      <section id="gallery">
+        <div class="container">
+          <div id="image-gallery">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img>
+        <p class="quote">
+          "Only a life lived for others is a life worth living." <br>
+          - Albert Einstein
+        </p>
+        <p class="copyright">Crafted with ❤️ by Tac-Tic Studio &copy; 2019</p>
+        <nav class="menu">
+          <input id="burger" type="checkbox" />
+          <label id="burger-menu" for="burger">
+            <span class="horizontal"></span>
+            <img class="burger-img" src="../../assets/img/burger.png">
+            <span class="vertical"></span>
+          </label>
+          <nav id="navigation">
+            <ul class="navigation-ul">
+              <a class="logo" href="../index.html">
+                <img src="../../assets/img/logo.png">
+              </a>
+              <p class="follow-us uppercase">Follow us</p>
+            </ul>
+          </nav>
+        </nav>
+      </footer>
+    </div>
+  </div>
+  <div id="popup" class="popup-overlay">
+    <div class="popup">
+      <div class="close">
+        <span class="horizontal"></span>
+        <span class="vertical"></span>
+      </div>
+      <p id="full-testimonial"></p>
+    </div>
+  </div>
+
+</body>
