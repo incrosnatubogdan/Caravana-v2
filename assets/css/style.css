@@ -591,7 +591,7 @@ a.logo>img {
 
 .donate {
     position: fixed;
-    right: 5%;
+    right: 0;
     bottom: 2%;
     cursor: pointer;
     z-index: 1000;
@@ -670,6 +670,13 @@ div.grid {
     border-radius: 5px;
     height: auto;
     position: relative;
+}
+
+.overflow-row .element.report img.cover {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .overflow-row .element span {
@@ -1083,10 +1090,18 @@ footer .copyright {
     display: block;
     background: #ffffff;
     border-radius: 10px;
+    padding: 10px;
     text-align: center;
     position: relative;
     cursor: pointer;
 }
+
+@media screen and (max-width: 720px) {
+    .team-member {
+        height: auto;
+    }
+}
+
 
 .team-member:nth-child(even) {
     box-shadow: 0px 5px 17px rgba(39, 114, 208, 0.23);
@@ -1320,6 +1335,39 @@ button.orange-bg {
 .news-section {
     width: 100%;
     overflow: hidden;
+}
+
+.news-section .reports {
+    display: inline-block;
+    width: 50%;
+}
+
+.news-section .reports .element img {
+    width: 90%;
+}
+
+.news-section .reports .element {
+    justify-content: space-between;
+}
+
+.news-section .d-flex {
+    display: flex;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .news-section .reports {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .news-section .reports .element {
+        max-height: fit-content;
+        height: auto;
+    }
+
+    .news-section .d-flex {
+        flex-direction: column;
+    }
 }
 
 .infinite {
@@ -1683,7 +1731,7 @@ img.header {
     }
 
     .donate-btn-fix {
-        width: 140%;
+        width: 100%;
     }
 
     .hill {
@@ -1967,8 +2015,8 @@ img.header {
     .team-member {
         width: 28vw;
         display: inline-block;
-        height: 30vw;
-        max-height: 30vw;
+        height: 40vw;
+        max-height: 40vw;
         margin: 2vw;
         vertical-align: top;
     }
@@ -2399,7 +2447,7 @@ img.header {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .overflow-row .element {
         min-width: 94%;
     }
@@ -2846,7 +2894,8 @@ div.search-holder {
 
 .cookieBubble {
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
+    left: 10px;
     width: 400px;
     min-height: 100px;
     border-radius: 10px;
@@ -2933,7 +2982,7 @@ div.search-holder {
 
 .cookieBubble .cb-wrapper .cb-row .cb-message span {
     position: relative;
-    width: 70%;
+    width: 80%;
     display: inline-block;
     color: #000;
     font-size: 18px;

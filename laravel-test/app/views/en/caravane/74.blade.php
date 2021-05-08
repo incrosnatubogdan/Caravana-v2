@@ -1,0 +1,6 @@
+@extends('layouts.caravana-en')
+@section("title", "Valea Mare, Dâmbovița county")
+@section("quote", "Thank you! We, the PetroMed team, are proud to have partnered up with you last weekend in Valea Mare! Working together, we better understood the actual value of your project, which is a great example of volunteering and medical service for disadvataged communities!")
+@section("quotePerson", "Mihnea Samoilă, General Manager PetroMed")
+@section("facebookLink", "https://www.facebook.com/pg/CaravanaCuMedici/photos/?tab=album&album_id=2711223458936320&__xts__%5B0%5D=68.ARAjDvI15Q5Td_iT4WtbIc3-XAP7F9sQ5PZ5J2gIQbRxmuXO8BQC-PIj70et-yP75Dt_-LS3X6JIqK7kPlo13X6iaGJCYxJWHKZoDx3dCKchpSsSILnUkHSw9MKi7aI4tQrH_mgvgBStZ9GB2rA117d2rfx89DxHowM0OmA3Af5DiYY0v3RKZpRjtD_6dem9QXk-mU-nM7g6mW_oN18o-zG1v8f8SM3HK7purVnxMeaiUHLC4s8E-bm9BPi9NsXwi_BbG7KTkuXBQRhQs8naRY1kGUkS9iJBSupO18tKixkBwCL1la52nGgi9upRO5F4Zlv8urCXkj4Xx3nhhaCiVgoH3eALL-4Bq8RxflX0mI_HFIkcYO2N9BUfkVQJmAA3BY_WL0-3hGKwONIyOW1rIO0KKhnE16A7nnm1Cu3k-DtYxw2hF1W1m-HMyFEV7N0XUT-9_y89kG_1CtUsESDI&__tn__=-UC-R")
+@stop

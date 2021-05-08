@@ -1,12 +1,62 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana cu Medici semneaza Decalogul pentru Sănătate",
+        "image": "assets/img/caravane/articole/decalog/decalog.jpg",
+        "link": "https://decalogsanatate.ro/wp-content/uploads/2020/05/Decalog-pentru-Sanatate_final.pdf",
+        "tag": "Caravane",
+        "date": "18 mai 2020",
+        "location": "",
+        "testimonial": "",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 78",
+        "image": "assets/img/caravane/78/gallery-thumb.jpg",
+        "link": "caravane/78.html",
+        "tag": "Caravane",
+        "date": "22 februarie 2020",
+        "location": "Motoșeni, BC",
+        "testimonial": "La Motoșeni am simțit ca toate sacrificiile pe care le facem pentru a termina aceasta facultate au un scop. Ma bucur ca am putut ajuta cu un simplu EKG sau o vorba buna. Caravana, văzută prin ochii unui student de anul 2, nu este doar un proiect de voluntariat, ci un grup sudat de medici și studenti care dau tot ce au mai bun pentru o comunitate atipica sec. XXI, unde accesul la sănătate este deficitar.</br> Mălina Epure, voluntar Caravana cu Medici Iași",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 77",
+        "image": "assets/img/caravane/77/gallery-thumb.jpg",
+        "link": "caravane/77.html",
+        "tag": "Caravane",
+        "date": "15 februarie 2020",
+        "location": "Sucevița, SV",
+        "testimonial": "A fost obositor și totodată foarte rapid totul, abia la final de zi mi-am dat seama că nu îmi mai simt picioarele. Câțiva copilași aveau vedere de 0,3 sau 0,4, nu fuseseră niciodată la un consult oftalmologic și acum au putut primi o rețetă de ochelari, o îndrumare.</br>M-aș bucura să mai revin în Caravană! </br>Cristiana Tăpăloagă, medic rezident oftalmologie",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 75",
+        "image": "assets/img/caravane/75/gallery-thumb.jpg",
+        "link": "caravane/75.html",
+        "tag": "Caravane",
+        "date": "16 noiembrie 2019",
+        "location": "Valea Ursului, NT",
+        "testimonial": "Pentru mine, ziua de sâmbătă a reprezentat un prilej de a cunoaște cu adevărat motivul pentru care am optat la aceasta facultate. Am descoperit că pe langă studiu există și mândria pe care o resimți după ce știi că ai ajutat o persoană la nevoie. Pacienții au plecat cu un diagnostic, dar eu am plecat cu valori personale pe care nu le puteam obține altfel, decât prin acest voluntariat.",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 74",
+        "image": "assets/img/caravane/74/gallery-thumb.jpg",
+        "link": "caravane/74.html",
+        "tag": "Caravane",
+        "date": "17 noiembrie 2019",
+        "location": "Valea Mare, DB",
+        "testimonial": "Vă mulțumim și suntem mândri că noi, echipa PetroMed, am fost partenerii voștri în weekendul trecut la Valea Mare! Muncind alături de voi am înțeles mai bine adevărata valoare a proiectului vostru, care e un excelent exemplu de voluntariat și medicină comunitară!",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 68",
         "image": "assets/img/caravane/68/gallery-thumb.jpg",
         "link": "caravane/68.html",
         "tag": "Caravane",
         "date": "5 octombrie 2019",
         "location": "Banca, VS",
-        "testimonial": "",
+        "testimonial": "A fost o experiență foarte frumoasă, diferită față de rutina zilnică de la spital. Cred că astfel de activități te încurajează să te dezvolți ca om și medic, să cauți soluții rapide în condițiile date.",
         "icon": "assets/img/icon/caravane.svg"
     },{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",

@@ -1,0 +1,6 @@
+@extends('layouts.caravana-en')
+@section("title", "Găiceana, Bacău county")
+@section("quote", "The satisfaction I felt when helping the patients is enormous. We do not feel it very often during our daily jobs because of all the rushing and the struggling with the bureaucracy and we forget that there is this beautiful part to the medical profession.")
+@section("quotePerson", "Andreea Teodorescu MD, gastroenterology resident")
+@section("facebookLink", "https://www.facebook.com/media/set/?set=ms.c.eJxNktmNRTEIQzsasS~%3B9Nza6IJz3e2QTYyLcntlKWmyU9icLqAe0LyhiJysKj1OYjCIEFl9LA8SCOpA1M1oPlA2ohEU~%3BCxMfYEu2NIGFYwEUtcEqLql80bUT0Z0~%3BizyF9lhUDlgMEL~_hkvMK04HeghgF6SroKXZ9wvpcOwNAdhfGLuYf0EaFLQMMOcy2ZLqktODn2QUvqfMAV1hylgsD2DMEcriuhVGhTIWFYDGHSsKhfP~%3BHSxpzF03cxRcUQG4w1X~_J6oAk.bps.a.2195778977147440&type=1&__xts__[0]=68.ARCKC0COvrPs1ZMbETAg4c0kYpnsJHWOCopqv_szwAsgfBP8JAq7Xny16qZLcryVlrnxlH4C7mL8aKLrDKzyiAjunOIDdldvihnqz8DgxXYuKGWHxjqBqJYTMCpap1533kbQ8_SyLeJ31k-0NSgHKqIpLQje8lviPgGvIlye7molOM-LBafTrbBRoHwfD2JpQyzwZTXx-N6JRYxA07EH6WIB2XA5PHW1srOdasOF6eoQInRcggD4xvsTA59Dxpp5PROhKtSvA0bgrwnKrH44zDoL4JBe45VgDJAUCk56rbPQ5yU2vaBYyD-bbjUIqunQyDUpUIC3kKEmiQTFxt0Ne0Glj-mD1KNxAMUjIMUDii-5MWjDB0qGTfB3AkvgqXhr0L87L1qteElIecjYQ913VLGiHV9Qfk5sOJnfay0v-EseM54IEy9wIWsrXP34z9mFbb1bsZiyaCtbgnNv4WEW&__tn__=HH-R")
+@stop

@@ -1,0 +1,105 @@
+{
+    "main": [
+    {
+        "title" : "Synevo",
+        "logo" : "./assets/img/partners/synevo.png",
+        "link" : "https://www.synevo.ro/",
+        "facebook" : "https://www.facebook.com/synevo.ro/"
+    },{
+        "title" : "Servier",
+        "logo" : "./assets/img/partners/servier.png",
+        "link" : "https://www.servier.ro/",
+        "facebook" : ""
+    },{
+        "title" : "Avon",
+        "logo" : "./assets/img/partners/avon.png",
+        "link" : "https://www.avon.ro/",
+        "facebook" : ""
+    },{
+        "title" : "Bayer",
+        "logo" : "./assets/img/partners/bayer.png",
+        "link" : "https://www.bayer.ro/",
+        "facebook" : ""
+    }],
+    "locali": [
+        {
+            "title" : "eurotransport logistics",
+            "logo" : "./assets/img/partners/eurotransport.png",
+            "link" : "http://eurotransportlogistics.ro/index.php/ro/",
+            "facebook" : "https://www.facebook.com/Eurotransportlogistics/"
+        },
+        {
+            "title" : "Fundația Fan Courier",
+            "logo" : "./assets/img/partners/fan_courier.png",
+            "link" : "http://fundatiafancourier.ro/",
+            "facebook" : "https://www.facebook.com/fundatiafancourier/"
+        },
+        {
+            "title" : "Mana in mana",
+            "logo" : "./assets/img/partners/manainmana.jpg",
+            "link" : "https://www.manainmana.org/59.html",
+            "facebook" : ""
+        },
+        {
+            "title" : "GSK",
+            "logo" : "./assets/img/partners/gsk.jpg",
+            "link" : "https://ro.gsk.com/",
+            "facebook" : ""
+        },
+        {
+            "title" : "Daisler Print House",
+            "logo" : "./assets/img/partners/daisler.png",
+            "link" : "https://www.daisler.ro/",
+            "facebook" : "https://www.facebook.com/daislerprint/"
+        },
+        {
+            "title" : "Aqua Carpatica",
+            "logo" : "./assets/img/partners/aqua.png",
+            "link" : "http://www.aquacarpatica.ro/#/ro",
+            "facebook" : "https://www.facebook.com/AQUA.Carpatica/"
+        },
+        {
+            "title" : "Rotaract District 2241",
+            "logo" : "./assets/img/partners/rotaract.png",
+            "link" : "https://d2241.rotaract.ro/ro/home/",
+            "facebook" : "https://m.facebook.com/rotaractd2241/"
+        }
+    ],
+    "organisations" : [
+        {
+            "title" : "My grasp",
+            "logo" : "./assets/img/partners/mygrasp.png",
+            "link" : "http://www.mygrasp.org/",
+            "facebook" : "https://www.facebook.com/MyGRASP/"
+        },
+        {
+            "title" : "Off-Road Adventure Romania",
+            "logo" : "./assets/img/partners/off-road.png",
+            "link" : "http://offroadromania.com/",
+            "facebook" : "https://www.facebook.com/Off.Road.Romania/"
+        },
+        {
+            "title" : "COPAC",
+            "logo" : "./assets/img/partners/copac.png",
+            "link" : "http://www.copac.ro/",
+            "facebook" : "https://www.facebook.com/COPAC-Coalitia-Organizatiilor-Pacientilor-cu-Afectiuni-Cronice-din-Romania-363704847250/?__tn__=%2Cd%2CP-R&eid=ARBa9fepr_GvVYGXkuRkqKe6g2q-ORveEK6Q8ALEGlj_u4wEgix3RlaXrk7aRzjPwxc7T57BcNhn79FI"
+        },
+        {
+            "title" : "Asociatia OvidiuRo",
+            "logo" : "./assets/img/partners/ovidiuro.png",
+            "link" : "https://www.ovid.ro/",
+            "facebook" : ""
+        },
+        {
+            "title" : "Fundația LEADERS",
+            "logo" : "./assets/img/partners/leaders.png",
+            "link" : "https://leaders.ro/",
+            "facebook" : "https://www.facebook.com/FundatiaLeaders/"
+        },{
+            "title" : "FSC Bacau",
+            "logo" : "./assets/img/partners/fsc.jpeg",
+            "link" : "https://sites.google.com/site/fscbacau/",
+            "facebook" : "https://www.facebook.com/Fundatia-de-Sprijin-Comunitar-FSC-137950926255630/"
+        }
+    ]
+}

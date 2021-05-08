@@ -74,11 +74,13 @@
                             <p>Caravana cu Medici este una dintre cele 15 organizații din echipa Donează cu Pago.
                                 Împreună ne dorim să transformăm procesul de donație într-unul simplu, sigur și
                                 transparent.</p>
-                            <button class="paypal mobilpay">
+                            <!-- <button class="paypal mobilpay">
                                 <a href="https://mpy.ro/12gdzhev">
                                     DONEAZĂ RAPID ȘI SIGUR
                                 </a>
-                            </button>
+                            </button> -->
+                            <input type="hidden" id="ngo-uuid" value="ac0ed4cd-8b3e-4e06-b17e-3f6e102519b3">
+                            <input class="paypal mobilpay" type="button" value="DONEAZĂ" id="pago_donate">
                         </div>
                     </div>
                     <div class="pago--right">
@@ -342,3 +344,7 @@
     </div>
     </div>
 </body>
+
+<script async>        
+    (function(){            var callUrl = 'https://pago.app/doneaza_ong/donate_flow.js';            window.PayWithPagoObject = 'pwpo';            if (!('pwpo' in window)){                window.pwpo = function(){window.pwpo.q.push(arguments);};                window.pwpo.q = [];            }            window.pwpo.l = (new Date()).getTime();            var script   = document.createElement('script');            script.src   =  callUrl;            script.async = true;            var firstScript = document.getElementsByTagName('script')[0];            firstScript.parentNode.insertBefore(script, firstScript)        })();        pwpo('createInlineNGODonation', document.getElementById('ngo-uuid').value,' pago_donate');    
+    </script>

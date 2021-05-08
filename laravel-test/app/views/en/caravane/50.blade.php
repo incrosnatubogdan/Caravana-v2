@@ -1,0 +1,6 @@
+@extends('layouts.caravana-en')
+@section("title", "Cristinești, Botoșani county")
+@section("quote", "")
+@section("quotePerson", "")
+@section("facebookLink", "https://www.facebook.com/media/set/?set=ms.c.eJxFkMENwDAIAzeqAjEx7L9YVWjgezJnJ7psBRkuR2mQRxO4uWtAwAvEEsS6AESc5Wo~%3BYOSJrj6hfVIcXLA1HdztQCbCOoFK9A6pHc4ZlrWCafkAoxN7l0O7xWrpvKUchpmegJhE~%3BofKLC2HF3CKuMbWwAuAxkHJ.bps.a.2050977938294212&type=1&__xts__[0]=68.ARBCysTAaELkqJYeOksXJ24LuxGcmDbrQi4rXVM4lA3jhimS2S6vtIRjpGcVKu-1K0yGnZn16YwlI2ESTB0a81LvJncuQgnE0SH70B9vlid-pHTINTsBDaARRp-0kF8EoENyV8uBxUNLd1vWALhm1MtUXGXhvJsDEF2xXScVIAALbPanl6LKT1aK68J1r03omytRTDge2Mm-Y6ev9zm8tzKkNnA5SI1f-OEEiJ4tLabHEpO7csaLhSXbT_3waYuX2OXbKNpTkJykIQzSTJGV6Fs3s1ilhv2QBS7cZZv1qY6J7uB_J-82Zmv7StY6ZNB4Ev3SEynPjPJwXd8Fe9mPOcZpoDJaagi0EqNb_evAdSBPLE9YZd06I059hyeuxLgNW6t7cuqNHsGWQMjV9M6OJPW4WELQWlx3yJ649WKNMGzr9vWqIhQ5DZjXRnMEBsJquzg-5Bq5OpD01BTgsuTS3IoiU0scAM_tx0yGyrZDcXHjAObTxhvFTOKYKi-BOFk7bt-o6XugFy24l6pTZCRF8zZaOyxrkxeaURE9LrYRJA&__tn__=HH-R")
+@stop

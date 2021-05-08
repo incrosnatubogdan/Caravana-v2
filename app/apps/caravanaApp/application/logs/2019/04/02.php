@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2019-04-02 15:51:57 --- CRITICAL: Database_Exception [ 2 ]: mysqli::__construct(): (HY000/1045): Access denied for user 'x28crvnc_app_use'@'localhost' (using password: YES) ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 58 ] in C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php:162
+2019-04-02 15:51:57 --- DEBUG: #0 C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php(162): Kohana_Database_MySQLi->connect()
+#1 C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php(349): Kohana_Database_MySQLi->query(1, 'SHOW FULL COLUM...', false)
+#2 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(1677): Kohana_Database_MySQLi->list_columns('`kr_sections`')
+#3 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(453): Kohana_ORM->list_columns()
+#4 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(398): Kohana_ORM->reload_columns()
+#5 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(266): Kohana_ORM->_initialize()
+#6 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(58): Kohana_ORM->__construct(NULL)
+#7 C:\Server-1\htdocs\ccm-server\apps\caravanaApp\application\classes\Controller\Base.php(38): Kohana_ORM::make()
+#8 C:\Server-1\htdocs\ccm-server\apps\caravanaApp\application\classes\Controller\Base.php(31): Controller_Base->setMenu()
+#9 C:\Server-1\htdocs\ccm-server\modules\static_pages\classes\HTTP\Exception\404.php(26): Controller_Base->before()
+#10 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request\Client\Internal.php(108): HTTP_Exception_404->get_response()
+#11 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#13 C:\Server-1\htdocs\ccm-server\index.php(117): Kohana_Request->execute()
+#14 {main} in C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php:162
+2019-04-02 15:52:05 --- CRITICAL: Database_Exception [ 2 ]: mysqli::__construct(): (HY000/1045): Access denied for user 'x28crvnc_app_use'@'localhost' (using password: YES) ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 58 ] in C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php:162
+2019-04-02 15:52:05 --- DEBUG: #0 C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php(162): Kohana_Database_MySQLi->connect()
+#1 C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php(349): Kohana_Database_MySQLi->query(1, 'SHOW FULL COLUM...', false)
+#2 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(1677): Kohana_Database_MySQLi->list_columns('`kr_sections`')
+#3 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(453): Kohana_ORM->list_columns()
+#4 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(398): Kohana_ORM->reload_columns()
+#5 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(266): Kohana_ORM->_initialize()
+#6 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(58): Kohana_ORM->__construct(NULL)
+#7 C:\Server-1\htdocs\ccm-server\apps\caravanaApp\application\classes\Controller\Base.php(38): Kohana_ORM::make()
+#8 C:\Server-1\htdocs\ccm-server\apps\caravanaApp\application\classes\Controller\Base.php(31): Controller_Base->setMenu()
+#9 C:\Server-1\htdocs\ccm-server\modules\static_pages\classes\HTTP\Exception\404.php(26): Controller_Base->before()
+#10 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request\Client\Internal.php(108): HTTP_Exception_404->get_response()
+#11 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#13 C:\Server-1\htdocs\ccm-server\index.php(117): Kohana_Request->execute()
+#14 {main} in C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php:162
+2019-04-02 15:52:13 --- CRITICAL: Database_Exception [ 2 ]: mysqli::__construct(): (HY000/1045): Access denied for user 'x28crvnc_app_use'@'localhost' (using password: YES) ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 58 ] in C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php:162
+2019-04-02 15:52:13 --- DEBUG: #0 C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php(162): Kohana_Database_MySQLi->connect()
+#1 C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php(349): Kohana_Database_MySQLi->query(1, 'SHOW FULL COLUM...', false)
+#2 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(1677): Kohana_Database_MySQLi->list_columns('`kr_sections`')
+#3 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(453): Kohana_ORM->list_columns()
+#4 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(398): Kohana_ORM->reload_columns()
+#5 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(266): Kohana_ORM->_initialize()
+#6 C:\Server-1\htdocs\ccm-server\modules\orm\classes\Kohana\ORM.php(58): Kohana_ORM->__construct(NULL)
+#7 C:\Server-1\htdocs\ccm-server\apps\caravanaApp\application\classes\Controller\Base.php(38): Kohana_ORM::make()
+#8 C:\Server-1\htdocs\ccm-server\apps\caravanaApp\application\classes\Controller\Base.php(31): Controller_Base->setMenu()
+#9 C:\Server-1\htdocs\ccm-server\modules\static_pages\classes\HTTP\Exception\404.php(26): Controller_Base->before()
+#10 C:\Server-1\htdocs\ccm-server\system\classes\Kohana\Request.php(980): HTTP_Exception_404->get_response()
+#11 C:\Server-1\htdocs\ccm-server\index.php(117): Kohana_Request->execute()
+#12 {main} in C:\Server-1\htdocs\ccm-server\modules\database\classes\Kohana\Database\MySQLi.php:162

@@ -1,361 +1,361 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="minimal-ui,width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
-
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <title>Acasa</title>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Acasa",
-                "item": "http://caravanacumedici.ro"
-            }, {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Doneaza",
-                "item": "http://caravanacumedici.ro/doneaza.html"
-            }, {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Media",
-                "item": "http://caravanacumedici.ro/media.html"
-            }, {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "Contact",
-                "item": "http://caravanacumedici.ro/contact.html"
-            }]
-        }
-    </script>
-    </script>
-
-    <script src="assets/js/jquery-2.1.3.min.js"></script>
-    <script src="assets/js/miranda.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <script>
-        $(document).ready(function () {
-            var linkAjax = 'assets/ajax/acasa.json';
-            $("#main-media").mirandajs(linkAjax);
-        });
-    </script>
-</head>
-
-<body>
-    <div class="page-holder">
-        <nav class="menu">
-            <a href="en/index.html" class="lang">EN</a>
-            <a class="logo" href="index.html">
-                <img src="assets/img/logo.png">
-            </a>
-            <input id="burger" type="checkbox" />
-            <label id="burger-menu" for="burger">
-                <span class="horizontal"></span>
-                <img class="burger-img" src="assets/img/burger.png">
-                <span class="vertical"></span>
-            </label>
-            <nav id="navigation">
-                <ul class="navigation-ul">
-                </ul>
-            </nav>
-        </nav>
-        <div class="main container home-container">
-            <section class="video-section">
-                <div id="home-hill" class="hill"></div>
-                <div id="home-video" class="video" onclick="revealVideo('video','youtube')">
-                    <img class="video-holder" src="assets/img/home/video-holder.jpg">
-                    <img class="play" src="assets/img/home/play-button.svg">
-                </div>
-                <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
-                    <div class="lightbox-container">
-                        <div class="lightbox-content">
-                            <button onclick="hideVideo('video','youtube')" class="lightbox-close">
-                                Close | ✕
-                            </button>
-                            <div class="video-container">
-                                <iframe id="youtube" width="960" height="540"
-                                    src="https://www.youtube.com/embed/H_QeKKx5ENk?start=26" frameborder="0"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="uppercase">CARAVANA CU MEDICI VINE LA TINE!</h2>
-                <p class="uppercase">APASĂ <span onclick="revealVideo('video','youtube')"
-                        class="underline uppercase">play</span> să ne cunoști mai bine</p>
-                <div class="donate">
-                    <a href="doneaza.html">
-                        <img class="donate-btn-fix" src="assets/img/home/plus.svg">
-                    </a>
-                </div>
-            </section>
-            <section class="team-section home-section">
-                <h3 class="blue-c uppercase us-title-l">Ce facem</h3>
-                <div class="grid">
-                    <div class="element">
-                        <a href="unitatea-mobila.html">
-                            <img src="assets/img/icon/caravane.svg">
-                            <p class="uppercase blue-c">Unitate mobilă</p>
-                        </a>
-                    </div>
-                    <div class="element">
-                        <a href="educatie-medicala.html">
-                            <img src="assets/img/icon/educatie-medicala-in-scoli.svg">
-                            <p class="uppercase blue-c">Educație pentru sănătate</p>
-                        </a>
-                    </div>
-                    <div class="element">
-                        <a href="echipa.html">
-                            <img src="assets/img/icon/echipa.svg">
-                            <p class="uppercase blue-c">Echipa</p>
-                        </a>
-                    </div>
-                    <div class="element">
-                        <a href="rapoarte.html">
-                            <img src="assets/img/icon/rapoarte.svg">
-                            <p class="uppercase blue-c">rapoarte</p>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="news-section">
-                <h3 class="blue-c uppercase us-title-l">descoperă unde am mai ajuns</h3>
-                <div class="overflow-row" id="main-media">
-                    <div class="element">
-                        <a href="[[link]]">
-                            <img class="cover" src="[[image]]">
-                            <p class="blue-c">[[title]] - [[location]]</p>
-                            <img class="icon" src="[[icon]]">
-                            <span class="blue-c">[[date]]</span>
-                            <p class="media-testimonial">[[testimonial]]</p>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="team-section">
-                <h3 class="blue-c uppercase us-title-l">Caravana în numere</h3>
-                <div class="grid numbers">
-                    <div class="element no-shadow">
-                        <img src="assets/img/icon/pacienti-consultati.svg">
-                        <p class="uppercase blue-c counter" data-count="7093">0</p>
-                        <p class="uppercase blue-c">Pacienți Consultați</p>
-                    </div>
-                    <div class="element no-shadow">
-                        <img src="assets/img/icon/voluntari.svg">
-                        <p class="uppercase blue-c counter" data-count="700">0</p>
-                        <p class="uppercase blue-c">Voluntari</p>
-                    </div>
-                    <div class="element no-shadow">
-                        <img src="assets/img/icon/caravane.svg">
-                        <p class="uppercase blue-c counter" data-count="66">0</p>
-                        <p class="uppercase blue-c">Caravane</p>
-                    </div>
-                    <div class="element no-shadow">
-                        <img src="assets/img/icon/km-parcursi.svg">
-                        <p class="uppercase blue-c counter" data-count="32905">0</p>
-                        <p class="uppercase blue-c">KM ParCURșI</p>
-                    </div>
-                </div>
-                <h3 class="blue-c uppercase us-title-l">testimoniale</h3>
-                <div class="wrapper_holder">
-                        <img class="testimonial_navigation stop" src="assets/img/home/stop.svg">
-                </div>
-                <div class="testimonials">
-                    <div class="testimonial">
-                        <img src="assets/img/icon/quote.svg">
-                        <p class="block-with-text">
-                            E probabil cel mai frumos proiect din Sănătate pe care care-l cunosc: unul
-                            care scoate ce-i mai bun și din medici, și din studenți, și din
-                            corporatiști, și din primari și din toată lumea... Fiecare pleacă acasă cu
-                            ceva câștigat. Dar cel mai tare e că e genul de proiect care, dacă ar fi
-                            scalat la nivel național, ar produce o schimbare de sistem. Ar diminua una
-                            din problemele mari ale României dar despre care vorbim foarte foarte
-                            puțin:- dacă locuiești la sat în România, speranța ta de viață e automat
-                            mai mică decât a unuia care stă la oraș. Felicitări Caravana cu Medici.
-                            Sunt onorat că vă cunosc.
-                        </p>
-                        <p class="author hidden">Vlad Mixich - Jurnalist</p>
-                        <button class="show-testimonial blue-bg">citeste tot!</button>
-                    </div>
-                    <div class="testimonial">
-                        <img src="assets/img/icon/quote.svg">
-                        <p class="block-with-text">
-                            Ciofeni este un sat aparte. Aici încă se practică agricultura ca mijloc de
-                            supraviețuire, aici bătrânețea este firească și oamenii tratează boala ca o
-                            normalitate. Nu caută tratament sau alinare pentru că este firesc să te
-                            doară după ce ai muncit viață întreagă. Principala lor grijă este dacă au
-                            ce pune pe masă măcar o data pe zi. Nu medicamentele. Nu televizorul. Și
-                            mai este ceva ce am găsit rar în mediul urban: faptul că sărăcia nu i-a
-                            înrăit și nu i-a îndoctrinat. Eu am consultat niște oameni minunați,
-                            curați, cu palmele muncite, respectuoși și plini de înțelepciune. Am fost
-                            mai câștigat ca oricine de acolo.
-                        </p>
-                        <p class="author hidden">Dr. Ionuț Mugulet – Medic rezident
-                            Medicină de Urgență, voluntar Caravana cu Medici</p>
-                        <button class="show-testimonial blue-bg">citeste tot!</button>
-                    </div>
-                    <div class="testimonial">
-                        <img src="assets/img/icon/quote.svg">
-                        <p class="block-with-text">
-                            Sâmbăta în caravană a fost una dintre puținele ori când m-am simțit „luată
-                            în serios” ca viitor doctor, lucrând alături de medici, și nu în subordinea
-                            lor. Mi s-a părut foarte important deoarece am conștientizat mult mai bine
-                            responsabilitatea pe care o voi purta în fața pacienților și mi-am pus
-                            întrebarea dacă fac tot ce-mi stă în putință acum, ca să nu îi dezamăgesc
-                            pe viitor. Caravana mi se pare un proiect magic, un exemplu de umanitate,
-                            înglobând ideile „utopice” despre ce înseamnă a fi medic, pe care le-am
-                            avut și eu și mulți alți colegi de-ai mei atunci când ne gândeam să dăm la
-                            medicină. Vă mulțumesc!
-                        </p>
-                        <p class="author hidden">Loredana Molea – student UMF Iași,
-                            voluntar Caravana cu Medici Iași </p>
-                        <button class="show-testimonial blue-bg">citeste tot!</button>
-                    </div>
-                    <div class="testimonial">
-                        <img src="assets/img/icon/quote.svg">
-                        <p class="block-with-text">
-                            Într-o Românie în care dacă nu ai relații, pe cineva care să cunoască pe
-                            altcineva, atunci când ești bolnav de multe ori ești al nimănui. Medicii nu
-                            doar că îi consultă, le scriu rețete, dar le crează și rețeaua necesară ca
-                            sa ajungă la spitalele din oraș atunci când situația o impune. Le lasă
-                            numere de telefon, contacte personale ca să-i poată sprijini atunci când
-                            ajung la oraș. Caravana e o poveste de succes, dar greutățile cu care se
-                            confruntă sunt și ele adevărate, multe, tipic românești.
-                        </p>
-                        <p class="author hidden">Vlad Mixich - Jurnalist</p>
-                        <button class="show-testimonial blue-bg">citeste tot!</button>
-                    </div>
-                    <div class="testimonial">
-                        <img src="assets/img/icon/quote.svg">
-                        <p class="block-with-text">
-                            Ștefănuț are 2 anișori și tușește tare de vreo 4-5 zile și parcă a făcut și
-                            febră… dar mama lui nu știe sigur, căci nu are termometru; noroc că avea
-                            prin casă un sirop de ibuprofen, că parcă l-a ajutat un pic. Este de altfel
-                            singurul medicament pe care îl are. Știe că ar fi trebuit să meargă la
-                            medic, dar unde? Îl consult și descopăr un copil blând, cuminte, intrigat
-                            de stetoscop. Se bucură când primește o eugenie și un suc și le studiază
-                            atent… nu știe cum se deschid, căci el mănâncă zilnic la cantină socială.
-                            Are bronșiolită acută – îi măsor saturația în oxigen – mă bucur, e ok, nu
-                            trebuie să fie internat, reușim să rezolvăm acasă cu tratament. Scriu
-                            rețetă și i-o dau mamei…. degeaba… îmi spune cu o sinceritate dureroasă că
-                            nu are bani să cumpere medicația. Cu ajutorul preotului din sat reușim să
-                            cumpărăm medicamentele necesare.
-                        </p>
-                        <p class="author hidden">Andreia Niță - Medic rezident Pediatrie</p>
-                        <button class="show-testimonial blue-bg">citeste tot!</button>
-                    </div>
-                    <div class="testimonial">
-                        <img src="assets/img/icon/quote.svg">
-                        <p class="block-with-text">
-                            M-a impresionat seriozitatea tuturor voluntarilor, implicarea lor, faptul
-                            că formează o echipă, chiar dacă unii se întâlnesc pentru prima oară.
-                            Mi-a plăcut felul în care toată comunitatea în care ajunge Caravana se
-                            implică într-un fel sau altul în toată povestea - asigurând cazarea,
-                            gătind pentru voluntari, ajutându-i cu tot ce pot. Dacă ar fi să trag o
-                            concluzie, aş spune - simplu - că ceea ce este şi ceea ce face Caravana
-                            cu medici se încadrează fără probleme în categoria lucrurilor pe care
-                            mi-ar plăcea să le întâlnesc mai des în România. E o experienţă
-                            care îţi dă speranţe pentru că vezi că... se poate.
-                        </p>
-                        <p class="author hidden">Liliana Nicolae - Jurnalist EuropaFM</p>
-                        <button class="show-testimonial blue-bg">citeste tot!</button>
-                    </div>
-                </div>
-            </section>
-            <section class="partner-section">
-                <h3 class="blue-c uppercase us-title-l">Parteneri</h3>
-                <div class="row">
-                    <div class="partner">
-                        <a href="https://www.synevo.ro/">
-                            <img src="assets/img/partners/synevo.png">
-                        </a>
-                    </div>
-                    <div class="partner">
-                        <a href="http://www.servier.ro/">
-                            <img src="assets/img/partners/servier.png">
-                        </a>
-                    </div>
-                    <div class="partner">
-                        <a href="https://www.avon.ro/">
-                            <img src="assets/img/partners/avon.png">
-                        </a>
-                    </div>
-                    >
-                    <div class="partner">
-                        <a href="https://www.bayer.ro/">
-                            <img src="assets/img/partners/bayer.png">
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <img>
-                <p class="quote">
-                    „Doar o viață trăită pentru alții este o viață care merită trăită" <br>
-                    - Albert Einstein
-                </p>
-                <p class="copyright">Crafted with ❤️ by Tac-Tic Studio &copy; 2019</p>
-                <nav class="menu">
-                    <input id="burger" type="checkbox" />
-                    <label id="burger-menu" for="burger">
-                        <span class="horizontal"></span>
-                        <img class="burger-img" src="assets/img/burger.png">
-                        <span class="vertical"></span>
-                    </label>
-                    <nav id="navigation">
-                        <ul class="navigation-ul">
-                            <a class="logo" href="index.html">
-                                <img src="assets/img/logo.png">
-                            </a>
-                            <p class="follow-us uppercase">Urmărește-ne</p>
-                        </ul>
-                    </nav>
-                </nav>
-            </footer>
-        </div>
-    </div>
-    <div id="popup" class="popup-overlay">
-        <div class="popup">
-            <img class="quote" src="assets/img/icon/quote.svg">
-            <div class="close home">
-                <span class="horizontal"></span>
-                <span class="vertical"></span>
-            </div>
-            <p class="testimonial-popup" id="full-testimonial"></p>
-            <b id="author" class="italic center"></b>
-        </div>
-    </div>
-    <div id="popup" class="popup-overlay popup-newsletter">
-        <div class="popup newsletter_popup">
-            <div class="close">
-                <span class="horizontal"></span>
-                <span class="vertical"></span>
-            </div>
-            <h3>Avem newsletter</h3>
-            <p>Mai mult text aici, afla info, stiri noi, newsletter fffff dulci</p>
-            <div id="newsletter">
-                <div class="input-holder">
-                    <input type="text" name="" id="" placeholder="email">
-                    <img src="http://onetwopixel.com/wp-content/uploads/2018/02/animat-paper-airplane-color.gif" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="minimal-ui,width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Acasa</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Acasa",
+                "item": "http://caravanacumedici.ro"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Doneaza",
+                "item": "http://caravanacumedici.ro/doneaza.html"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Media",
+                "item": "http://caravanacumedici.ro/media.html"
+            }, {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Contact",
+                "item": "http://caravanacumedici.ro/contact.html"
+            }]
+        }
+    </script>
+    </script>
+
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/miranda.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            var linkAjax = 'assets/ajax/acasa.json';
+            $("#main-media").mirandajs(linkAjax);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="page-holder">
+        <nav class="menu">
+            <a href="en/index.html" class="lang">EN</a>
+            <a class="logo" href="index.html">
+                <img src="assets/img/logo.png">
+            </a>
+            <input id="burger" type="checkbox" />
+            <label id="burger-menu" for="burger">
+                <span class="horizontal"></span>
+                <img class="burger-img" src="assets/img/burger.png">
+                <span class="vertical"></span>
+            </label>
+            <nav id="navigation">
+                <ul class="navigation-ul">
+                </ul>
+            </nav>
+        </nav>
+        <div class="main container home-container">
+            <section class="video-section">
+                <div id="home-hill" class="hill"></div>
+                <div id="home-video" class="video" onclick="revealVideo('video','youtube')">
+                    <img class="video-holder" src="assets/img/home/video-holder.jpg">
+                    <img class="play" src="assets/img/home/play-button.svg">
+                </div>
+                <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
+                    <div class="lightbox-container">
+                        <div class="lightbox-content">
+                            <button onclick="hideVideo('video','youtube')" class="lightbox-close">
+                                Close | ✕
+                            </button>
+                            <div class="video-container">
+                                <iframe id="youtube" width="960" height="540"
+                                    src="https://www.youtube.com/embed/H_QeKKx5ENk?start=26" frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="uppercase">CARAVANA CU MEDICI VINE LA TINE!</h2>
+                <p class="uppercase">APASĂ <span onclick="revealVideo('video','youtube')"
+                        class="underline uppercase">play</span> să ne cunoști mai bine</p>
+                <div class="donate">
+                    <a href="doneaza.html">
+                        <img class="donate-btn-fix" src="assets/img/home/plus.svg">
+                    </a>
+                </div>
+            </section>
+            <section class="team-section home-section">
+                <h3 class="blue-c uppercase us-title-l">Ce facem</h3>
+                <div class="grid">
+                    <div class="element">
+                        <a href="unitatea-mobila.html">
+                            <img src="assets/img/icon/caravane.svg">
+                            <p class="uppercase blue-c">Unitate mobilă</p>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="educatie-medicala.html">
+                            <img src="assets/img/icon/educatie-medicala-in-scoli.svg">
+                            <p class="uppercase blue-c">Educație pentru sănătate</p>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="echipa.html">
+                            <img src="assets/img/icon/echipa.svg">
+                            <p class="uppercase blue-c">Echipa</p>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="rapoarte.html">
+                            <img src="assets/img/icon/rapoarte.svg">
+                            <p class="uppercase blue-c">rapoarte</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="news-section">
+                <h3 class="blue-c uppercase us-title-l">descoperă unde am mai ajuns</h3>
+                <div class="overflow-row" id="main-media">
+                    <div class="element">
+                        <a href="[[link]]">
+                            <img class="cover" src="[[image]]">
+                            <p class="blue-c">[[title]] - [[location]]</p>
+                            <img class="icon" src="[[icon]]">
+                            <span class="blue-c">[[date]]</span>
+                            <p class="media-testimonial">[[testimonial]]</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="team-section">
+                <h3 class="blue-c uppercase us-title-l">Caravana în numere</h3>
+                <div class="grid numbers">
+                    <div class="element no-shadow">
+                        <img src="assets/img/icon/pacienti-consultati.svg">
+                        <p class="uppercase blue-c counter" data-count="7093">0</p>
+                        <p class="uppercase blue-c">Pacienți Consultați</p>
+                    </div>
+                    <div class="element no-shadow">
+                        <img src="assets/img/icon/voluntari.svg">
+                        <p class="uppercase blue-c counter" data-count="700">0</p>
+                        <p class="uppercase blue-c">Voluntari</p>
+                    </div>
+                    <div class="element no-shadow">
+                        <img src="assets/img/icon/caravane.svg">
+                        <p class="uppercase blue-c counter" data-count="66">0</p>
+                        <p class="uppercase blue-c">Caravane</p>
+                    </div>
+                    <div class="element no-shadow">
+                        <img src="assets/img/icon/km-parcursi.svg">
+                        <p class="uppercase blue-c counter" data-count="32905">0</p>
+                        <p class="uppercase blue-c">KM ParCURșI</p>
+                    </div>
+                </div>
+                <h3 class="blue-c uppercase us-title-l">testimoniale</h3>
+                <div class="wrapper_holder">
+                        <img class="testimonial_navigation stop" src="assets/img/home/stop.svg">
+                </div>
+                <div class="testimonials">
+                    <div class="testimonial">
+                        <img src="assets/img/icon/quote.svg">
+                        <p class="block-with-text">
+                            E probabil cel mai frumos proiect din Sănătate pe care care-l cunosc: unul
+                            care scoate ce-i mai bun și din medici, și din studenți, și din
+                            corporatiști, și din primari și din toată lumea... Fiecare pleacă acasă cu
+                            ceva câștigat. Dar cel mai tare e că e genul de proiect care, dacă ar fi
+                            scalat la nivel național, ar produce o schimbare de sistem. Ar diminua una
+                            din problemele mari ale României dar despre care vorbim foarte foarte
+                            puțin:- dacă locuiești la sat în România, speranța ta de viață e automat
+                            mai mică decât a unuia care stă la oraș. Felicitări Caravana cu Medici.
+                            Sunt onorat că vă cunosc.
+                        </p>
+                        <p class="author hidden">Vlad Mixich - Jurnalist</p>
+                        <button class="show-testimonial blue-bg">citeste tot!</button>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img/icon/quote.svg">
+                        <p class="block-with-text">
+                            Ciofeni este un sat aparte. Aici încă se practică agricultura ca mijloc de
+                            supraviețuire, aici bătrânețea este firească și oamenii tratează boala ca o
+                            normalitate. Nu caută tratament sau alinare pentru că este firesc să te
+                            doară după ce ai muncit viață întreagă. Principala lor grijă este dacă au
+                            ce pune pe masă măcar o data pe zi. Nu medicamentele. Nu televizorul. Și
+                            mai este ceva ce am găsit rar în mediul urban: faptul că sărăcia nu i-a
+                            înrăit și nu i-a îndoctrinat. Eu am consultat niște oameni minunați,
+                            curați, cu palmele muncite, respectuoși și plini de înțelepciune. Am fost
+                            mai câștigat ca oricine de acolo.
+                        </p>
+                        <p class="author hidden">Dr. Ionuț Mugulet – Medic rezident
+                            Medicină de Urgență, voluntar Caravana cu Medici</p>
+                        <button class="show-testimonial blue-bg">citeste tot!</button>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img/icon/quote.svg">
+                        <p class="block-with-text">
+                            Sâmbăta în caravană a fost una dintre puținele ori când m-am simțit „luată
+                            în serios” ca viitor doctor, lucrând alături de medici, și nu în subordinea
+                            lor. Mi s-a părut foarte important deoarece am conștientizat mult mai bine
+                            responsabilitatea pe care o voi purta în fața pacienților și mi-am pus
+                            întrebarea dacă fac tot ce-mi stă în putință acum, ca să nu îi dezamăgesc
+                            pe viitor. Caravana mi se pare un proiect magic, un exemplu de umanitate,
+                            înglobând ideile „utopice” despre ce înseamnă a fi medic, pe care le-am
+                            avut și eu și mulți alți colegi de-ai mei atunci când ne gândeam să dăm la
+                            medicină. Vă mulțumesc!
+                        </p>
+                        <p class="author hidden">Loredana Molea – student UMF Iași,
+                            voluntar Caravana cu Medici Iași </p>
+                        <button class="show-testimonial blue-bg">citeste tot!</button>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img/icon/quote.svg">
+                        <p class="block-with-text">
+                            Într-o Românie în care dacă nu ai relații, pe cineva care să cunoască pe
+                            altcineva, atunci când ești bolnav de multe ori ești al nimănui. Medicii nu
+                            doar că îi consultă, le scriu rețete, dar le crează și rețeaua necesară ca
+                            sa ajungă la spitalele din oraș atunci când situația o impune. Le lasă
+                            numere de telefon, contacte personale ca să-i poată sprijini atunci când
+                            ajung la oraș. Caravana e o poveste de succes, dar greutățile cu care se
+                            confruntă sunt și ele adevărate, multe, tipic românești.
+                        </p>
+                        <p class="author hidden">Vlad Mixich - Jurnalist</p>
+                        <button class="show-testimonial blue-bg">citeste tot!</button>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img/icon/quote.svg">
+                        <p class="block-with-text">
+                            Ștefănuț are 2 anișori și tușește tare de vreo 4-5 zile și parcă a făcut și
+                            febră… dar mama lui nu știe sigur, căci nu are termometru; noroc că avea
+                            prin casă un sirop de ibuprofen, că parcă l-a ajutat un pic. Este de altfel
+                            singurul medicament pe care îl are. Știe că ar fi trebuit să meargă la
+                            medic, dar unde? Îl consult și descopăr un copil blând, cuminte, intrigat
+                            de stetoscop. Se bucură când primește o eugenie și un suc și le studiază
+                            atent… nu știe cum se deschid, căci el mănâncă zilnic la cantină socială.
+                            Are bronșiolită acută – îi măsor saturația în oxigen – mă bucur, e ok, nu
+                            trebuie să fie internat, reușim să rezolvăm acasă cu tratament. Scriu
+                            rețetă și i-o dau mamei…. degeaba… îmi spune cu o sinceritate dureroasă că
+                            nu are bani să cumpere medicația. Cu ajutorul preotului din sat reușim să
+                            cumpărăm medicamentele necesare.
+                        </p>
+                        <p class="author hidden">Andreia Niță - Medic rezident Pediatrie</p>
+                        <button class="show-testimonial blue-bg">citeste tot!</button>
+                    </div>
+                    <div class="testimonial">
+                        <img src="assets/img/icon/quote.svg">
+                        <p class="block-with-text">
+                            M-a impresionat seriozitatea tuturor voluntarilor, implicarea lor, faptul
+                            că formează o echipă, chiar dacă unii se întâlnesc pentru prima oară.
+                            Mi-a plăcut felul în care toată comunitatea în care ajunge Caravana se
+                            implică într-un fel sau altul în toată povestea - asigurând cazarea,
+                            gătind pentru voluntari, ajutându-i cu tot ce pot. Dacă ar fi să trag o
+                            concluzie, aş spune - simplu - că ceea ce este şi ceea ce face Caravana
+                            cu medici se încadrează fără probleme în categoria lucrurilor pe care
+                            mi-ar plăcea să le întâlnesc mai des în România. E o experienţă
+                            care îţi dă speranţe pentru că vezi că... se poate.
+                        </p>
+                        <p class="author hidden">Liliana Nicolae - Jurnalist EuropaFM</p>
+                        <button class="show-testimonial blue-bg">citeste tot!</button>
+                    </div>
+                </div>
+            </section>
+            <section class="partner-section">
+                <h3 class="blue-c uppercase us-title-l">Parteneri</h3>
+                <div class="row">
+                    <div class="partner">
+                        <a href="https://www.synevo.ro/">
+                            <img src="assets/img/partners/synevo.png">
+                        </a>
+                    </div>
+                    <div class="partner">
+                        <a href="http://www.servier.ro/">
+                            <img src="assets/img/partners/servier.png">
+                        </a>
+                    </div>
+                    <div class="partner">
+                        <a href="https://www.avon.ro/">
+                            <img src="assets/img/partners/avon.png">
+                        </a>
+                    </div>
+                    >
+                    <div class="partner">
+                        <a href="https://www.bayer.ro/">
+                            <img src="assets/img/partners/bayer.png">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <img>
+                <p class="quote">
+                    „Doar o viață trăită pentru alții este o viață care merită trăită" <br>
+                    - Albert Einstein
+                </p>
+                <p class="copyright">Crafted with ❤️ by Tac-Tic Studio &copy; 2019</p>
+                <nav class="menu">
+                    <input id="burger" type="checkbox" />
+                    <label id="burger-menu" for="burger">
+                        <span class="horizontal"></span>
+                        <img class="burger-img" src="assets/img/burger.png">
+                        <span class="vertical"></span>
+                    </label>
+                    <nav id="navigation">
+                        <ul class="navigation-ul">
+                            <a class="logo" href="index.html">
+                                <img src="assets/img/logo.png">
+                            </a>
+                            <p class="follow-us uppercase">Urmărește-ne</p>
+                        </ul>
+                    </nav>
+                </nav>
+            </footer>
+        </div>
+    </div>
+    <div id="popup" class="popup-overlay">
+        <div class="popup">
+            <img class="quote" src="assets/img/icon/quote.svg">
+            <div class="close home">
+                <span class="horizontal"></span>
+                <span class="vertical"></span>
+            </div>
+            <p class="testimonial-popup" id="full-testimonial"></p>
+            <b id="author" class="italic center"></b>
+        </div>
+    </div>
+    <div id="popup" class="popup-overlay popup-newsletter">
+        <div class="popup newsletter_popup">
+            <div class="close">
+                <span class="horizontal"></span>
+                <span class="vertical"></span>
+            </div>
+            <h3>Avem newsletter</h3>
+            <p>Mai mult text aici, afla info, stiri noi, newsletter fffff dulci</p>
+            <div id="newsletter">
+                <div class="input-holder">
+                    <input type="text" name="" id="" placeholder="email">
+                    <img src="http://onetwopixel.com/wp-content/uploads/2018/02/animat-paper-airplane-color.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
