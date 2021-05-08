@@ -1,5 +1,15 @@
 [{
     "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+    "title": "Caravana nr. 86",
+    "image": "assets/img/caravane/86/gallery-thumb.jpg",
+    "link": "caravane/86.html",
+    "tag": "Caravane",
+    "date": "17 aprilie 2021",
+    "location": "Cireșoaia, BC",
+    "testimonial": "Caravana a însemnat pentru mine multă satisfacție, implinire, provocare. Sunt extrem de încântată că am participat.</br> Dorina Rudișteanu, medic rezident obstetrică-ginecologie",
+    "icon": "assets/img/icon/caravane.svg"
+},{
+    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
     "title": "Caravana cu Medici semneaza Decalogul pentru Sănătate",
     "image": "assets/img/caravane/articole/decalog/decalog.jpg",
     "link": "https://decalogsanatate.ro/wp-content/uploads/2020/05/Decalog-pentru-Sanatate_final.pdf",
@@ -39,15 +49,4 @@
     "location": "",
     "testimonial": "În 2019  am reușit să ajungem în 25 de sate din 12 județe, stabilind un record al edițiilor.",
     "icon": "assets/img/icon/rapoarte.svg"
-},{
-    "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
-    "title": "Caravana nr. 75",
-    "image": "assets/img/caravane/75/gallery-thumb.jpg",
-    "link": "caravane/75.html",
-    "class": "",
-    "tag": "Caravane",
-    "date": "16 noiembrie 2019",
-    "location": "Valea Ursului, NT",
-    "testimonial": "Pentru mine, ziua de sâmbătă a reprezentat un prilej de a cunoaște cu adevărat motivul pentru care am optat la aceasta facultate. Am descoperit că pe langă studiu există și mândria pe care o resimți după ce știi că ai ajutat o persoană la nevoie. Pacienții au plecat cu un diagnostic, dar eu am plecat cu valori personale pe care nu le puteam obține altfel, decât prin acest voluntariat.",
-    "icon": "assets/img/icon/caravane.svg"
 }]

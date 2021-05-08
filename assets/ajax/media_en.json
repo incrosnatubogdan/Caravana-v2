@@ -1,5 +1,15 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravan no. 86",
+        "image": "../assets/img/caravane/86/gallery-thumb.jpg",
+        "link": "caravane/86.html",
+        "tag": "Caravan",
+        "date": "17th of April 2021",
+        "location": "Motoșeni, Bacău",
+        "testimonial": "For me, the caravan meant a lot of satisfaction, fulfillment and challenges. I am extremely pleased to have participated.</br>Dorina Rudișteanu MD, ob-gyn resident" ,
+        "icon": "../assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravan no. 78",
         "image": "../assets/img/caravane/78/gallery-thumb.jpg",
         "link": "caravane/78.html",
