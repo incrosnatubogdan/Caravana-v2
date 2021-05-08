@@ -1099,10 +1099,18 @@ footer .copyright {
     display: block;
     background: #ffffff;
     border-radius: 10px;
+    padding: 10px;
     text-align: center;
     position: relative;
     cursor: pointer;
 }
+
+@media screen and (max-width: 720px) {
+    .team-member {
+        height: auto;
+    }
+}
+
 
 .team-member:nth-child(even) {
     box-shadow: 0px 5px 17px rgba(39, 114, 208, 0.23);
@@ -2016,8 +2024,8 @@ img.header {
     .team-member {
         width: 28vw;
         display: inline-block;
-        height: 30vw;
-        max-height: 30vw;
+        height: 40vw;
+        max-height: 40vw;
         margin: 2vw;
         vertical-align: top;
     }

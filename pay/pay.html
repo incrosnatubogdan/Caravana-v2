@@ -1,311 +1,311 @@
-<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
-<!-- <link href="../assets/css/style.css" rel="stylesheet"> -->
-<style>
-    .donate_form {
-        max-width: 460px;
-        margin: 0 auto;
-    }
-
-    @media (max-width: 767px) {
-        .donate_form {
-            margin-bottom: 30px;
-        }
-    }
-
-    .donate_form .tabs {
-        margin-bottom: 15px;
-    }
-
-    .donate_form .tabs .btn_styles {
-        width: 50%;
-        float: left;
-        height: 35px;
-        line-height: 35px;
-        font-size: 18px;
-        text-decoration: none;
-        text-align: center;
-    }
-
-    .donate_form .tabs .btn_styles:not(.active) {
-        color: #7e7549;
-    }
-
-    .donate_form .tabs .btn_styles.active {
-        background-color: #25A8E0;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0px 3px 6px rgba(39, 114, 208, 0.07);
-    }
-
-    .donate_form .donat-box {
-        width: 33.3% !important;
-    }
-
-    .donate_form .radio {
-        display: inline-block;
-        position: relative;
-    }
-
-    .donate_form .radio .checkmark {
-        display: inline-block;
-        height: 12px;
-        width: 12px;
-        border: 1px solid #25A8E0;
-        border-radius: 5px;
-        margin-right: 5px;
-    }
-
-    .donate_form .radio input {
-        display: none;
-    }
-
-    .donate_form .radio input:checked~.checkmark {
-        background-color: #25A8E0;
-    }
-
-    .donate_form .input {
-        position: relative;
-    }
-
-    .donate_form .input:before {
-        content: '$';
-        position: absolute;
-        left: 18px;
-        top: 50%;
-        -webkit-transform: translateX(-100%) translateY(-50%);
-        transform: translateX(-100%) translateY(-50%);
-    }
-
-    .donate_form .input input[type="number"] {
-        height: 50px;
-        line-height: 50px;
-        width: 100%;
-        padding: 0 120px 0 20px;
-        color: #25A8E0;
-        font-size: 20px;
-    }
-
-    .donate_form .input input[type="number"]::-webkit-inner-spin-button,
-    .donate_form .input input[type="number"]::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-    }
-
-    .donate_form .input .addition {
-        position: absolute;
-        right: 15px;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    .donate_form #monthly .input input[type="number"] {
-        padding: 0 120px 0 20px;
-        border-radius: 5px;
-    }
-
-    .donate_form #once .input input[type="number"] {
-        padding: 0 55px 0 20px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .donate_form .description {
-        background-color: #f5f5f5;
-        padding: 25px;
-        text-align: center;
-        height: 85px;
-    }
-
-    .donate_form .body {
-        border-top: none;
-        padding: 15px;
-        border-radius: 5px 5px 5px 5px;
-        box-shadow: 0px 4px 13px rgba(39, 114, 208, 0.15);
-    }
-
-    .donate_form .body .info {
-        margin: 15px 15px 15px 0px;
-        color: #25A8E0;
-    }
-
-    .donate_form .body .donate_buttons .btn_styles {
-        background-color: #25A8E0;
-        height: 50px;
-        border-style: none;
-        border-radius: 10px;
-        line-height: 50px;
-        color: #fff;
-        width: 100%;
-        box-shadow: 0px 3px 12px rgba(39, 114, 208, 0.15);
-    }
-
-    .donate_form .goal,
-    .donate_form .subgoal,
-    .donate_form .thank-you {
-        text-align: center;
-        max-width: 470px;
-        margin: 0 auto;
-    }
-
-    .donate_form .goal {
-        font-size: 21px;
-        line-height: 25.2px;
-        color: #25A8E0;
-        margin-bottom: 20px;
-    }
-
-    .donate_form .subgoal {
-        font-size: 12px;
-        line-height: 16.8px;
-        color: #2a3033;
-        margin-bottom: 30px;
-    }
-
-    .donate_form .thank-you {
-        font-size: 43px;
-        line-height: 51.6px;
-        color: #25A8E0;
-    }
-
-    .row.buttons {
-        height: 55px;
-    }
-
-    .row.buttons .tabs {
-        height: 35px;
-        margin: 40px 0;
-    }
-
-    .buttLeft {
-        padding: 15px 0px 0px 0px;
-    }
-
-    .tab_buttons {
-        height: 40px;
-    }
-</style>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-<script>
-    jQuery(document).ready(function ($) {
-        $('.tabs .btn_styles').click(function () {
-            if (!$(this).hasClass('active')) {
-                let active, parent, tab;
-                active = $(this);
-                parent = $(this).closest('.tabs').first();
-                parent.find('.btn_styles').each(function () {
-                    tab = $($(this).attr('href'));
-                    if ($(this).is(active)) {
-                        $(this).addClass('active');
-                        if (tab.length > 0) tab.show();
-                    } else {
-                        $(this).removeClass('active');
-                        if (tab.length > 0) tab.hide();
-                    }
-                });
-            }
-            var value = $(this).text().replace(/[^\d.]/g, '');
-            $("input[type=number]").val(value);
-            return false;
-        });
-    });
-</script>
-<div class="donate_form">
-    <div class="row tab_buttons">
-        <div class="col-xs-12 tabs">
-            <a href="#monthly" class="btn_styles monthly active">
-                Monthly
-            </a>
-            <a href="#once" class="btn_styles once">
-                Give Once
-            </a>
-        </div>
-    </div>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="once" target="_blank" style="display: none;">
-        <!-- Identify your business so that you can collect the payments. -->
-        <input type="hidden" name="business" value="diana.paduraru@caravanacumedici.ro">
-        <!-- Specify a Donate button. -->
-        <input type="hidden" name="cmd" value="_donations">
-        <!-- Specify details about the contribution -->
-        <!-- <input type="hidden" name="item_name" value="Friends of the Park">
-                            <input type="hidden" name="item_number" value="Fall Cleanup Campaign"> -->
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="charset" value="utf-8">
-        <div class="row buttons">
-            <div class="col-xs-12 tabs">
-                <a href="" class="btn_styles sum-10 donat-box">
-                    $10
-                </a>
-                <a href="" class="btn_styles sum-20 donat-box">
-                    $20
-                </a>
-                <a href="" class="btn_styles sum-30 donat-box active">
-                    $30
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="body">
-                    <div class="input">
-                        <input type="number" name="amount" value="30">
-                        <div class="addition">USD</div>
-                    </div>
-                    <div class="info">Carvana cu Medici</div>
-                    <div class="donate_buttons">
-                        <input type="submit" value="Donate Once" alt="Donate Once" class="btn_styles">
-                        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </form>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" id="monthly">
-        <!-- Identify your business so that you can bill for payments. -->
-        <input type="hidden" name="business" value="diana.paduraru@caravanacumedici.ro">
-        <!-- Specify an Automatic Billing button. -->
-        <input type="hidden" name="cmd" value="_xclick-subscriptions">
-        <!-- Specify details about the automatic billing plan. -->
-        <input type="hidden" name="lc" value="US">
-        <input type="hidden" name="no_note" value="1">
-        <input type="hidden" name="no_shipping" value="1">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="currency_code" value="USD">
-        <!-- Make sure you get the buyer's address during checkout. -->
-        <input type="hidden" name="no_shipping" value="2">
-        <input type="hidden" name="charset" value="utf-8">
-        <div class="row buttons">
-            <div class="col-xs-12 tabs">
-                <a href="" class="btn_styles sum-10 donat-box">
-                    $10
-                </a>
-                <a href="" class="btn_styles sum-20 donat-box">
-                    $20
-                </a>
-                <a href="" class="btn_styles sum-30 donat-box active">
-                    $30
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="body">
-                    <div class="input">
-                        <input type="number" name="a3" value="30">
-                        <div class="addition">USD / MONTH</div>
-                    </div>
-                    <div class="info">Caravana cu Medici</div>
-                    <div class="donate_buttons">
-                        <!-- Display the Automatic Billing button. -->
-                        <input type="submit" value="Donate Monthly" alt="Donate Monthly" class="btn_styles">
-                        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
-
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="../assets/css/style.css" rel="stylesheet"> -->
+<style>
+    .donate_form {
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 767px) {
+        .donate_form {
+            margin-bottom: 30px;
+        }
+    }
+
+    .donate_form .tabs {
+        margin-bottom: 15px;
+    }
+
+    .donate_form .tabs .btn_styles {
+        width: 50%;
+        float: left;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .donate_form .tabs .btn_styles:not(.active) {
+        color: #7e7549;
+    }
+
+    .donate_form .tabs .btn_styles.active {
+        background-color: #25A8E0;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px rgba(39, 114, 208, 0.07);
+    }
+
+    .donate_form .donat-box {
+        width: 33.3% !important;
+    }
+
+    .donate_form .radio {
+        display: inline-block;
+        position: relative;
+    }
+
+    .donate_form .radio .checkmark {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        border: 1px solid #25A8E0;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .donate_form .radio input {
+        display: none;
+    }
+
+    .donate_form .radio input:checked~.checkmark {
+        background-color: #25A8E0;
+    }
+
+    .donate_form .input {
+        position: relative;
+    }
+
+    .donate_form .input:before {
+        content: '$';
+        position: absolute;
+        left: 18px;
+        top: 50%;
+        -webkit-transform: translateX(-100%) translateY(-50%);
+        transform: translateX(-100%) translateY(-50%);
+    }
+
+    .donate_form .input input[type="number"] {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        padding: 0 120px 0 20px;
+        color: #25A8E0;
+        font-size: 20px;
+    }
+
+    .donate_form .input input[type="number"]::-webkit-inner-spin-button,
+    .donate_form .input input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .donate_form .input .addition {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .donate_form #monthly .input input[type="number"] {
+        padding: 0 120px 0 20px;
+        border-radius: 5px;
+    }
+
+    .donate_form #once .input input[type="number"] {
+        padding: 0 55px 0 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .donate_form .description {
+        background-color: #f5f5f5;
+        padding: 25px;
+        text-align: center;
+        height: 85px;
+    }
+
+    .donate_form .body {
+        border-top: none;
+        padding: 15px;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 0px 4px 13px rgba(39, 114, 208, 0.15);
+    }
+
+    .donate_form .body .info {
+        margin: 15px 15px 15px 0px;
+        color: #25A8E0;
+    }
+
+    .donate_form .body .donate_buttons .btn_styles {
+        background-color: #25A8E0;
+        height: 50px;
+        border-style: none;
+        border-radius: 10px;
+        line-height: 50px;
+        color: #fff;
+        width: 100%;
+        box-shadow: 0px 3px 12px rgba(39, 114, 208, 0.15);
+    }
+
+    .donate_form .goal,
+    .donate_form .subgoal,
+    .donate_form .thank-you {
+        text-align: center;
+        max-width: 470px;
+        margin: 0 auto;
+    }
+
+    .donate_form .goal {
+        font-size: 21px;
+        line-height: 25.2px;
+        color: #25A8E0;
+        margin-bottom: 20px;
+    }
+
+    .donate_form .subgoal {
+        font-size: 12px;
+        line-height: 16.8px;
+        color: #2a3033;
+        margin-bottom: 30px;
+    }
+
+    .donate_form .thank-you {
+        font-size: 43px;
+        line-height: 51.6px;
+        color: #25A8E0;
+    }
+
+    .row.buttons {
+        height: 55px;
+    }
+
+    .row.buttons .tabs {
+        height: 35px;
+        margin: 40px 0;
+    }
+
+    .buttLeft {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .tab_buttons {
+        height: 40px;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.tabs .btn_styles').click(function () {
+            if (!$(this).hasClass('active')) {
+                let active, parent, tab;
+                active = $(this);
+                parent = $(this).closest('.tabs').first();
+                parent.find('.btn_styles').each(function () {
+                    tab = $($(this).attr('href'));
+                    if ($(this).is(active)) {
+                        $(this).addClass('active');
+                        if (tab.length > 0) tab.show();
+                    } else {
+                        $(this).removeClass('active');
+                        if (tab.length > 0) tab.hide();
+                    }
+                });
+            }
+            var value = $(this).text().replace(/[^\d.]/g, '');
+            $("input[type=number]").val(value);
+            return false;
+        });
+    });
+</script>
+<div class="donate_form">
+    <div class="row tab_buttons">
+        <div class="col-xs-12 tabs">
+            <a href="#monthly" class="btn_styles monthly active">
+                Monthly
+            </a>
+            <a href="#once" class="btn_styles once">
+                Give Once
+            </a>
+        </div>
+    </div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="once" target="_blank" style="display: none;">
+        <!-- Identify your business so that you can collect the payments. -->
+        <input type="hidden" name="business" value="diana.paduraru@caravanacumedici.ro">
+        <!-- Specify a Donate button. -->
+        <input type="hidden" name="cmd" value="_donations">
+        <!-- Specify details about the contribution -->
+        <!-- <input type="hidden" name="item_name" value="Friends of the Park">
+                            <input type="hidden" name="item_number" value="Fall Cleanup Campaign"> -->
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="charset" value="utf-8">
+        <div class="row buttons">
+            <div class="col-xs-12 tabs">
+                <a href="" class="btn_styles sum-10 donat-box">
+                    $10
+                </a>
+                <a href="" class="btn_styles sum-20 donat-box">
+                    $20
+                </a>
+                <a href="" class="btn_styles sum-30 donat-box active">
+                    $30
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="body">
+                    <div class="input">
+                        <input type="number" name="amount" value="30">
+                        <div class="addition">USD</div>
+                    </div>
+                    <div class="info">Carvana cu Medici</div>
+                    <div class="donate_buttons">
+                        <input type="submit" value="Donate Once" alt="Donate Once" class="btn_styles">
+                        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" id="monthly">
+        <!-- Identify your business so that you can bill for payments. -->
+        <input type="hidden" name="business" value="diana.paduraru@caravanacumedici.ro">
+        <!-- Specify an Automatic Billing button. -->
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <!-- Specify details about the automatic billing plan. -->
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="currency_code" value="USD">
+        <!-- Make sure you get the buyer's address during checkout. -->
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="charset" value="utf-8">
+        <div class="row buttons">
+            <div class="col-xs-12 tabs">
+                <a href="" class="btn_styles sum-10 donat-box">
+                    $10
+                </a>
+                <a href="" class="btn_styles sum-20 donat-box">
+                    $20
+                </a>
+                <a href="" class="btn_styles sum-30 donat-box active">
+                    $30
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="body">
+                    <div class="input">
+                        <input type="number" name="a3" value="30">
+                        <div class="addition">USD / MONTH</div>
+                    </div>
+                    <div class="info">Caravana cu Medici</div>
+                    <div class="donate_buttons">
+                        <!-- Display the Automatic Billing button. -->
+                        <input type="submit" value="Donate Monthly" alt="Donate Monthly" class="btn_styles">
+                        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+

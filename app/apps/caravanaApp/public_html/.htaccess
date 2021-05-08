@@ -1,0 +1,24 @@
+RewriteEngine On
+
+#AuthUserFile /home/x28crvnc/public_html/dev/.htpasswd
+#AuthType Basic
+#AuthName "Dev environment"
+#Require valid-user
+
+#RewriteCond %{HTTP_HOST} !^www.caravanacumedici.ro
+#RewriteRule (.*) http://www.caravanacumedici.ro/$1 [R=301,L]
+
+# Protect application and system files from being viewed
+# RewriteRule ^(?:application|modules|system)\b.* index.php/$0 [L]
+
+
+#RewriteRule ^contact(.*)$ index.php?/welcome/contact
+#RewriteRule ^articol/(.*)-([0-9]*).html$ index.php?/articles/show/$2
+#RewriteRule ^categorie/(.*)$ index.php?/sections/show/$1
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]

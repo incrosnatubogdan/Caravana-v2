@@ -1,5 +1,25 @@
     [{
         "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana nr. 86",
+        "image": "assets/img/caravane/86/gallery-thumb.jpg",
+        "link": "caravane/86.html",
+        "tag": "Caravane",
+        "date": "17 aprilie 2021",
+        "location": "Cireșoaia, BC",
+        "testimonial": "Caravana a însemnat pentru mine multă satisfacție, implinire, provocare. Sunt extrem de încântată că am participat.</br> Dorina Rudișteanu, medic rezident obstetrică-ginecologie",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
+        "title": "Caravana cu Medici semneaza Decalogul pentru Sănătate",
+        "image": "assets/img/caravane/articole/decalog/decalog.jpg",
+        "link": "https://decalogsanatate.ro/wp-content/uploads/2020/05/Decalog-pentru-Sanatate_final.pdf",
+        "tag": "Caravane",
+        "date": "18 mai 2020",
+        "location": "",
+        "testimonial": "",
+        "icon": "assets/img/icon/caravane.svg"
+    },{
+        "parentClass": "col-xs-12 col-sm-6 col-md-4 blogBox moreBox",
         "title": "Caravana nr. 78",
         "image": "assets/img/caravane/78/gallery-thumb.jpg",
         "link": "caravane/78.html",
